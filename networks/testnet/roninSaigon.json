@@ -2,7 +2,7 @@
 	"name": "roninSaigon",
 	"chainId": 2021,
 	"chainSelector": 2021,
-	"rpcs": ["saigon-testnet.roninchain.com/rpc"],
+	"rpcs": ["https://saigon-testnet.roninchain.com/rpc"],
 	"blockExplorers": [
 		{
 			"name": "Ronin Explorer",
