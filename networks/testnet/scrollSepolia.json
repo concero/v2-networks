@@ -1,0 +1,14 @@
+{
+	"name": "scrollSepolia",
+	"chainId": 534351,
+	"chainSelector": 534351,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Scrollscan",
+			"url": "https://sepolia.scrollscan.com",
+			"apiUrl": "https://api-sepolia.scrollscan.com/api"
+		}
+	],
+	"faucets": ["https://sepolia.scroll.io/faucet"]
+}

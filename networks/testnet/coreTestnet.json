@@ -1,0 +1,14 @@
+{
+	"name": "coreTestnet",
+	"chainId": 1114,
+	"chainSelector": 1114,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "CoreScan",
+			"url": "https://scan.test.btcs.network",
+			"apiUrl": "https://scan.test.btcs.network/api"
+		}
+	],
+	"faucets": ["https://scan.test.btcs.network/#/faucet"]
+}

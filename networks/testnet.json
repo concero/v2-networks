@@ -1,0 +1,130 @@
+{
+	"arbitrumSepolia": {
+		"chainId": 421614,
+		"chainSelector": 421614
+	},
+	"baseSepolia": {
+		"chainId": 84532,
+		"chainSelector": 84532
+	},
+	"astarShibuya": {
+		"chainId": 81,
+		"chainSelector": 81
+	},
+	"roninSaigon": {
+		"chainId": 2021,
+		"chainSelector": 2021
+	},
+	"megaethTestnet": {
+		"chainId": 6342,
+		"chainSelector": 6342
+	},
+	"sonicBlaze": {
+		"chainId": 57054,
+		"chainSelector": 57054
+	},
+	"monadTestnet": {
+		"chainId": 10143,
+		"chainSelector": 10143
+	},
+	"sepolia": {
+		"chainId": 11155111,
+		"chainSelector": 11155111
+	},
+	"lineaSepolia": {
+		"chainId": 59141,
+		"chainSelector": 59141
+	},
+	"bnbTestnet": {
+		"chainId": 97,
+		"chainSelector": 97
+	},
+	"soneiumMinato": {
+		"chainId": 1946,
+		"chainSelector": 1946
+	},
+	"apechainCurtis": {
+		"chainId": 33111,
+		"chainSelector": 33111
+	},
+	"avalancheFuji": {
+		"chainId": 43113,
+		"chainSelector": 43113
+	},
+	"optimismSepolia": {
+		"chainId": 11155420,
+		"chainSelector": 11155420
+	},
+	"polygonAmoy": {
+		"chainId": 80002,
+		"chainSelector": 80002
+	},
+	"bitlayerTestnet": {
+		"chainId": 200810,
+		"chainSelector": 200810
+	},
+	"blastSepolia": {
+		"chainId": 168587773,
+		"chainSelector": 1685877
+	},
+	"botanixTestnet": {
+		"chainId": 3636,
+		"chainSelector": 3636
+	},
+	"celoAlfajores": {
+		"chainId": 44787,
+		"chainSelector": 44787
+	},
+	"coreTestnet": {
+		"chainId": 1114,
+		"chainSelector": 1114
+	},
+	"cronosTestnet": {
+		"chainId": 338,
+		"chainSelector": 338
+	},
+	"gnosisChiado": {
+		"chainId": 10200,
+		"chainSelector": 10200
+	},
+	"hashkeyTestnet": {
+		"chainId": 133,
+		"chainSelector": 133
+	},
+	"inkSepolia": {
+		"chainId": 763373,
+		"chainSelector": 763373
+	},
+	"mantleSepolia": {
+		"chainId": 5003,
+		"chainSelector": 5003
+	},
+	"scrollSepolia": {
+		"chainId": 534351,
+		"chainSelector": 534351
+	},
+	"seiTestnet": {
+		"chainId": 1328,
+		"chainSelector": 1328
+	},
+	"shibariumPuppynet": {
+		"chainId": 157,
+		"chainSelector": 157
+	},
+	"unichainSepolia": {
+		"chainId": 1301,
+		"chainSelector": 1301
+	},
+	"xlayerSepolia": {
+		"chainId": 195,
+		"chainSelector": 195
+	},
+	"zircuitTestnet": {
+		"chainId": 48899,
+		"chainSelector": 48899
+	},
+	"modeTestnet": {
+		"chainId": 919,
+		"chainSelector": 919
+	}
+}

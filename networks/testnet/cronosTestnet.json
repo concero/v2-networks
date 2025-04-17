@@ -1,0 +1,14 @@
+{
+	"name": "cronosTestnet",
+	"chainId": 338,
+	"chainSelector": 338,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Cronos Explorer",
+			"url": "https://testnet.cronoscan.com",
+			"apiUrl": "https://api-testnet.cronoscan.com/api"
+		}
+	],
+	"faucets": ["https://cronos.org/faucet"]
+}

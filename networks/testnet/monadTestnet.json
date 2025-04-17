@@ -1,0 +1,14 @@
+{
+	"name": "monadTestnet",
+	"chainId": 10143,
+	"chainSelector": 10143,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Monad Explorer",
+			"url": "https://explorer.testnet.monad.xyz",
+			"apiUrl": "https://explorer.testnet.monad.xyz/api"
+		}
+	],
+	"faucets": ["https://faucet.testnet.monad.xyz"]
+}

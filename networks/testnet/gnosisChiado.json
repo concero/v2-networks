@@ -1,0 +1,14 @@
+{
+	"name": "gnosisChiado",
+	"chainId": 10200,
+	"chainSelector": 10200,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Blockscout",
+			"url": "https://gnosis-chiado.blockscout.com",
+			"apiUrl": "https://gnosis-chiado.blockscout.com/api"
+		}
+	],
+	"faucets": ["https://gnosisfaucet.com"]
+}

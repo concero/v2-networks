@@ -1,0 +1,14 @@
+{
+	"name": "polygonAmoy",
+	"chainId": 80002,
+	"chainSelector": 80002,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "PolygonScan",
+			"url": "https://amoy.polygonscan.com",
+			"apiUrl": "https://api-amoy.polygonscan.com/api"
+		}
+	],
+	"faucets": ["https://amoy.polygon.technology/faucet"]
+}

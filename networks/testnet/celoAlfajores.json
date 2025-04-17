@@ -1,0 +1,14 @@
+{
+	"name": "celoAlfajores",
+	"chainId": 44787,
+	"chainSelector": 44787,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Celoscan",
+			"url": "https://alfajores.celoscan.io",
+			"apiUrl": "https://api-alfajores.celoscan.io/api"
+		}
+	],
+	"faucets": ["https://faucet.celo.org/alfajores"]
+}

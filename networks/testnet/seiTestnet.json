@@ -1,0 +1,14 @@
+{
+	"name": "seiTestnet",
+	"chainId": 1328,
+	"chainSelector": 1328,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Sei Explorer",
+			"url": "https://seitrace.com",
+			"apiUrl": "https://seitrace.com/api"
+		}
+	],
+	"faucets": []
+}

@@ -1,0 +1,14 @@
+{
+	"name": "modeTestnet",
+	"chainId": 919,
+	"chainSelector": 919,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Mode Explorer",
+			"url": "https://sepolia.explorer.mode.network",
+			"apiUrl": "https://sepolia.explorer.mode.network/api"
+		}
+	],
+	"faucets": ["https://faucet.mode.network"]
+}

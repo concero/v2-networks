@@ -1,0 +1,14 @@
+{
+	"name": "optimismSepolia",
+	"chainId": 11155420,
+	"chainSelector": 11155420,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Optimism Explorer",
+			"url": "https://sepolia-optimism.etherscan.io",
+			"apiUrl": "https://api-sepolia-optimism.etherscan.io/api"
+		}
+	],
+	"faucets": ["https://faucet.quicknode.com/optimism/sepolia"]
+}

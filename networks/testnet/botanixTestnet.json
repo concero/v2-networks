@@ -1,0 +1,14 @@
+{
+	"name": "botanixTestnet",
+	"chainId": 3636,
+	"chainSelector": 3636,
+	"rpcs": [],
+	"blockExplorers": [
+		{
+			"name": "Botanix Explorer",
+			"url": "https://testnet-explorer.botanixlabs.xyz",
+			"apiUrl": "https://testnet-explorer.botanixlabs.xyz/api"
+		}
+	],
+	"faucets": []
+}
