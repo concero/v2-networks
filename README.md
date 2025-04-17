@@ -5,7 +5,7 @@ This repository serves as a centralized database of blockchain networks supporte
 ## Repository Structure
 
 ```
-concero-v2-networks/
+networks/
 ├── mainnet/
 │   ├── network1.json
 │   ├── network2.json
@@ -59,7 +59,7 @@ Add your network entry to either `mainnet.json` or `testnet.json` (or both, if a
 
 ```json
 {
-    "existingNetwork1": {
+    "arbitrumSepolia": {
         "chainId": 1111,
         "chainSelector": 1111
     },
@@ -86,16 +86,13 @@ Create a pull request with the following changes:
 ## Requirements
 
 - Chain names should be in camelCase
-- Chain IDs must be unique and match the actual network
-- Chain selectors must be provided and match cross-chain protocols if applicable
-- At least one block explorer should be provided
-- RPCs array can be empty if no public RPC endpoints are available
-- Faucets array is optional for mainnet networks
+- Chain IDs must be unique and match the actual network's chain ID.
+- Chain selectors must be unique and fit into uint24, matching the chain ID if possible
+- RPCs must be provided if no public RPC endpoints are available
 
 ## Review Process
 
 After submitting your pull request, the Concero team will review your submission. We may request changes or additional information before merging your network into the repository.
 
 ---
-
 For any questions or further assistance, please open an issue in this repository or contact the Concero team.
