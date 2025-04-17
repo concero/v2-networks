@@ -1,0 +1,30 @@
+{
+    "ethereum": {
+        "chainId": 1,
+        "chainSelector": 1
+    },
+    "arbitrum": {
+        "chainId": 42161,
+        "chainSelector": 42161
+    },
+    "optimism": {
+        "chainId": 10,
+        "chainSelector": 10
+    },
+    "polygon": {
+        "chainId": 137,
+        "chainSelector": 137
+    },
+    "base": {
+        "chainId": 8453,
+        "chainSelector": 8453
+    },
+    "avalanche": {
+        "chainId": 43114,
+        "chainSelector": 43114
+    },
+    "bnb": {
+        "chainId": 56,
+        "chainSelector": 56
+    }
+}

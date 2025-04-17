@@ -1,0 +1,14 @@
+{
+    "name": "astarShibuya",
+    "chainId": 81,
+    "chainSelector": 81,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Subscan",
+            "url": "https://shibuya.subscan.io",
+            "apiUrl": "https://shibuya.subscan.io/api"
+        }
+    ],
+    "faucets": ["https://portal.astar.network/shibuya-testnet/faucet"]
+}

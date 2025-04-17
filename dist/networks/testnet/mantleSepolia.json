@@ -1,0 +1,14 @@
+{
+    "name": "mantleSepolia",
+    "chainId": 5003,
+    "chainSelector": 5003,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Mantle Explorer",
+            "url": "https://explorer.sepolia.mantle.xyz",
+            "apiUrl": "https://explorer.sepolia.mantle.xyz/api"
+        }
+    ],
+    "faucets": ["https://faucet.sepolia.mantle.xyz"]
+}

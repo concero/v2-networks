@@ -1,0 +1,14 @@
+{
+    "name": "zircuitTestnet",
+    "chainId": 48899,
+    "chainSelector": 48899,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Zircuit Explorer",
+            "url": "https://explorer.zircuit.com",
+            "apiUrl": "https://explorer.zircuit.com/api"
+        }
+    ],
+    "faucets": []
+}

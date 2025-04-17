@@ -1,0 +1,14 @@
+{
+    "name": "blastSepolia",
+    "chainId": 168587773,
+    "chainSelector": 1685877,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Blastscan",
+            "url": "https://sepolia.blastscan.io",
+            "apiUrl": "https://api-sepolia.blastscan.io/api"
+        }
+    ],
+    "faucets": ["https://faucet.blast.io"]
+}

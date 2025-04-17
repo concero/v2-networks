@@ -1,0 +1,14 @@
+{
+    "name": "inkSepolia",
+    "chainId": 763373,
+    "chainSelector": 763373,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Ink Explorer",
+            "url": "https://sepolia.inkscan.io",
+            "apiUrl": "https://sepolia.inkscan.io/api"
+        }
+    ],
+    "faucets": []
+}

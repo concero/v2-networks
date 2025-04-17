@@ -1,0 +1,14 @@
+{
+    "name": "roninSaigon",
+    "chainId": 2021,
+    "chainSelector": 2021,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Ronin Explorer",
+            "url": "https://saigon-explorer.roninchain.com",
+            "apiUrl": "https://saigon-explorer.roninchain.com/api"
+        }
+    ],
+    "faucets": ["https://faucet.roninchain.com"]
+}

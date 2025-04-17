@@ -1,0 +1,39 @@
+{
+    "name": "@concero/v2-networks",
+    "version": "1.0.0",
+    "license": "MIT",
+    "bugs": "security@concero.io",
+    "homepage": "https://concero.io",
+    "author": "Concero",
+    "description": "",
+    "keywords": [
+        "concero"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint --config .eslint.config.mjs",
+        "format": "prettier --config .prettierrc.json --write **/*.{ts,json} **/**/*.{ts,json}",
+        "check-updates": "npx npm-check-updates"
+    },
+    "devDependencies": {
+        "@types/node": "^22.14.1",
+        "@types/prettier": "3.0.0",
+        "@typescript-eslint/eslint-plugin": "8.22.0",
+        "@typescript-eslint/parser": "8.22.0",
+        "eslint": "9.19.0",
+        "eslint-config-prettier": "10.0.1",
+        "eslint-plugin-prettier": "5.2.3",
+        "husky": "9.1.7",
+        "prettier": "^3.5.3",
+        "typescript": "5.7.3"
+    },
+    "dependencies": {}
+}

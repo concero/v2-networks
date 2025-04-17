@@ -1,0 +1,14 @@
+{
+    "name": "soneiumMinato",
+    "chainId": 1946,
+    "chainSelector": 1946,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Soneium Explorer",
+            "url": "https://minato-explorer.soneium.com",
+            "apiUrl": "https://minato-explorer.soneium.com/api"
+        }
+    ],
+    "faucets": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "avalancheFuji",
+    "chainId": 43113,
+    "chainSelector": 43113,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Snowtrace",
+            "url": "https://testnet.snowtrace.io",
+            "apiUrl": "https://api-testnet.snowtrace.io/api"
+        }
+    ],
+    "faucets": ["https://faucet.avax.network/"]
+}

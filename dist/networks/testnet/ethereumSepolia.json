@@ -1,0 +1,14 @@
+{
+    "name": "ethereumSepolia",
+    "chainId": 11155111,
+    "chainSelector": 11155111,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Etherscan",
+            "url": "https://sepolia.etherscan.io",
+            "apiUrl": "https://api-sepolia.etherscan.io/api"
+        }
+    ],
+    "faucets": ["https://sepoliafaucet.com", "https://faucet.sepolia.dev"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "shibariumPuppynet",
+    "chainId": 157,
+    "chainSelector": 157,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Puppyscan",
+            "url": "https://puppyscan.shib.io",
+            "apiUrl": "https://puppyscan.shib.io/api"
+        }
+    ],
+    "faucets": []
+}

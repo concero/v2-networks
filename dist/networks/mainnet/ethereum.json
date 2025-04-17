@@ -1,0 +1,13 @@
+{
+    "name": "ethereum",
+    "chainId": 1,
+    "chainSelector": 1,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Etherscan",
+            "url": "https://etherscan.io",
+            "apiUrl": "https://api.etherscan.io/api"
+        }
+    ]
+}

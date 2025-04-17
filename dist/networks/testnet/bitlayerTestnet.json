@@ -1,0 +1,14 @@
+{
+    "name": "bitlayerTestnet",
+    "chainId": 200810,
+    "chainSelector": 200810,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Bitlayer Explorer",
+            "url": "https://testnet-explorer.bitlayer.org",
+            "apiUrl": "https://testnet-explorer.bitlayer.org/api"
+        }
+    ],
+    "faucets": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "hashkeyTestnet",
+    "chainId": 133,
+    "chainSelector": 133,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Hashkey Explorer",
+            "url": "https://testnet.hashkeyscan.io",
+            "apiUrl": "https://testnet.hashkeyscan.io/api"
+        }
+    ],
+    "faucets": []
+}

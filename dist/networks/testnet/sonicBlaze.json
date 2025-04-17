@@ -1,0 +1,14 @@
+{
+    "name": "sonicBlaze",
+    "chainId": 57054,
+    "chainSelector": 57054,
+    "rpcs": [],
+    "blockExplorers": [
+        {
+            "name": "Sonic Explorer",
+            "url": "https://explorer-testnet.sonic.guru",
+            "apiUrl": "https://explorer-testnet.sonic.guru/api"
+        }
+    ],
+    "faucets": []
+}
