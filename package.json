@@ -12,12 +12,19 @@
 	"engines": {
 		"node": ">=18"
 	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
 	"scripts": {
+		"build": "tsc",
 		"lint": "eslint --config .eslint.config.mjs",
 		"format": "prettier --config .prettierrc.json --write **/*.{ts,json} **/**/*.{ts,json}",
 		"check-updates": "npx npm-check-updates"
 	},
 	"devDependencies": {
+		"@types/node": "^22.14.1",
 		"@types/prettier": "3.0.0",
 		"@typescript-eslint/eslint-plugin": "8.22.0",
 		"@typescript-eslint/parser": "8.22.0",
