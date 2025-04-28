@@ -27,7 +27,7 @@
         "chainId": 10143,
         "chainSelector": 10143
     },
-    "sepolia": {
+    "ethereumSepolia": {
         "chainId": 11155111,
         "chainSelector": 11155111
     },

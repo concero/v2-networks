@@ -2,7 +2,7 @@
     "name": "astarShibuya",
     "chainId": 81,
     "chainSelector": 81,
-    "rpcs": [],
+    "rpcs": ["https://evm.shibuya.astar.network"],
     "blockExplorers": [
         {
             "name": "Subscan",
