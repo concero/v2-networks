@@ -126,5 +126,9 @@
 	"modeTestnet": {
 		"chainId": 919,
 		"chainSelector": 919
+	},
+	"zksyncSepolia": {
+		"chainId": 300,
+		"chainSelector": 300
 	}
 }
