@@ -138,5 +138,9 @@
     "hederaTestnet": {
         "chainId": 296,
         "chainSelector": 296
+    },
+    "berachainBepolia": {
+        "chainId": 80069,
+        "chainSelector": 80069
     }
 }
