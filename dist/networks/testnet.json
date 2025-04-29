@@ -134,5 +134,9 @@
     "kromaSepolia": {
         "chainId": 2358,
         "chainSelector": 2358
+    },
+    "hederaTestnet": {
+        "chainId": 295,
+        "chainSelector": 295
     }
 }
