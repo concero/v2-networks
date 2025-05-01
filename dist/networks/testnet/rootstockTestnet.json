@@ -1,0 +1,8 @@
+{
+    "name": "rootstockTestnet",
+    "chainId": 31,
+    "chainSelector": 31,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
