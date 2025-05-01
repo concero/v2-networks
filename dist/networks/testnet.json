@@ -142,25 +142,5 @@
     "berachainBepolia": {
         "chainId": 80069,
         "chainSelector": 80069
-    },
-    "irysTestnet": {
-        "chainId": 1270,
-        "chainSelector": 1270
-    },
-    "rootstockTestnet": {
-        "chainId": 31,
-        "chainSelector": 31
-    },
-    "auroraTestnet": {
-        "chainId": 1313161555,
-        "chainSelector": 13131615
-    },
-    "xdcTestnet": {
-        "chainId": 51,
-        "chainSelector": 51
-    },
-    "crossfiTestnet": {
-        "chainId": 4157,
-        "chainSelector": 4157
     }
 }
