@@ -1,0 +1,8 @@
+{
+    "name": "xdcTestnet",
+    "chainId": 51,
+    "chainSelector": 51,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
