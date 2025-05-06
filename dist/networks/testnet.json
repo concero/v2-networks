@@ -71,10 +71,6 @@
         "chainId": 3636,
         "chainSelector": 3636
     },
-    "celoAlfajores": {
-        "chainId": 44787,
-        "chainSelector": 44787
-    },
     "coreTestnet": {
         "chainId": 1114,
         "chainSelector": 1114
