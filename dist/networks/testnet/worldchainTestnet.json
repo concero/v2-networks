@@ -1,0 +1,8 @@
+{
+    "name": "worldchainTestnet",
+    "chainId": 4801,
+    "chainSelector": 4801,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}

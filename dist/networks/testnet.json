@@ -158,5 +158,17 @@
     "auroraTestnet": {
         "chainId": 1313161555,
         "chainSelector": 1313161
+    },
+    "expchainTestnet": {
+        "chainId": 18880,
+        "chainSelector": 18880
+    },
+    "worldchainTestnet": {
+        "chainId": 4801,
+        "chainSelector": 4801
+    },
+    "bobSepolia": {
+        "chainId": 808813,
+        "chainSelector": 808813
     }
 }

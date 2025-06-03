@@ -1,0 +1,8 @@
+{
+    "name": "bobSepolia",
+    "chainId": 808813,
+    "chainSelector": 808813,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}

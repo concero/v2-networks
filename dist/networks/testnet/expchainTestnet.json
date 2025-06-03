@@ -1,0 +1,8 @@
+{
+    "name": "expchainTestnet",
+    "chainId": 18880,
+    "chainSelector": 18880,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
