@@ -1,8 +1,0 @@
-{
-	"name": "crossfiTestnet",
-	"chainId": 4157,
-	"chainSelector": 4157,
-	"rpcs": [],
-	"blockExplorers": [],
-	"faucets": []
-}
