@@ -1,0 +1,8 @@
+{
+    "name": "lensSepolia",
+    "chainId": 37111,
+    "chainSelector": 37111,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
