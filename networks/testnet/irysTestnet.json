@@ -1,0 +1,8 @@
+{
+  "name": "irysTestnet",
+  "chainId": 1270,
+  "chainSelector": 1270,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}
