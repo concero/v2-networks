@@ -146,5 +146,17 @@
     "lensSepolia": {
         "chainId": 37111,
         "chainSelector": 37111
+    },
+    "opbnbTestnet": {
+        "chainId": 5611,
+        "chainSelector": 5611
+    },
+    "irysTestnet": {
+        "chainId": 1270,
+        "chainSelector": 1270
+    },
+    "auroraTestnet": {
+        "chainId": 1313161555,
+        "chainSelector": 1313161
     }
 }
