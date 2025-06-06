@@ -170,5 +170,65 @@
 	"bobSepolia": {
 		"chainId": 808813,
 		"chainSelector": 808813
+	},
+	"b2Testnet": {
+		"chainId": 1123,
+		"chainSelector": 1123
+	},
+	"cronoszkTestnet": {
+		"chainId": 240,
+		"chainSelector": 240
+	},
+	"flowTestnet": {
+		"chainId": 545,
+		"chainSelector": 545
+	},
+	"fraxtalHolesky": {
+		"chainId": 2522,
+		"chainSelector": 2522
+	},
+	"metisSepolia": {
+		"chainId": 59902,
+		"chainSelector": 59902
+	},
+	"wemixTestnet": {
+		"chainId": 1112,
+		"chainSelector": 1112
+	},
+	"taikoTestnet": {
+		"chainId": 167009,
+		"chainSelector": 167009
+	},
+	"kavaTestnet": {
+		"chainId": 2221,
+		"chainSelector": 2221
+	},
+	"pulsechainTestnet": {
+		"chainId": 943,
+		"chainSelector": 943
+	},
+	"filecoinCalibration": {
+		"chainId": 314159,
+		"chainSelector": 314159
+	},
+	"morphHolesky": {
+		"chainId": 2810,
+		"chainSelector": 2810
+	},
+	"kaiaKairos": {
+		"chainId": 1001,
+		"chainSelector": 1001
+	},
+	"mantapacificSepolia": {
+		"chainId": 3441006,
+		"chainSelector": 344100
+	},
+	"abstractSepolia": {
+		"chainId": 11124,
+		"chainSelector": 11124
+	},
+	"oasissapphireTestnet": {
+		"chainId": 23295,
+		"chainSelector": 23295
 	}
 }

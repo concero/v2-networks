@@ -1,0 +1,8 @@
+{
+  "name": "pulsechainTestnet",
+  "chainId": 943,
+  "chainSelector": 943,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}

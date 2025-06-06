@@ -1,0 +1,8 @@
+{
+  "name": "mantapacificSepolia",
+  "chainId": 3441006,
+  "chainSelector": 344100,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}

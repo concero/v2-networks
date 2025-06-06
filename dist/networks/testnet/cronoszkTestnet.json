@@ -1,0 +1,8 @@
+{
+    "name": "cronoszkTestnet",
+    "chainId": 240,
+    "chainSelector": 240,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}

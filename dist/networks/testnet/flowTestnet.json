@@ -1,0 +1,8 @@
+{
+    "name": "flowTestnet",
+    "chainId": 545,
+    "chainSelector": 545,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}

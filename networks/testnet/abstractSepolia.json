@@ -1,0 +1,8 @@
+{
+  "name": "abstractSepolia",
+  "chainId": 11124,
+  "chainSelector": 11124,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}

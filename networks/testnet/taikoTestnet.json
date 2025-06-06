@@ -1,0 +1,8 @@
+{
+  "name": "taikoTestnet",
+  "chainId": 167009,
+  "chainSelector": 167009,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}

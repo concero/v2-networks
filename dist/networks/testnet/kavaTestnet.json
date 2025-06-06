@@ -1,0 +1,8 @@
+{
+    "name": "kavaTestnet",
+    "chainId": 2221,
+    "chainSelector": 2221,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
