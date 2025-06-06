@@ -1,4 +1,10 @@
 "use strict";
+/*
+    This script is a crutch that makes build before
+    build to do less manual work due to suboptimal file structure.
+    to use it, first fill in the networks/testnet.json file with new chains and then
+    run this script with bun, and it will create files in networks/testnet/.
+ */
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);

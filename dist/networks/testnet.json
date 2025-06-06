@@ -204,8 +204,8 @@
         "chainSelector": 2221
     },
     "pulsechainTestnet": {
-        "chainId": 941,
-        "chainSelector": 941
+        "chainId": 943,
+        "chainSelector": 943
     },
     "filecoinCalibration": {
         "chainId": 314159,
