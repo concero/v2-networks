@@ -79,6 +79,10 @@
 		"chainId": 1114,
 		"chainSelector": 1114
 	},
+	"cronosTestnet": {
+		"chainId": 338,
+		"chainSelector": 338
+	},
 	"gnosisChiado": {
 		"chainId": 10200,
 		"chainSelector": 10200
