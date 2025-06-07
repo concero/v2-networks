@@ -79,10 +79,6 @@
         "chainId": 1114,
         "chainSelector": 1114
     },
-    "cronosTestnet": {
-        "chainId": 338,
-        "chainSelector": 338
-    },
     "gnosisChiado": {
         "chainId": 10200,
         "chainSelector": 10200
@@ -174,10 +170,6 @@
     "b2Testnet": {
         "chainId": 1123,
         "chainSelector": 1123
-    },
-    "cronoszkTestnet": {
-        "chainId": 240,
-        "chainSelector": 240
     },
     "flowTestnet": {
         "chainId": 545,
