@@ -207,10 +207,6 @@
 		"chainId": 943,
 		"chainSelector": 943
 	},
-	"filecoinCalibration": {
-		"chainId": 314159,
-		"chainSelector": 314159
-	},
 	"morphHolesky": {
 		"chainId": 2810,
 		"chainSelector": 2810

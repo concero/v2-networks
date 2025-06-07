@@ -1,8 +1,0 @@
-{
-  "name": "filecoinCalibration",
-  "chainId": 314159,
-  "chainSelector": 314159,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}
