@@ -1,0 +1,8 @@
+{
+    "name": "campv2Testnet",
+    "chainId": 123420001114,
+    "chainSelector": 1234200,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": []
+}
