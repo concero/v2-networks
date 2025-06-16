@@ -219,14 +219,6 @@
 		"chainId": 23295,
 		"chainSelector": 23295
 	},
-	"qTestnet": {
-		"chainId": 35443,
-		"chainSelector": 35443
-	},
-	"etherlinkTestnet": {
-		"chainId": 128123,
-		"chainSelector": 128123
-	},
 	"campv2Testnet": {
 		"chainId": 123420001114,
 		"chainSelector": 1234200

@@ -1,8 +1,0 @@
-{
-  "name": "etherlinkTestnet",
-  "chainId": 128123,
-  "chainSelector": 128123,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}
