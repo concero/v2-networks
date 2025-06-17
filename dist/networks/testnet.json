@@ -226,5 +226,9 @@
     "seismicDevnet": {
         "chainId": 5124,
         "chainSelector": 5124
+    },
+    "xomarketTestnet": {
+        "chainId": 1000101,
+        "chainSelector": 1000101
     }
 }

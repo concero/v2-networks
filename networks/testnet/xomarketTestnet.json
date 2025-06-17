@@ -1,0 +1,8 @@
+{
+  "name": "xomarketTestnet",
+  "chainId": 1000101,
+  "chainSelector": 1000101,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}
