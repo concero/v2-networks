@@ -230,5 +230,9 @@
 	"xomarketTestnet": {
 		"chainId": 1000101,
 		"chainSelector": 1000101
+	},
+	"litheumTestnet": {
+		"chainId": 1174,
+		"chainSelector": 1174
 	}
 }

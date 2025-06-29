@@ -1,0 +1,8 @@
+{
+  "name": "litheumTestnet",
+  "chainId": 1174,
+  "chainSelector": 1174,
+  "rpcs": [],
+  "blockExplorers": [],
+  "faucets": []
+}
