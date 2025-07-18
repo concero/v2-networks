@@ -1,8 +1,0 @@
-{
-  "name": "metisSepolia",
-  "chainId": 59902,
-  "chainSelector": 59902,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

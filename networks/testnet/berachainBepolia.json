@@ -1,8 +1,0 @@
-{
-	"name": "berachainBepolia",
-	"chainId": 80069,
-	"chainSelector": 80069,
-	"rpcs": [],
-	"blockExplorers": [],
-	"faucets": []
-}

@@ -1,238 +1,671 @@
 {
-	"arbitrumSepolia": {
-		"chainId": 421614,
-		"chainSelector": 421614
-	},
-	"baseSepolia": {
-		"chainId": 84532,
-		"chainSelector": 84532
-	},
-	"astarShibuya": {
-		"chainId": 81,
-		"chainSelector": 81
-	},
-	"roninSaigon": {
-		"chainId": 2021,
-		"chainSelector": 2021
-	},
-	"megaethTestnet": {
-		"chainId": 6342,
-		"chainSelector": 6342
-	},
-	"sonicBlaze": {
-		"chainId": 57054,
-		"chainSelector": 57054
-	},
-	"monadTestnet": {
-		"chainId": 10143,
-		"chainSelector": 10143
-	},
-	"ethereumSepolia": {
-		"chainId": 11155111,
-		"chainSelector": 11155111
-	},
-	"lineaSepolia": {
-		"chainId": 59141,
-		"chainSelector": 59141
-	},
-	"bnbTestnet": {
-		"chainId": 97,
-		"chainSelector": 97
-	},
-	"soneiumMinato": {
-		"chainId": 1946,
-		"chainSelector": 1946
+	"abstractSepolia": {
+		"name": "abstractSepolia",
+		"chainId": 11124,
+		"chainSelector": 11124,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
 	"apechainCurtis": {
+		"name": "apechainCurtis",
 		"chainId": 33111,
-		"chainSelector": 33111
+		"chainSelector": 33111,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Apechain Explorer",
+				"url": "https://curtis-explorer.apechain.io",
+				"apiUrl": "https://curtis-explorer.apechain.io/api"
+			}
+		],
+		"faucets": []
 	},
-	"avalancheFuji": {
-		"chainId": 43113,
-		"chainSelector": 43113
+	"arbitrumSepolia": {
+		"name": "arbitrumSepolia",
+		"chainId": 421614,
+		"chainSelector": 421614,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Arbiscan",
+				"url": "https://sepolia.arbiscan.io",
+				"apiUrl": "https://api-sepolia.arbiscan.io/api"
+			}
+		],
+		"faucets": ["https://faucet.arbitrum.io/"]
 	},
-	"optimismSepolia": {
-		"chainId": 11155420,
-		"chainSelector": 11155420
-	},
-	"polygonAmoy": {
-		"chainId": 80002,
-		"chainSelector": 80002
-	},
-	"bitlayerTestnet": {
-		"chainId": 200810,
-		"chainSelector": 200810
-	},
-	"blastSepolia": {
-		"chainId": 168587773,
-		"chainSelector": 1685877
-	},
-	"botanixTestnet": {
-		"chainId": 3636,
-		"chainSelector": 3636
-	},
-	"celoAlfajores": {
-		"chainId": 44787,
-		"chainSelector": 44787
-	},
-	"coreTestnet": {
-		"chainId": 1114,
-		"chainSelector": 1114
-	},
-	"cronosTestnet": {
-		"chainId": 338,
-		"chainSelector": 338
-	},
-	"gnosisChiado": {
-		"chainId": 10200,
-		"chainSelector": 10200
-	},
-	"hashkeyTestnet": {
-		"chainId": 133,
-		"chainSelector": 133
-	},
-	"inkSepolia": {
-		"chainId": 763373,
-		"chainSelector": 763373
-	},
-	"mantleSepolia": {
-		"chainId": 5003,
-		"chainSelector": 5003
-	},
-	"scrollSepolia": {
-		"chainId": 534351,
-		"chainSelector": 534351
-	},
-	"seiTestnet": {
-		"chainId": 1328,
-		"chainSelector": 1328
-	},
-	"shibariumPuppynet": {
-		"chainId": 157,
-		"chainSelector": 157
-	},
-	"unichainSepolia": {
-		"chainId": 1301,
-		"chainSelector": 1301
-	},
-	"xlayerSepolia": {
-		"chainId": 195,
-		"chainSelector": 195
-	},
-	"zircuitTestnet": {
-		"chainId": 48899,
-		"chainSelector": 48899
-	},
-	"modeTestnet": {
-		"chainId": 919,
-		"chainSelector": 919
-	},
-	"zksyncSepolia": {
-		"chainId": 300,
-		"chainSelector": 300
-	},
-	"hederaTestnet": {
-		"chainId": 296,
-		"chainSelector": 296
-	},
-	"berachainBepolia": {
-		"chainId": 80069,
-		"chainSelector": 80069
-	},
-	"lensSepolia": {
-		"chainId": 37111,
-		"chainSelector": 37111
-	},
-	"opbnbTestnet": {
-		"chainId": 5611,
-		"chainSelector": 5611
-	},
-	"irysTestnet": {
-		"chainId": 1270,
-		"chainSelector": 1270
+	"astarShibuya": {
+		"name": "astarShibuya",
+		"chainId": 81,
+		"chainSelector": 81,
+		"rpcs": ["https://evm.shibuya.astar.network"],
+		"blockExplorers": [
+			{
+				"name": "Subscan",
+				"url": "https://shibuya.subscan.io",
+				"apiUrl": "https://shibuya.subscan.io/api"
+			}
+		],
+		"faucets": ["https://portal.astar.network/shibuya-testnet/faucet"]
 	},
 	"auroraTestnet": {
+		"name": "auroraTestnet",
 		"chainId": 1313161555,
-		"chainSelector": 1313161
+		"chainSelector": 1313161,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
-	"expchainTestnet": {
-		"chainId": 18880,
-		"chainSelector": 18880
-	},
-	"worldchainTestnet": {
-		"chainId": 4801,
-		"chainSelector": 4801
-	},
-	"bobSepolia": {
-		"chainId": 808813,
-		"chainSelector": 808813
+	"avalancheFuji": {
+		"name": "avalancheFuji",
+		"chainId": 43113,
+		"chainSelector": 43113,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Snowtrace",
+				"url": "https://testnet.snowtrace.io",
+				"apiUrl": "https://api-testnet.snowtrace.io/api"
+			}
+		],
+		"faucets": ["https://faucet.avax.network/"]
 	},
 	"b2Testnet": {
+		"name": "b2Testnet",
 		"chainId": 1123,
-		"chainSelector": 1123
+		"chainSelector": 1123,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
-	"flowTestnet": {
-		"chainId": 545,
-		"chainSelector": 545
+	"baseSepolia": {
+		"name": "baseSepolia",
+		"chainId": 84532,
+		"chainSelector": 84532,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "BaseScan",
+				"url": "https://sepolia.basescan.org",
+				"apiUrl": "https://api-sepolia.basescan.org/api"
+			},
+			{
+				"name": "Blockscout",
+				"url": "https://base-sepolia.blockscout.com",
+				"apiUrl": "https://base-sepolia.blockscout.com/api"
+			}
+		],
+		"faucets": ["https://www.coinbase.com/faucets/base-sepolia-faucet"]
 	},
-	"fraxtalHolesky": {
-		"chainId": 2522,
-		"chainSelector": 2522
+	"berachainBepolia": {
+		"name": "berachainBepolia",
+		"chainId": 80069,
+		"chainSelector": 80069,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
-	"metisSepolia": {
-		"chainId": 59902,
-		"chainSelector": 59902
+	"bitlayerTestnet": {
+		"name": "bitlayerTestnet",
+		"chainId": 200810,
+		"chainSelector": 200810,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Bitlayer Explorer",
+				"url": "https://testnet-explorer.bitlayer.org",
+				"apiUrl": "https://testnet-explorer.bitlayer.org/api"
+			}
+		],
+		"faucets": []
 	},
-	"wemixTestnet": {
-		"chainId": 1112,
-		"chainSelector": 1112
+	"blastSepolia": {
+		"name": "blastSepolia",
+		"chainId": 168587773,
+		"chainSelector": 1685877,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Blastscan",
+				"url": "https://sepolia.blastscan.io",
+				"apiUrl": "https://api-sepolia.blastscan.io/api"
+			}
+		],
+		"faucets": ["https://faucet.blast.io"]
 	},
-	"taikoTestnet": {
-		"chainId": 167009,
-		"chainSelector": 167009
+	"bnbTestnet": {
+		"name": "bnbTestnet",
+		"chainId": 97,
+		"chainSelector": 97,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "BscScan",
+				"url": "https://testnet.bscscan.com",
+				"apiUrl": "https://api-testnet.bscscan.com/api"
+			}
+		],
+		"faucets": ["https://testnet.binance.org/faucet-smart"]
 	},
-	"kavaTestnet": {
-		"chainId": 2221,
-		"chainSelector": 2221
+	"bobSepolia": {
+		"name": "bobSepolia",
+		"chainId": 808813,
+		"chainSelector": 808813,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
-	"pulsechainTestnet": {
-		"chainId": 943,
-		"chainSelector": 943
-	},
-	"morphHolesky": {
-		"chainId": 2810,
-		"chainSelector": 2810
-	},
-	"kaiaKairos": {
-		"chainId": 1001,
-		"chainSelector": 1001
-	},
-	"mantapacificSepolia": {
-		"chainId": 3441006,
-		"chainSelector": 344100
-	},
-	"abstractSepolia": {
-		"chainId": 11124,
-		"chainSelector": 11124
-	},
-	"oasissapphireTestnet": {
-		"chainId": 23295,
-		"chainSelector": 23295
+	"botanixTestnet": {
+		"name": "botanixTestnet",
+		"chainId": 3636,
+		"chainSelector": 3636,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Botanix Explorer",
+				"url": "https://testnet-explorer.botanixlabs.xyz",
+				"apiUrl": "https://testnet-explorer.botanixlabs.xyz/api"
+			}
+		],
+		"faucets": []
 	},
 	"campv2Testnet": {
+		"name": "campv2Testnet",
 		"chainId": 123420001114,
-		"chainSelector": 1234200
+		"chainSelector": 1234200,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	},
-	"seismicDevnet": {
-		"chainId": 5124,
-		"chainSelector": 5124
+	"celoAlfajores": {
+		"name": "celoAlfajores",
+		"chainId": 44787,
+		"chainSelector": 44787,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Celoscan",
+				"url": "https://alfajores.celoscan.io",
+				"apiUrl": "https://api-alfajores.celoscan.io/api"
+			}
+		],
+		"faucets": ["https://faucet.celo.org/alfajores"]
 	},
-	"xomarketTestnet": {
-		"chainId": 1000101,
-		"chainSelector": 1000101
+	"coreTestnet": {
+		"name": "coreTestnet",
+		"chainId": 1114,
+		"chainSelector": 1114,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "CoreScan",
+				"url": "https://scan.test.btcs.network",
+				"apiUrl": "https://scan.test.btcs.network/api"
+			}
+		],
+		"faucets": ["https://scan.test.btcs.network/#/faucet"]
+	},
+	"cronosTestnet": {
+		"name": "cronosTestnet",
+		"chainId": 338,
+		"chainSelector": 338,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Cronos Explorer",
+				"url": "https://testnet.cronoscan.com",
+				"apiUrl": "https://api-testnet.cronoscan.com/api"
+			}
+		],
+		"faucets": ["https://cronos.org/faucet"]
+	},
+	"ethereumSepolia": {
+		"name": "ethereumSepolia",
+		"chainId": 11155111,
+		"chainSelector": 11155111,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Etherscan",
+				"url": "https://sepolia.etherscan.io",
+				"apiUrl": "https://api-sepolia.etherscan.io/api"
+			}
+		],
+		"faucets": ["https://sepoliafaucet.com", "https://faucet.sepolia.dev"]
+	},
+	"expchainTestnet": {
+		"name": "expchainTestnet",
+		"chainId": 18880,
+		"chainSelector": 18880,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"flowTestnet": {
+		"name": "flowTestnet",
+		"chainId": 545,
+		"chainSelector": 545,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"fraxtalHolesky": {
+		"name": "fraxtalHolesky",
+		"chainId": 2522,
+		"chainSelector": 2522,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"gnosisChiado": {
+		"name": "gnosisChiado",
+		"chainId": 10200,
+		"chainSelector": 10200,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Blockscout",
+				"url": "https://gnosis-chiado.blockscout.com",
+				"apiUrl": "https://gnosis-chiado.blockscout.com/api"
+			}
+		],
+		"faucets": ["https://gnosisfaucet.com"]
+	},
+	"hashkeyTestnet": {
+		"name": "hashkeyTestnet",
+		"chainId": 133,
+		"chainSelector": 133,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Hashkey Explorer",
+				"url": "https://testnet.hashkeyscan.io",
+				"apiUrl": "https://testnet.hashkeyscan.io/api"
+			}
+		],
+		"faucets": []
+	},
+	"hederaTestnet": {
+		"name": "hederaTestnet",
+		"chainId": 296,
+		"chainSelector": 296,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"inkSepolia": {
+		"name": "inkSepolia",
+		"chainId": 763373,
+		"chainSelector": 763373,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Ink Explorer",
+				"url": "https://sepolia.inkscan.io",
+				"apiUrl": "https://sepolia.inkscan.io/api"
+			}
+		],
+		"faucets": []
+	},
+	"irysTestnet": {
+		"name": "irysTestnet",
+		"chainId": 1270,
+		"chainSelector": 1270,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"kaiaKairos": {
+		"name": "kaiaKairos",
+		"chainId": 1001,
+		"chainSelector": 1001,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"kavaTestnet": {
+		"name": "kavaTestnet",
+		"chainId": 2221,
+		"chainSelector": 2221,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"lensSepolia": {
+		"name": "lensSepolia",
+		"chainId": 37111,
+		"chainSelector": 37111,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"lineaSepolia": {
+		"name": "lineaSepolia",
+		"chainId": 59141,
+		"chainSelector": 59141,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Linea Explorer",
+				"url": "https://sepolia.lineascan.build",
+				"apiUrl": "https://api-sepolia.lineascan.build/api"
+			}
+		],
+		"faucets": ["https://faucet.paradigm.xyz"]
 	},
 	"litheumTestnet": {
+		"name": "litheumTestnet",
 		"chainId": 1174,
-		"chainSelector": 1174
+		"chainSelector": 1174,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"mantapacificSepolia": {
+		"name": "mantapacificSepolia",
+		"chainId": 3441006,
+		"chainSelector": 344100,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"mantleSepolia": {
+		"name": "mantleSepolia",
+		"chainId": 5003,
+		"chainSelector": 5003,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Mantle Explorer",
+				"url": "https://explorer.sepolia.mantle.xyz",
+				"apiUrl": "https://explorer.sepolia.mantle.xyz/api"
+			}
+		],
+		"faucets": ["https://faucet.sepolia.mantle.xyz"]
+	},
+	"megaethTestnet": {
+		"name": "megaethTestnet",
+		"chainId": 6342,
+		"chainSelector": 6342,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "MegaEth Explorer",
+				"url": "https://explorer-testnet.megaeth.io",
+				"apiUrl": "https://explorer-testnet.megaeth.io/api"
+			}
+		],
+		"faucets": []
+	},
+	"metisSepolia": {
+		"name": "metisSepolia",
+		"chainId": 59902,
+		"chainSelector": 59902,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"modeTestnet": {
+		"name": "modeTestnet",
+		"chainId": 919,
+		"chainSelector": 919,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Mode Explorer",
+				"url": "https://sepolia.explorer.mode.network",
+				"apiUrl": "https://sepolia.explorer.mode.network/api"
+			}
+		],
+		"faucets": ["https://faucet.mode.network"]
+	},
+	"monadTestnet": {
+		"name": "monadTestnet",
+		"chainId": 10143,
+		"chainSelector": 10143,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Monad Explorer",
+				"url": "https://explorer.testnet.monad.xyz",
+				"apiUrl": "https://explorer.testnet.monad.xyz/api"
+			}
+		],
+		"faucets": ["https://faucet.testnet.monad.xyz"]
+	},
+	"morphHolesky": {
+		"name": "morphHolesky",
+		"chainId": 2810,
+		"chainSelector": 2810,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"oasissapphireTestnet": {
+		"name": "oasissapphireTestnet",
+		"chainId": 23295,
+		"chainSelector": 23295,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"opbnbTestnet": {
+		"name": "opbnbTestnet",
+		"chainId": 5611,
+		"chainSelector": 5611,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"optimismSepolia": {
+		"name": "optimismSepolia",
+		"chainId": 11155420,
+		"chainSelector": 11155420,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Optimism Explorer",
+				"url": "https://sepolia-optimism.etherscan.io",
+				"apiUrl": "https://api-sepolia-optimism.etherscan.io/api"
+			}
+		],
+		"faucets": ["https://faucet.quicknode.com/optimism/sepolia"]
+	},
+	"polygonAmoy": {
+		"name": "polygonAmoy",
+		"chainId": 80002,
+		"chainSelector": 80002,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "PolygonScan",
+				"url": "https://amoy.polygonscan.com",
+				"apiUrl": "https://api-amoy.polygonscan.com/api"
+			}
+		],
+		"faucets": ["https://amoy.polygon.technology/faucet"]
+	},
+	"pulsechainTestnet": {
+		"name": "pulsechainTestnet",
+		"chainId": 943,
+		"chainSelector": 943,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"roninSaigon": {
+		"name": "roninSaigon",
+		"chainId": 2021,
+		"chainSelector": 2021,
+		"rpcs": ["https://saigon-testnet.roninchain.com/rpc"],
+		"blockExplorers": [
+			{
+				"name": "Ronin Explorer",
+				"url": "https://saigon-explorer.roninchain.com",
+				"apiUrl": "https://saigon-explorer.roninchain.com/api"
+			}
+		],
+		"faucets": ["https://faucet.roninchain.com"]
+	},
+	"scrollSepolia": {
+		"name": "scrollSepolia",
+		"chainId": 534351,
+		"chainSelector": 534351,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Scrollscan",
+				"url": "https://sepolia.scrollscan.com",
+				"apiUrl": "https://api-sepolia.scrollscan.com/api"
+			}
+		],
+		"faucets": ["https://sepolia.scroll.io/faucet"]
+	},
+	"seiTestnet": {
+		"name": "seiTestnet",
+		"chainId": 1328,
+		"chainSelector": 1328,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Sei Explorer",
+				"url": "https://seitrace.com",
+				"apiUrl": "https://seitrace.com/api"
+			}
+		],
+		"faucets": []
+	},
+	"seismicDevnet": {
+		"name": "seismicDevnet",
+		"chainId": 5124,
+		"chainSelector": 5124,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"shibariumPuppynet": {
+		"name": "shibariumPuppynet",
+		"chainId": 157,
+		"chainSelector": 157,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Puppyscan",
+				"url": "https://puppyscan.shib.io",
+				"apiUrl": "https://puppyscan.shib.io/api"
+			}
+		],
+		"faucets": []
+	},
+	"soneiumMinato": {
+		"name": "soneiumMinato",
+		"chainId": 1946,
+		"chainSelector": 1946,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Soneium Explorer",
+				"url": "https://minato-explorer.soneium.com",
+				"apiUrl": "https://minato-explorer.soneium.com/api"
+			}
+		],
+		"faucets": []
+	},
+	"sonicBlaze": {
+		"name": "sonicBlaze",
+		"chainId": 57054,
+		"chainSelector": 57054,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Sonic Explorer",
+				"url": "https://explorer-testnet.sonic.guru",
+				"apiUrl": "https://explorer-testnet.sonic.guru/api"
+			}
+		],
+		"faucets": []
+	},
+	"taikoTestnet": {
+		"name": "taikoTestnet",
+		"chainId": 167009,
+		"chainSelector": 167009,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"unichainSepolia": {
+		"name": "unichainSepolia",
+		"chainId": 1301,
+		"chainSelector": 1301,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Unichain Explorer",
+				"url": "https://sepolia-explorer.unichain.network",
+				"apiUrl": "https://sepolia-explorer.unichain.network/api"
+			}
+		],
+		"faucets": []
+	},
+	"wemixTestnet": {
+		"name": "wemixTestnet",
+		"chainId": 1112,
+		"chainSelector": 1112,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"worldchainTestnet": {
+		"name": "worldchainTestnet",
+		"chainId": 4801,
+		"chainSelector": 4801,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"xlayerSepolia": {
+		"name": "xlayerSepolia",
+		"chainId": 195,
+		"chainSelector": 195,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "X Layer Explorer",
+				"url": "https://testnet-explorer.xlayer.tech",
+				"apiUrl": "https://testnet-explorer.xlayer.tech/api"
+			}
+		],
+		"faucets": []
+	},
+	"xomarketTestnet": {
+		"name": "xomarketTestnet",
+		"chainId": 1000101,
+		"chainSelector": 1000101,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
+	},
+	"zircuitTestnet": {
+		"name": "zircuitTestnet",
+		"chainId": 48899,
+		"chainSelector": 48899,
+		"rpcs": [],
+		"blockExplorers": [
+			{
+				"name": "Zircuit Explorer",
+				"url": "https://explorer.zircuit.com",
+				"apiUrl": "https://explorer.zircuit.com/api"
+			}
+		],
+		"faucets": []
+	},
+	"zksyncSepolia": {
+		"name": "zksyncSepolia",
+		"chainId": 300,
+		"chainSelector": 300,
+		"rpcs": [],
+		"blockExplorers": [],
+		"faucets": []
 	}
 }

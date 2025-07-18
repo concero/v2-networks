@@ -1,8 +1,0 @@
-{
-  "name": "morphHolesky",
-  "chainId": 2810,
-  "chainSelector": 2810,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

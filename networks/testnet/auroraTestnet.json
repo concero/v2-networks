@@ -1,8 +1,0 @@
-{
-  "name": "auroraTestnet",
-  "chainId": 1313161555,
-  "chainSelector": 1313161,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

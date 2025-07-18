@@ -1,8 +1,0 @@
-{
-	"name": "hederaTestnet",
-	"chainId": 296,
-	"chainSelector": 296,
-	"rpcs": [],
-	"blockExplorers": [],
-	"faucets": []
-}

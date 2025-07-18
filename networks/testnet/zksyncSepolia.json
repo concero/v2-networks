@@ -1,8 +1,0 @@
-{
-	"name": "zksyncSepolia",
-	"chainId": 300,
-	"chainSelector": 300,
-	"rpcs": [],
-	"blockExplorers": [],
-	"faucets": []
-}
