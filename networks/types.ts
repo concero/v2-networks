@@ -5,6 +5,13 @@ export interface BlockExplorer {
 	apiUrl: string;
 }
 
+/** NativeCurrency interface for native token details */
+export interface NativeCurrency {
+	name: string;
+	symbol: string;
+	decimals: number;
+}
+
 /** NetworkSummary interface represents the simplified data in summary JSON files */
 export interface NetworkSummary {
 	chainId: number;
@@ -19,8 +26,8 @@ export interface NetworkConfig {
 	name: string;
 	chainId: number;
 	chainSelector?: number;
-	decimals?: number;
-	rpcs: string[];
+	rpcUrls: string[];
 	blockExplorers: BlockExplorer[];
 	faucets?: string[];
+	nativeCurrency?: NativeCurrency;
 }

@@ -3,7 +3,7 @@
 		"name": "abstractSepolia",
 		"chainId": 11124,
 		"chainSelector": 11124,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -11,7 +11,7 @@
 		"name": "apechainCurtis",
 		"chainId": 33111,
 		"chainSelector": 33111,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Apechain Explorer",
@@ -25,7 +25,7 @@
 		"name": "arbitrumSepolia",
 		"chainId": 421614,
 		"chainSelector": 421614,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Arbiscan",
@@ -44,7 +44,7 @@
 		"name": "astarShibuya",
 		"chainId": 81,
 		"chainSelector": 81,
-		"rpcs": ["https://evm.shibuya.astar.network"],
+		"rpcUrls": ["https://evm.shibuya.astar.network"],
 		"blockExplorers": [
 			{
 				"name": "Subscan",
@@ -63,7 +63,7 @@
 		"name": "auroraTestnet",
 		"chainId": 1313161555,
 		"chainSelector": 1313161,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -76,7 +76,7 @@
 		"name": "avalancheFuji",
 		"chainId": 43113,
 		"chainSelector": 43113,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Snowtrace",
@@ -95,7 +95,7 @@
 		"name": "b2Testnet",
 		"chainId": 1123,
 		"chainSelector": 1123,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -108,7 +108,7 @@
 		"name": "baseSepolia",
 		"chainId": 84532,
 		"chainSelector": 84532,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "BaseScan",
@@ -132,7 +132,7 @@
 		"name": "berachainBepolia",
 		"chainId": 80069,
 		"chainSelector": 80069,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -145,7 +145,7 @@
 		"name": "bitlayerTestnet",
 		"chainId": 200810,
 		"chainSelector": 200810,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Bitlayer Explorer",
@@ -164,7 +164,7 @@
 		"name": "blastSepolia",
 		"chainId": 168587773,
 		"chainSelector": 1685877,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Blastscan",
@@ -183,7 +183,7 @@
 		"name": "bnbTestnet",
 		"chainId": 97,
 		"chainSelector": 97,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "BscScan",
@@ -202,7 +202,7 @@
 		"name": "bobSepolia",
 		"chainId": 808813,
 		"chainSelector": 808813,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -215,7 +215,7 @@
 		"name": "botanixTestnet",
 		"chainId": 3636,
 		"chainSelector": 3636,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Botanix Explorer",
@@ -234,7 +234,7 @@
 		"name": "campv2Testnet",
 		"chainId": 123420001114,
 		"chainSelector": 1234200,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -247,7 +247,7 @@
 		"name": "celoAlfajores",
 		"chainId": 44787,
 		"chainSelector": 44787,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Celoscan",
@@ -266,7 +266,7 @@
 		"name": "coreTestnet",
 		"chainId": 1114,
 		"chainSelector": 1114,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "CoreScan",
@@ -280,7 +280,7 @@
 		"name": "cronosTestnet",
 		"chainId": 338,
 		"chainSelector": 338,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Cronos Explorer",
@@ -299,7 +299,7 @@
 		"name": "ethereumSepolia",
 		"chainId": 11155111,
 		"chainSelector": 11155111,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Etherscan",
@@ -318,7 +318,7 @@
 		"name": "expchainTestnet",
 		"chainId": 18880,
 		"chainSelector": 18880,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -326,7 +326,7 @@
 		"name": "flowTestnet",
 		"chainId": 545,
 		"chainSelector": 545,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -339,7 +339,7 @@
 		"name": "fraxtalHolesky",
 		"chainId": 2522,
 		"chainSelector": 2522,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -347,7 +347,7 @@
 		"name": "gnosisChiado",
 		"chainId": 10200,
 		"chainSelector": 10200,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Blockscout",
@@ -366,7 +366,7 @@
 		"name": "hashkeyTestnet",
 		"chainId": 133,
 		"chainSelector": 133,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Hashkey Explorer",
@@ -385,7 +385,7 @@
 		"name": "hederaTestnet",
 		"chainId": 296,
 		"chainSelector": 296,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -398,7 +398,7 @@
 		"name": "inkSepolia",
 		"chainId": 763373,
 		"chainSelector": 763373,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Ink Explorer",
@@ -417,7 +417,7 @@
 		"name": "irysTestnet",
 		"chainId": 1270,
 		"chainSelector": 1270,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -425,7 +425,7 @@
 		"name": "kaiaKairos",
 		"chainId": 1001,
 		"chainSelector": 1001,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -433,7 +433,7 @@
 		"name": "kavaTestnet",
 		"chainId": 2221,
 		"chainSelector": 2221,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -446,7 +446,7 @@
 		"name": "lensSepolia",
 		"chainId": 37111,
 		"chainSelector": 37111,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -454,7 +454,7 @@
 		"name": "lineaSepolia",
 		"chainId": 59141,
 		"chainSelector": 59141,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Linea Explorer",
@@ -473,7 +473,7 @@
 		"name": "litheumTestnet",
 		"chainId": 1174,
 		"chainSelector": 1174,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -481,7 +481,7 @@
 		"name": "mantapacificSepolia",
 		"chainId": 3441006,
 		"chainSelector": 344100,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -489,7 +489,7 @@
 		"name": "mantleSepolia",
 		"chainId": 5003,
 		"chainSelector": 5003,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Mantle Explorer",
@@ -508,7 +508,7 @@
 		"name": "megaethTestnet",
 		"chainId": 6342,
 		"chainSelector": 6342,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "MegaEth Explorer",
@@ -527,7 +527,7 @@
 		"name": "metisSepolia",
 		"chainId": 59902,
 		"chainSelector": 59902,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -535,7 +535,7 @@
 		"name": "modeTestnet",
 		"chainId": 919,
 		"chainSelector": 919,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Mode Explorer",
@@ -554,7 +554,7 @@
 		"name": "monadTestnet",
 		"chainId": 10143,
 		"chainSelector": 10143,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Monad Explorer",
@@ -573,7 +573,7 @@
 		"name": "morphHolesky",
 		"chainId": 2810,
 		"chainSelector": 2810,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -586,7 +586,7 @@
 		"name": "oasissapphireTestnet",
 		"chainId": 23295,
 		"chainSelector": 23295,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -599,7 +599,7 @@
 		"name": "opbnbTestnet",
 		"chainId": 5611,
 		"chainSelector": 5611,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -612,7 +612,7 @@
 		"name": "optimismSepolia",
 		"chainId": 11155420,
 		"chainSelector": 11155420,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Optimism Explorer",
@@ -631,7 +631,7 @@
 		"name": "polygonAmoy",
 		"chainId": 80002,
 		"chainSelector": 80002,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "PolygonScan",
@@ -650,7 +650,7 @@
 		"name": "pulsechainTestnet",
 		"chainId": 943,
 		"chainSelector": 943,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -663,7 +663,7 @@
 		"name": "roninSaigon",
 		"chainId": 2021,
 		"chainSelector": 2021,
-		"rpcs": ["https://saigon-testnet.roninchain.com/rpc"],
+		"rpcUrls": ["https://saigon-testnet.roninchain.com/rpc"],
 		"blockExplorers": [
 			{
 				"name": "Ronin Explorer",
@@ -682,7 +682,7 @@
 		"name": "scrollSepolia",
 		"chainId": 534351,
 		"chainSelector": 534351,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Scrollscan",
@@ -701,7 +701,7 @@
 		"name": "seiTestnet",
 		"chainId": 1328,
 		"chainSelector": 1328,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Sei Explorer",
@@ -720,7 +720,7 @@
 		"name": "seismicDevnet",
 		"chainId": 5124,
 		"chainSelector": 5124,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -733,7 +733,7 @@
 		"name": "shibariumPuppynet",
 		"chainId": 157,
 		"chainSelector": 157,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Puppyscan",
@@ -752,7 +752,7 @@
 		"name": "soneiumMinato",
 		"chainId": 1946,
 		"chainSelector": 1946,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Soneium Explorer",
@@ -771,7 +771,7 @@
 		"name": "sonicBlaze",
 		"chainId": 57054,
 		"chainSelector": 57054,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Sonic Explorer",
@@ -785,7 +785,7 @@
 		"name": "taikoTestnet",
 		"chainId": 167009,
 		"chainSelector": 167009,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -793,7 +793,7 @@
 		"name": "unichainSepolia",
 		"chainId": 1301,
 		"chainSelector": 1301,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Unichain Explorer",
@@ -812,7 +812,7 @@
 		"name": "wemixTestnet",
 		"chainId": 1112,
 		"chainSelector": 1112,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -825,7 +825,7 @@
 		"name": "worldchainTestnet",
 		"chainId": 4801,
 		"chainSelector": 4801,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {
@@ -838,7 +838,7 @@
 		"name": "xlayerSepolia",
 		"chainId": 195,
 		"chainSelector": 195,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "X Layer Explorer",
@@ -857,7 +857,7 @@
 		"name": "xomarketTestnet",
 		"chainId": 1000101,
 		"chainSelector": 1000101,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -865,7 +865,7 @@
 		"name": "zircuitTestnet",
 		"chainId": 48899,
 		"chainSelector": 48899,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Zircuit Explorer",
@@ -884,7 +884,7 @@
 		"name": "zksyncSepolia",
 		"chainId": 300,
 		"chainSelector": 300,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
 		"nativeCurrency": {

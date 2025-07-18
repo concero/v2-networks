@@ -3,7 +3,7 @@
 		"name": "arbitrum",
 		"chainId": 42161,
 		"chainSelector": 42161,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Arbiscan",
@@ -21,7 +21,7 @@
 		"name": "ethereum",
 		"chainId": 1,
 		"chainSelector": 1,
-		"rpcs": [],
+		"rpcUrls": [],
 		"blockExplorers": [
 			{
 				"name": "Etherscan",
