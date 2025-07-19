@@ -1,8 +1,0 @@
-{
-  "name": "seismicDevnet",
-  "chainId": 5124,
-  "chainSelector": 5124,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

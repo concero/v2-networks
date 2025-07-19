@@ -1,8 +1,0 @@
-{
-  "name": "kaiaKairos",
-  "chainId": 1001,
-  "chainSelector": 1001,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

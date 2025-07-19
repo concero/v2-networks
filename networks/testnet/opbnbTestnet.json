@@ -1,8 +1,0 @@
-{
-  "name": "opbnbTestnet",
-  "chainId": 5611,
-  "chainSelector": 5611,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

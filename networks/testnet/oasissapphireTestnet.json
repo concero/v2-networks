@@ -1,8 +1,0 @@
-{
-  "name": "oasissapphireTestnet",
-  "chainId": 23295,
-  "chainSelector": 23295,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}

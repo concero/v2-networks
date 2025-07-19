@@ -1,8 +1,0 @@
-{
-  "name": "wemixTestnet",
-  "chainId": 1112,
-  "chainSelector": 1112,
-  "rpcs": [],
-  "blockExplorers": [],
-  "faucets": []
-}
