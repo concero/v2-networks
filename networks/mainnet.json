@@ -15,7 +15,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 4080
 	},
 	"ethereum": {
 		"name": "ethereum",
@@ -33,6 +34,7 @@
 			"name": "Conflux",
 			"symbol": "CFX",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 75
 	}
 }
