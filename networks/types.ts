@@ -30,4 +30,5 @@ export interface NetworkConfig {
 	blockExplorers: BlockExplorer[];
 	faucets?: string[];
 	nativeCurrency?: NativeCurrency;
+	finalityConfirmations: number;
 }
