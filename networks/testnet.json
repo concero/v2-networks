@@ -446,7 +446,7 @@
 		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
-		"finalityConfirmations": 0
+		"finalityConfirmations": 6
 	},
 	"kaiaKairos": {
 		"name": "kaiaKairos",
@@ -556,7 +556,7 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityConfirmations": 900
 	},
 	"metisSepolia": {
 		"name": "metisSepolia",
@@ -839,7 +839,7 @@
 		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
-		"finalityConfirmations": 0
+		"finalityConfirmations": 20
 	},
 	"unichainSepolia": {
 		"name": "unichainSepolia",
