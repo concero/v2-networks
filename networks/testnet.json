@@ -916,7 +916,7 @@
 		"rpcUrls": [],
 		"blockExplorers": [],
 		"faucets": [],
-		"finalityConfirmations": 0
+		"finalityConfirmations": 2
 	},
 	"zircuitTestnet": {
 		"name": "zircuitTestnet",
