@@ -5,7 +5,8 @@
 		"chainSelector": 11124,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"apechainCurtis": {
 		"name": "apechainCurtis",
@@ -19,7 +20,8 @@
 				"apiUrl": "https://curtis-explorer.apechain.io/api"
 			}
 		],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 3000
 	},
 	"arbitrumSepolia": {
 		"name": "arbitrumSepolia",
@@ -38,7 +40,8 @@
 			"name": "Arbitrum Sepolia Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 4080
 	},
 	"astarShibuya": {
 		"name": "astarShibuya",
@@ -57,7 +60,8 @@
 			"name": "Astar",
 			"symbol": "ASTR",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 6
 	},
 	"auroraTestnet": {
 		"name": "auroraTestnet",
@@ -70,7 +74,8 @@
 			"decimals": 18,
 			"name": "Ether",
 			"symbol": "ETH"
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"avalancheFuji": {
 		"name": "avalancheFuji",
@@ -89,7 +94,8 @@
 			"decimals": 18,
 			"name": "Avalanche Fuji",
 			"symbol": "AVAX"
-		}
+		},
+		"finalityConfirmations": 2
 	},
 	"b2Testnet": {
 		"name": "b2Testnet",
@@ -102,7 +108,8 @@
 			"name": "Bitcoin",
 			"symbol": "BTC",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 600
 	},
 	"baseSepolia": {
 		"name": "baseSepolia",
@@ -126,7 +133,8 @@
 			"name": "Sepolia Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 540
 	},
 	"berachainBepolia": {
 		"name": "berachainBepolia",
@@ -139,7 +147,8 @@
 			"decimals": 18,
 			"name": "BERA Token",
 			"symbol": "BERA"
-		}
+		},
+		"finalityConfirmations": 4
 	},
 	"bitlayerTestnet": {
 		"name": "bitlayerTestnet",
@@ -158,7 +167,8 @@
 			"name": "Bitcoin",
 			"symbol": "BTC",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 21
 	},
 	"blastSepolia": {
 		"name": "blastSepolia",
@@ -177,7 +187,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 600
 	},
 	"bnbTestnet": {
 		"name": "bnbTestnet",
@@ -196,7 +207,8 @@
 			"decimals": 18,
 			"name": "BNB",
 			"symbol": "tBNB"
-		}
+		},
+		"finalityConfirmations": 7
 	},
 	"bobSepolia": {
 		"name": "bobSepolia",
@@ -209,7 +221,8 @@
 			"decimals": 18,
 			"name": "ETH",
 			"symbol": "ETH"
-		}
+		},
+		"finalityConfirmations": 3600
 	},
 	"botanixTestnet": {
 		"name": "botanixTestnet",
@@ -228,7 +241,8 @@
 			"name": "Botanix",
 			"symbol": "BTC",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"campv2Testnet": {
 		"name": "campv2Testnet",
@@ -241,7 +255,8 @@
 			"decimals": 18,
 			"name": "Camp",
 			"symbol": "CAMP"
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"celoAlfajores": {
 		"name": "celoAlfajores",
@@ -260,7 +275,8 @@
 			"decimals": 18,
 			"name": "CELO",
 			"symbol": "A-CELO"
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"coreTestnet": {
 		"name": "coreTestnet",
@@ -274,7 +290,8 @@
 				"apiUrl": "https://scan.test.btcs.network/api"
 			}
 		],
-		"faucets": ["https://scan.test.btcs.network/#/faucet"]
+		"faucets": ["https://scan.test.btcs.network/#/faucet"],
+		"finalityConfirmations": 7
 	},
 	"cronosTestnet": {
 		"name": "cronosTestnet",
@@ -293,7 +310,8 @@
 			"decimals": 18,
 			"name": "CRO",
 			"symbol": "tCRO"
-		}
+		},
+		"finalityConfirmations": 2
 	},
 	"ethereumSepolia": {
 		"name": "ethereumSepolia",
@@ -312,7 +330,8 @@
 			"decimals": 18,
 			"name": "Sepolia Ether",
 			"symbol": "ETH"
-		}
+		},
+		"finalityConfirmations": 75
 	},
 	"expchainTestnet": {
 		"name": "expchainTestnet",
@@ -320,7 +339,8 @@
 		"chainSelector": 18880,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"flowTestnet": {
 		"name": "flowTestnet",
@@ -333,7 +353,8 @@
 			"decimals": 18,
 			"name": "Flow",
 			"symbol": "FLOW"
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"fraxtalHolesky": {
 		"name": "fraxtalHolesky",
@@ -341,7 +362,8 @@
 		"chainSelector": 2522,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 900
 	},
 	"gnosisChiado": {
 		"name": "gnosisChiado",
@@ -360,7 +382,8 @@
 			"decimals": 18,
 			"name": "Gnosis",
 			"symbol": "xDAI"
-		}
+		},
+		"finalityConfirmations": 35
 	},
 	"hashkeyTestnet": {
 		"name": "hashkeyTestnet",
@@ -379,7 +402,8 @@
 			"decimals": 18,
 			"name": "HashKey EcoPoints",
 			"symbol": "HSK"
-		}
+		},
+		"finalityConfirmations": 1800
 	},
 	"hederaTestnet": {
 		"name": "hederaTestnet",
@@ -392,7 +416,8 @@
 			"symbol": "HBAR",
 			"name": "HBAR",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"inkSepolia": {
 		"name": "inkSepolia",
@@ -411,7 +436,8 @@
 			"name": "Sepolia Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 3600
 	},
 	"irysTestnet": {
 		"name": "irysTestnet",
@@ -419,7 +445,8 @@
 		"chainSelector": 1270,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 6
 	},
 	"kaiaKairos": {
 		"name": "kaiaKairos",
@@ -427,7 +454,8 @@
 		"chainSelector": 1001,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"kavaTestnet": {
 		"name": "kavaTestnet",
@@ -440,7 +468,8 @@
 			"name": "Kava",
 			"symbol": "KAVA",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"lensSepolia": {
 		"name": "lensSepolia",
@@ -448,7 +477,8 @@
 		"chainSelector": 37111,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"lineaSepolia": {
 		"name": "lineaSepolia",
@@ -467,7 +497,8 @@
 			"name": "Linea Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 600
 	},
 	"litheumTestnet": {
 		"name": "litheumTestnet",
@@ -475,7 +506,8 @@
 		"chainSelector": 1174,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"mantapacificSepolia": {
 		"name": "mantapacificSepolia",
@@ -483,7 +515,8 @@
 		"chainSelector": 344100,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 0
 	},
 	"mantleSepolia": {
 		"name": "mantleSepolia",
@@ -502,7 +535,8 @@
 			"decimals": 18,
 			"name": "MNT",
 			"symbol": "MNT"
-		}
+		},
+		"finalityConfirmations": 840
 	},
 	"megaethTestnet": {
 		"name": "megaethTestnet",
@@ -521,7 +555,8 @@
 			"name": "MegaETH Testnet Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 900
 	},
 	"metisSepolia": {
 		"name": "metisSepolia",
@@ -529,7 +564,8 @@
 		"chainSelector": 59902,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 360
 	},
 	"modeTestnet": {
 		"name": "modeTestnet",
@@ -548,7 +584,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 1110
 	},
 	"monadTestnet": {
 		"name": "monadTestnet",
@@ -567,7 +604,8 @@
 			"name": "Testnet MON Token",
 			"symbol": "MON",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"morphHolesky": {
 		"name": "morphHolesky",
@@ -580,7 +618,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"oasissapphireTestnet": {
 		"name": "oasissapphireTestnet",
@@ -593,7 +632,8 @@
 			"name": "Sapphire Test Rose",
 			"symbol": "TEST",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"opbnbTestnet": {
 		"name": "opbnbTestnet",
@@ -606,7 +646,8 @@
 			"decimals": 18,
 			"name": "tBNB",
 			"symbol": "tBNB"
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"optimismSepolia": {
 		"name": "optimismSepolia",
@@ -625,7 +666,8 @@
 			"name": "Sepolia Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 600
 	},
 	"polygonAmoy": {
 		"name": "polygonAmoy",
@@ -644,7 +686,8 @@
 			"name": "POL",
 			"symbol": "POL",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 55
 	},
 	"pulsechainTestnet": {
 		"name": "pulsechainTestnet",
@@ -657,7 +700,8 @@
 			"name": "V4 Pulse",
 			"symbol": "v4PLS",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"roninSaigon": {
 		"name": "roninSaigon",
@@ -676,7 +720,8 @@
 			"name": "RON",
 			"symbol": "RON",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 4
 	},
 	"scrollSepolia": {
 		"name": "scrollSepolia",
@@ -695,7 +740,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 720
 	},
 	"seiTestnet": {
 		"name": "seiTestnet",
@@ -714,7 +760,8 @@
 			"name": "Sei",
 			"symbol": "SEI",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 3
 	},
 	"seismicDevnet": {
 		"name": "seismicDevnet",
@@ -727,7 +774,8 @@
 			"name": "Seismic Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 0
 	},
 	"shibariumPuppynet": {
 		"name": "shibariumPuppynet",
@@ -746,7 +794,8 @@
 			"decimals": 18,
 			"name": "Bone",
 			"symbol": "BONE"
-		}
+		},
+		"finalityConfirmations": 60
 	},
 	"soneiumMinato": {
 		"name": "soneiumMinato",
@@ -765,7 +814,8 @@
 			"name": "Sepolia Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 810
 	},
 	"sonicBlaze": {
 		"name": "sonicBlaze",
@@ -779,7 +829,8 @@
 				"apiUrl": "https://explorer-testnet.sonic.guru/api"
 			}
 		],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 10
 	},
 	"taikoTestnet": {
 		"name": "taikoTestnet",
@@ -787,7 +838,8 @@
 		"chainSelector": 167009,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 20
 	},
 	"unichainSepolia": {
 		"name": "unichainSepolia",
@@ -806,7 +858,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 1440
 	},
 	"wemixTestnet": {
 		"name": "wemixTestnet",
@@ -819,7 +872,8 @@
 			"name": "WEMIX",
 			"symbol": "tWEMIX",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 2
 	},
 	"worldchainTestnet": {
 		"name": "worldchainTestnet",
@@ -832,7 +886,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 1200
 	},
 	"xlayerSepolia": {
 		"name": "xlayerSepolia",
@@ -851,7 +906,8 @@
 			"decimals": 18,
 			"name": "OKB",
 			"symbol": "OKB"
-		}
+		},
+		"finalityConfirmations": 3600
 	},
 	"xomarketTestnet": {
 		"name": "xomarketTestnet",
@@ -859,7 +915,8 @@
 		"chainSelector": 1000101,
 		"rpcUrls": [],
 		"blockExplorers": [],
-		"faucets": []
+		"faucets": [],
+		"finalityConfirmations": 2
 	},
 	"zircuitTestnet": {
 		"name": "zircuitTestnet",
@@ -878,7 +935,8 @@
 			"name": "ETH",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 630
 	},
 	"zksyncSepolia": {
 		"name": "zksyncSepolia",
@@ -891,6 +949,7 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 1200
 	}
 }
