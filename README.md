@@ -47,7 +47,8 @@ Create a JSON file for your network with the following structure:
             "apiUrl": "https://api.explorer.yournetwork.com/api"
         }
     ],
-    "faucets": ["https://faucet.yournetwork.com/"]
+    "faucets": ["https://faucet.yournetwork.com/"],
+	"finalityConfirmations": 12345,
 }
 ```
 
