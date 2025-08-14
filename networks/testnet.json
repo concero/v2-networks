@@ -951,5 +951,47 @@
 			"decimals": 18
 		},
 		"finalityConfirmations": 1200
-	}
+	},
+    "riseTestnet": {
+      "name": "riseTestnet",
+      "chainId": 11155931,
+      "chainSelector": 11155931,
+      "rpcUrls": [],
+      "blockExplorers": [],
+      "faucets": [],
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "finalityConfirmations": 0
+    },
+    "pharosTestnet": {
+        "name": "pharosTestnet",
+        "chainId": 688688,
+        "chainSelector": 688688,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "faucets": [],
+        "nativeCurrency": {
+          "name": "PHRS",
+          "symbol": "PHRS",
+          "decimals": 18
+        },
+        "finalityConfirmations": 0
+    },
+    "zenchainTestnet": {
+      "name": "zenchainTestnet",
+      "chainId": 8408,
+      "chainSelector": 8408,
+      "rpcUrls": [],
+      "blockExplorers": [],
+      "faucets": [],
+      "nativeCurrency": {
+        "name": "ZTC",
+        "symbol": "ZTC",
+        "decimals": 18
+      },
+      "finalityConfirmations": 0
+    }
 }
