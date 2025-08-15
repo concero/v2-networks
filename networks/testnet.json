@@ -44,7 +44,7 @@
 		"name": "astarShibuya",
 		"chainId": 81,
 		"chainSelector": 81,
-		"rpcUrls": ["https://evm.shibuya.astar.network"],
+		"rpcUrls": ["https://evm.shibuya.astar.network", "https://shibuya.public.blastapi.io", "https://shibuya-rpc.dwellir.com"],
 		"blockExplorers": [
 			{
 				"name": "Subscan",
@@ -318,7 +318,7 @@
 		"name": "expchainTestnet",
 		"chainId": 18880,
 		"chainSelector": 18880,
-		"rpcUrls": [],
+		"rpcUrls": ["https://expchain.polyhedra.network/rpc0-testnet", "https://expchain.polyhedra.network/rpc1-testnet"],
 		"blockExplorers": [],
 		"faucets": []
 	},
@@ -417,7 +417,7 @@
 		"name": "irysTestnet",
 		"chainId": 1270,
 		"chainSelector": 1270,
-		"rpcUrls": [],
+		"rpcUrls": ["testnet-rpc.irys.xyz"],
 		"blockExplorers": [],
 		"faucets": []
 	},
