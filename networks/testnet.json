@@ -47,7 +47,11 @@
 		"name": "astarShibuya",
 		"chainId": 81,
 		"chainSelector": 81,
-		"rpcUrls": ["https://evm.shibuya.astar.network", "https://shibuya.public.blastapi.io", "https://shibuya-rpc.dwellir.com"],
+		"rpcUrls": [
+			"https://evm.shibuya.astar.network",
+			"https://shibuya.public.blastapi.io",
+			"https://shibuya-rpc.dwellir.com"
+		],
 		"blockExplorers": [
 			{
 				"name": "Subscan",
@@ -337,7 +341,10 @@
 		"name": "expchainTestnet",
 		"chainId": 18880,
 		"chainSelector": 18880,
-		"rpcUrls": ["https://expchain.polyhedra.network/rpc0-testnet", "https://expchain.polyhedra.network/rpc1-testnet"],
+		"rpcUrls": [
+			"https://expchain.polyhedra.network/rpc0-testnet",
+			"https://expchain.polyhedra.network/rpc1-testnet"
+		],
 		"blockExplorers": [],
 		"faucets": [],
 		"finalityConfirmations": 0
@@ -952,46 +959,46 @@
 		},
 		"finalityConfirmations": 1200
 	},
-    "riseTestnet": {
-      "name": "riseTestnet",
-      "chainId": 11155931,
-      "chainSelector": 11155931,
-      "rpcUrls": [],
-      "blockExplorers": [],
-      "faucets": [],
-      "nativeCurrency": {
-        "name": "Ether",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "finalityConfirmations": 0
-    },
-    "pharosTestnet": {
-        "name": "pharosTestnet",
-        "chainId": 688688,
-        "chainSelector": 688688,
-        "rpcUrls": [],
-        "blockExplorers": [],
-        "faucets": [],
-        "nativeCurrency": {
-          "name": "PHRS",
-          "symbol": "PHRS",
-          "decimals": 18
-        },
-        "finalityConfirmations": 0
-    },
-    "zenchainTestnet": {
-      "name": "zenchainTestnet",
-      "chainId": 8408,
-      "chainSelector": 8408,
-      "rpcUrls": [],
-      "blockExplorers": [],
-      "faucets": [],
-      "nativeCurrency": {
-        "name": "ZTC",
-        "symbol": "ZTC",
-        "decimals": 18
-      },
-      "finalityConfirmations": 0
-    }
+	"riseTestnet": {
+		"name": "riseTestnet",
+		"chainId": 11155931,
+		"chainSelector": 11155931,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"faucets": [],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		},
+		"finalityConfirmations": 0
+	},
+	"pharosTestnet": {
+		"name": "pharosTestnet",
+		"chainId": 688688,
+		"chainSelector": 688688,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"faucets": [],
+		"nativeCurrency": {
+			"name": "PHRS",
+			"symbol": "PHRS",
+			"decimals": 18
+		},
+		"finalityConfirmations": 0
+	},
+	"zenchainTestnet": {
+		"name": "zenchainTestnet",
+		"chainId": 8408,
+		"chainSelector": 8408,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"faucets": [],
+		"nativeCurrency": {
+			"name": "ZTC",
+			"symbol": "ZTC",
+			"decimals": 18
+		},
+		"finalityConfirmations": 0
+	}
 }

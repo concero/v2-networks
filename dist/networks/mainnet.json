@@ -31,10 +31,86 @@
             }
         ],
         "nativeCurrency": {
-            "name": "Conflux",
-            "symbol": "CFX",
+            "name": "Ethereum",
+            "symbol": "ETH",
             "decimals": 18
         },
         "finalityConfirmations": 75
-    }
+    },
+	"polygon": {
+        "name": "polygon",
+        "chainId": 137,
+        "chainSelector": 137,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+            "name": "PolygonScan",
+            "url": "https://polygonscan.com",
+            "apiUrl": "https://api.polygonscan.com/api"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "POL",
+            "symbol": "POL",
+            "decimals": 18
+        },
+        "finalityConfirmations": 128
+  },
+  "optimism": {
+        "name": "optimism",
+        "chainId": 10,
+        "chainSelector": 10,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Optimism Explorer", 
+                "url": "https://optimistic.etherscan.io",
+                "apiUrl": "https://api-optimistic.etherscan.io/api"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 50
+  },
+  "avalanche": {
+        "name": "avalanche",
+        "chainId": 43114,
+        "chainSelector": 43114,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "SnowTrace",
+                "url": "https://snowtrace.io",
+                "apiUrl": "https://api.snowtrace.io/api"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18
+        },
+        "finalityConfirmations": 1
+  },
+  "base": {
+        "name": "base",
+        "chainId": 8453,
+        "chainSelector": 8453,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Basescan",
+                "url": "https://basescan.org",
+                "apiUrl": "https://api.basescan.org/api"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 50
+  }
 }

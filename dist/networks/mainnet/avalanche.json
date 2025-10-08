@@ -1,0 +1,13 @@
+{
+  "name": "avalanche",
+  "chainId": 43114,
+  "chainSelector": 43114,
+  "rpcs": [],
+  "blockExplorers": [
+    {
+      "name": "SnowTrace",
+      "url": "https://snowtrace.io",
+      "apiUrl": "https://api.snowtrace.io/api"
+    }
+  ]
+}

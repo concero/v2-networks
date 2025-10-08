@@ -1,0 +1,13 @@
+{
+  "name": "polygon",
+  "chainId": 137,
+  "chainSelector": 137,
+  "rpcs": [],
+  "blockExplorers": [
+    {
+      "name": "PolygonScan",
+      "url": "https://polygonscan.com",
+      "apiUrl": "https://api.polygonscan.com/api"
+    }
+  ]
+}
