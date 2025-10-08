@@ -12,7 +12,7 @@
             }
         ],
         "nativeCurrency": {
-            "name": "Ether",
+            "name": "ETH",
             "symbol": "ETH",
             "decimals": 18
         },
@@ -37,16 +37,16 @@
         },
         "finalityConfirmations": 75
     },
-	"polygon": {
+    "polygon": {
         "name": "polygon",
         "chainId": 137,
         "chainSelector": 137,
         "rpcUrls": [],
         "blockExplorers": [
             {
-            "name": "PolygonScan",
-            "url": "https://polygonscan.com",
-            "apiUrl": "https://api.polygonscan.com/api"
+                "name": "PolygonScan",
+                "url": "https://polygonscan.com",
+                "apiUrl": "https://api.polygonscan.com/api"
             }
         ],
         "nativeCurrency": {
@@ -55,15 +55,15 @@
             "decimals": 18
         },
         "finalityConfirmations": 128
-  },
-  "optimism": {
+    },
+    "optimism": {
         "name": "optimism",
         "chainId": 10,
         "chainSelector": 10,
         "rpcUrls": [],
         "blockExplorers": [
             {
-                "name": "Optimism Explorer", 
+                "name": "Optimism Explorer",
                 "url": "https://optimistic.etherscan.io",
                 "apiUrl": "https://api-optimistic.etherscan.io/api"
             }
@@ -74,8 +74,8 @@
             "decimals": 18
         },
         "finalityConfirmations": 50
-  },
-  "avalanche": {
+    },
+    "avalanche": {
         "name": "avalanche",
         "chainId": 43114,
         "chainSelector": 43114,
@@ -93,8 +93,8 @@
             "decimals": 18
         },
         "finalityConfirmations": 1
-  },
-  "base": {
+    },
+    "base": {
         "name": "base",
         "chainId": 8453,
         "chainSelector": 8453,
@@ -112,5 +112,5 @@
             "decimals": 18
         },
         "finalityConfirmations": 50
-  }
+    }
 }
