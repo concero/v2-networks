@@ -1045,8 +1045,8 @@
     },
     "pharosTestnet": {
         "name": "pharosTestnet",
-        "chainId": 688688,
-        "chainSelector": 688688,
+        "chainId": 688689,
+        "chainSelector": 688689,
         "rpcUrls": [],
         "blockExplorers": [],
         "faucets": [],
