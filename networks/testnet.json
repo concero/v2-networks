@@ -749,7 +749,7 @@
 			"symbol": "POL",
 			"decimals": 18
 		},
-		"finalityConfirmations": 55
+		"finalityConfirmations": 500
 	},
 	"pulsechainTestnet": {
 		"name": "pulsechainTestnet",
