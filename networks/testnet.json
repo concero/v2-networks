@@ -11,7 +11,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"apechainCurtis": {
 		"name": "apechainCurtis",
@@ -31,7 +32,7 @@
 			"symbol": "APE",
 			"decimals": 18
 		},
-		"finalityConfirmations": 3000
+		"finalityTagEnabled": true
 	},
 	"arbitrumSepolia": {
 		"name": "arbitrumSepolia",
@@ -51,7 +52,7 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 4080
+		"finalityTagEnabled": true
 	},
 	"astarShibuya": {
 		"name": "astarShibuya",
@@ -89,7 +90,7 @@
 			"name": "ETH",
 			"symbol": "ETH"
 		},
-		"finalityConfirmations": 0
+		"finalityTagEnabled": true
 	},
 	"avalancheFuji": {
 		"name": "avalancheFuji",
@@ -109,7 +110,7 @@
 			"name": "Avalanche Fuji",
 			"symbol": "AVAX"
 		},
-		"finalityConfirmations": 2
+		"finalityTagEnabled": true
 	},
 	"b2Testnet": {
 		"name": "b2Testnet",
@@ -123,7 +124,7 @@
 			"symbol": "BTC",
 			"decimals": 18
 		},
-		"finalityConfirmations": 600
+		"finalityTagEnabled": true
 	},
 	"baseSepolia": {
 		"name": "baseSepolia",
@@ -148,7 +149,7 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 540
+		"finalityTagEnabled": true
 	},
 	"berachainBepolia": {
 		"name": "berachainBepolia",
@@ -162,7 +163,7 @@
 			"name": "BERA Token",
 			"symbol": "BERA"
 		},
-		"finalityConfirmations": 4
+		"finalityConfirmations": 1
 	},
 	"bitlayerTestnet": {
 		"name": "bitlayerTestnet",
@@ -350,7 +351,7 @@
 			"name": "ETH",
 			"symbol": "ETH"
 		},
-		"finalityConfirmations": 75
+		"finalityTagEnabled": true
 	},
 	"expchainTestnet": {
 		"name": "expchainTestnet",
