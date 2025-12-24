@@ -52,7 +52,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"astarShibuya": {
 		"name": "astarShibuya",
@@ -76,7 +77,8 @@
 			"symbol": "ASTR",
 			"decimals": 18
 		},
-		"finalityConfirmations": 6
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"auroraTestnet": {
 		"name": "auroraTestnet",
@@ -110,7 +112,8 @@
 			"name": "Avalanche Fuji",
 			"symbol": "AVAX"
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"b2Testnet": {
 		"name": "b2Testnet",
@@ -124,7 +127,8 @@
 			"symbol": "BTC",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"baseSepolia": {
 		"name": "baseSepolia",
@@ -149,7 +153,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"berachainBepolia": {
 		"name": "berachainBepolia",
@@ -183,7 +188,8 @@
 			"symbol": "BTC",
 			"decimals": 18
 		},
-		"finalityConfirmations": 21
+		"finalityConfirmations": 21,
+		"minBlockConfirmations": 3
 	},
 	"blastSepolia": {
 		"name": "blastSepolia",
@@ -203,7 +209,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 600
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"bnbTestnet": {
 		"name": "bnbTestnet",
@@ -223,7 +230,8 @@
 			"name": "BNB",
 			"symbol": "tBNB"
 		},
-		"finalityConfirmations": 7
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"bobSepolia": {
 		"name": "bobSepolia",
@@ -237,7 +245,8 @@
 			"name": "ETH",
 			"symbol": "ETH"
 		},
-		"finalityConfirmations": 3600
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"botanixTestnet": {
 		"name": "botanixTestnet",
@@ -257,7 +266,8 @@
 			"symbol": "BTC",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"campv2Testnet": {
 		"name": "campv2Testnet",
@@ -291,7 +301,8 @@
 			"name": "CELO",
 			"symbol": "A-CELO"
 		},
-		"finalityConfirmations": 0
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"coreTestnet": {
 		"name": "coreTestnet",
@@ -311,7 +322,8 @@
 			"name": "tCORE2",
 			"symbol": "tCORE2"
 		},
-		"finalityConfirmations": 7
+		"finalityConfirmations": 7,
+		"minBlockConfirmations": 3
 	},
 	"cronosTestnet": {
 		"name": "cronosTestnet",
@@ -351,7 +363,8 @@
 			"name": "ETH",
 			"symbol": "ETH"
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"expchainTestnet": {
 		"name": "expchainTestnet",
@@ -396,7 +409,8 @@
 			"name": "FRAX",
 			"symbol": "FRAX"
 		},
-		"finalityConfirmations": 900
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"gnosisChiado": {
 		"name": "gnosisChiado",
@@ -416,7 +430,8 @@
 			"name": "Gnosis",
 			"symbol": "xDAI"
 		},
-		"finalityConfirmations": 35
+		"finalityConfirmations": 100,
+		"minBlockConfirmations": 3
 	},
 	"hashkeyTestnet": {
 		"name": "hashkeyTestnet",
@@ -436,7 +451,8 @@
 			"name": "HashKey EcoPoints",
 			"symbol": "HSK"
 		},
-		"finalityConfirmations": 1800
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
 	},
 	"hederaTestnet": {
 		"name": "hederaTestnet",
@@ -450,7 +466,8 @@
 			"name": "HBAR",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
 	},
 	"inkSepolia": {
 		"name": "inkSepolia",
@@ -470,7 +487,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 3600
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"irysTestnet": {
 		"name": "irysTestnet",
@@ -498,7 +516,8 @@
 			"symbol": "KAIA",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
 	},
 	"kavaTestnet": {
 		"name": "kavaTestnet",
@@ -526,7 +545,8 @@
 			"symbol": "GRASS",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityConfirmations": 40,
+		"minBlockConfirmations": 3
 	},
 	"lineaSepolia": {
 		"name": "lineaSepolia",
@@ -546,7 +566,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 600
+		"finalityConfirmations": 900,
+		"minBlockConfirmations": 3
 	},
 	"litheumTestnet": {
 		"name": "litheumTestnet",
@@ -594,7 +615,8 @@
 			"name": "MNT",
 			"symbol": "MNT"
 		},
-		"finalityConfirmations": 840
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"megaethTestnet": {
 		"name": "megaethTestnet",
@@ -628,7 +650,8 @@
 			"symbol": "tMETIS",
 			"decimals": 18
 		},
-		"finalityConfirmations": 360
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"modeTestnet": {
 		"name": "modeTestnet",
@@ -648,7 +671,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 1110
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"monadTestnet": {
 		"name": "monadTestnet",
@@ -668,7 +692,8 @@
 			"symbol": "MON",
 			"decimals": 18
 		},
-		"finalityConfirmations": 0
+		"finalityConfirmations": 120,
+		"minBlockConfirmations": 3
 	},
 	"morphHolesky": {
 		"name": "morphHolesky",
@@ -730,7 +755,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 600
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"polygonAmoy": {
 		"name": "polygonAmoy",
@@ -750,7 +776,8 @@
 			"symbol": "POL",
 			"decimals": 18
 		},
-		"finalityConfirmations": 500
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 5
 	},
 	"pulsechainTestnet": {
 		"name": "pulsechainTestnet",
@@ -784,7 +811,8 @@
 			"symbol": "RON",
 			"decimals": 18
 		},
-		"finalityConfirmations": 4
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"scrollSepolia": {
 		"name": "scrollSepolia",
@@ -804,7 +832,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 720
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"seiTestnet": {
 		"name": "seiTestnet",
@@ -858,7 +887,8 @@
 			"name": "Bone",
 			"symbol": "BONE"
 		},
-		"finalityConfirmations": 60
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"soneiumMinato": {
 		"name": "soneiumMinato",
@@ -878,7 +908,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 810
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"sonicBlaze": {
 		"name": "sonicBlaze",
@@ -898,7 +929,8 @@
 			"symbol": "S",
 			"decimals": 18
 		},
-		"finalityConfirmations": 10
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 5
 	},
 	"taikoTestnet": {
 		"name": "taikoTestnet",
@@ -912,7 +944,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 20
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"unichainSepolia": {
 		"name": "unichainSepolia",
@@ -932,7 +965,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 1440
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"wemixTestnet": {
 		"name": "wemixTestnet",
@@ -946,7 +980,8 @@
 			"symbol": "tWEMIX",
 			"decimals": 18
 		},
-		"finalityConfirmations": 2
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"worldchainTestnet": {
 		"name": "worldchainTestnet",
@@ -960,7 +995,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 1200
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"xlayerSepolia": {
 		"name": "xlayerSepolia",
@@ -980,7 +1016,8 @@
 			"name": "OKB",
 			"symbol": "OKB"
 		},
-		"finalityConfirmations": 3600
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 1
 	},
 	"xomarketTestnet": {
 		"name": "xomarketTestnet",
@@ -1014,7 +1051,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 630
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"zksyncSepolia": {
 		"name": "zksyncSepolia",
@@ -1028,7 +1066,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 1200
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
 	},
 	"riseTestnet": {
 		"name": "riseTestnet",
@@ -1071,5 +1110,83 @@
 			"decimals": 18
 		},
 		"finalityConfirmations": 0
+	},
+	"okxTestnet": {
+		"name": "okxTestnet",
+		"chainId": 65,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"kromaSepolia": {
+		"name": "kromaSepolia",
+		"chainId": 2358,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"polygonZkevmCardona": {
+		"name": "polygonZkevmCardona",
+		"chainId": 2442,
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 1
+	},
+	"fantomTestnet": {
+		"name": "fantomTestnet",
+		"chainId": 4002,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"l3xSepolia": {
+		"name": "l3xSepolia",
+		"chainId": 12325,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"plumeSepolia": {
+		"name": "plumeSepolia",
+		"chainId": 98867,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"katanaTestnet": {
+		"name": "katanaTestnet",
+		"chainId": 129399,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"mindTestnet": {
+		"name": "mindTestnet",
+		"chainId": 192940,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"merlinTestnet": {
+		"name": "merlinTestnet",
+		"chainId": 686868,
+		"finalityConfirmations": 1000,
+		"minBlockConfirmations": 1
+	},
+	"hemiTestnet": {
+		"name": "hemiTestnet",
+		"chainId": 743111,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"treasureTestnet": {
+		"name": "treasureTestnet",
+		"chainId": 978658,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"cornTestnet": {
+		"name": "cornTestnet",
+		"chainId": 21000001,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"harmonyTestnet": {
+		"name": "harmonyTestnet",
+		"chainId": 1666700000,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 1
 	}
 }

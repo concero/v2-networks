@@ -16,7 +16,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 4080
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"ethereum": {
 		"name": "ethereum",
@@ -35,82 +36,363 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityConfirmations": 75
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"polygon": {
-        "name": "polygon",
-        "chainId": 137,
-        "chainSelector": 137,
-        "rpcUrls": [],
-        "blockExplorers": [
-            {
-            "name": "PolygonScan",
-            "url": "https://polygonscan.com",
-            "apiUrl": "https://api.polygonscan.com/api"
-            }
-        ],
-        "nativeCurrency": {
-            "name": "POL",
-            "symbol": "POL",
-            "decimals": 18
-        },
-        "finalityConfirmations": 128
-  },
-  "optimism": {
-        "name": "optimism",
-        "chainId": 10,
-        "chainSelector": 10,
-        "rpcUrls": [],
-        "blockExplorers": [
-            {
-                "name": "Optimism Explorer", 
-                "url": "https://optimistic.etherscan.io",
-                "apiUrl": "https://api-optimistic.etherscan.io/api"
-            }
-        ],
-        "nativeCurrency": {
-            "name": "ETH",
-            "symbol": "ETH",
-            "decimals": 18
-        },
-        "finalityConfirmations": 50
-  },
-  "avalanche": {
-        "name": "avalanche",
-        "chainId": 43114,
-        "chainSelector": 43114,
-        "rpcUrls": [],
-        "blockExplorers": [
-            {
-                "name": "SnowTrace",
-                "url": "https://snowtrace.io",
-                "apiUrl": "https://api.snowtrace.io/api"
-            }
-        ],
-        "nativeCurrency": {
-            "name": "Avalanche",
-            "symbol": "AVAX",
-            "decimals": 18
-        },
-        "finalityConfirmations": 1
-  },
-  "base": {
-        "name": "base",
-        "chainId": 8453,
-        "chainSelector": 8453,
-        "rpcUrls": [],
-        "blockExplorers": [
-            {
-                "name": "Basescan",
-                "url": "https://basescan.org",
-                "apiUrl": "https://api.basescan.org/api"
-            }
-        ],
-        "nativeCurrency": {
-            "name": "ETH",
-            "symbol": "ETH",
-            "decimals": 18
-        },
-        "finalityConfirmations": 50
-  }
+		"name": "polygon",
+		"chainId": 137,
+		"chainSelector": 137,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "PolygonScan",
+				"url": "https://polygonscan.com",
+				"apiUrl": "https://api.polygonscan.com/api"
+			}
+		],
+		"nativeCurrency": {
+			"name": "POL",
+			"symbol": "POL",
+			"decimals": 18
+		},
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 5
+	},
+	"optimism": {
+		"name": "optimism",
+		"chainId": 10,
+		"chainSelector": 10,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Optimism Explorer",
+				"url": "https://optimistic.etherscan.io",
+				"apiUrl": "https://api-optimistic.etherscan.io/api"
+			}
+		],
+		"nativeCurrency": {
+			"name": "ETH",
+			"symbol": "ETH",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"avalanche": {
+		"name": "avalanche",
+		"chainId": 43114,
+		"chainSelector": 43114,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "SnowTrace",
+				"url": "https://snowtrace.io",
+				"apiUrl": "https://api.snowtrace.io/api"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Avalanche",
+			"symbol": "AVAX",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"base": {
+		"name": "base",
+		"chainId": 8453,
+		"chainSelector": 8453,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Basescan",
+				"url": "https://basescan.org",
+				"apiUrl": "https://api.basescan.org/api"
+			}
+		],
+		"nativeCurrency": {
+			"name": "ETH",
+			"symbol": "ETH",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"bsc": {
+		"name": "bsc",
+		"chainId": 56,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"okx": {
+		"name": "okx",
+		"chainId": 66,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"gnosis": {
+		"name": "gnosis",
+		"chainId": 100,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"shibarium": {
+		"name": "shibarium",
+		"chainId": 109,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
+	},
+	"heco": {
+		"name": "heco",
+		"chainId": 128,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"sonic": {
+		"name": "sonic",
+		"chainId": 146,
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 5
+	},
+	"hashkey": {
+		"name": "hashkey",
+		"chainId": 177,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"xlayer": {
+		"name": "xlayer",
+		"chainId": 196,
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 1
+	},
+	"bsquared": {
+		"name": "bsquared",
+		"chainId": 223,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"mind": {
+		"name": "mind",
+		"chainId": 228,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"lens": {
+		"name": "lens",
+		"chainId": 232,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"fantom": {
+		"name": "fantom",
+		"chainId": 250,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
+	},
+	"fraxtal": {
+		"name": "fraxtal",
+		"chainId": 252,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"kroma": {
+		"name": "kroma",
+		"chainId": 255,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"hedera": {
+		"name": "hedera",
+		"chainId": 295,
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
+	},
+	"zksync": {
+		"name": "zksync",
+		"chainId": 324,
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
+	},
+	"worldchain": {
+		"name": "worldchain",
+		"chainId": 480,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"astar": {
+		"name": "astar",
+		"chainId": 592,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"metis": {
+		"name": "metis",
+		"chainId": 1088,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"polygonZkevm": {
+		"name": "polygonZkevm",
+		"chainId": 1101,
+		"finalityConfirmations": 500,
+		"minBlockConfirmations": 1
+	},
+	"wemix": {
+		"name": "wemix",
+		"chainId": 1111,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"core": {
+		"name": "core",
+		"chainId": 1116,
+		"finalityConfirmations": 27,
+		"minBlockConfirmations": 3
+	},
+	"soneium": {
+		"name": "soneium",
+		"chainId": 1868,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"ronin": {
+		"name": "ronin",
+		"chainId": 2020,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"botanix": {
+		"name": "botanix",
+		"chainId": 3637,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"merlin": {
+		"name": "merlin",
+		"chainId": 4200,
+		"finalityConfirmations": 1000,
+		"minBlockConfirmations": 1
+	},
+	"mantle": {
+		"name": "mantle",
+		"chainId": 5000,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"klaytn": {
+		"name": "klaytn",
+		"chainId": 8217,
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 1
+	},
+	"l3x": {
+		"name": "l3x",
+		"chainId": 12324,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"mode": {
+		"name": "mode",
+		"chainId": 34443,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"celo": {
+		"name": "celo",
+		"chainId": 42220,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"hemi": {
+		"name": "hemi",
+		"chainId": 43111,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"zircuit": {
+		"name": "zircuit",
+		"chainId": 48900,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"ink": {
+		"name": "ink",
+		"chainId": 57073,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"linea": {
+		"name": "linea",
+		"chainId": 59144,
+		"finalityConfirmations": 300,
+		"minBlockConfirmations": 3
+	},
+	"bob": {
+		"name": "bob",
+		"chainId": 60808,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"treasure": {
+		"name": "treasure",
+		"chainId": 61166,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"berachain": {
+		"name": "berachain",
+		"chainId": 80094,
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 3
+	},
+	"blast": {
+		"name": "blast",
+		"chainId": 81457,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"plume": {
+		"name": "plume",
+		"chainId": 98866,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"taiko": {
+		"name": "taiko",
+		"chainId": 167000,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"bitlayer": {
+		"name": "bitlayer",
+		"chainId": 200901,
+		"finalityConfirmations": 21,
+		"minBlockConfirmations": 3
+	},
+	"scroll": {
+		"name": "scroll",
+		"chainId": 534352,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"katana": {
+		"name": "katana",
+		"chainId": 747474,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"corn": {
+		"name": "corn",
+		"chainId": 21000000,
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
+	},
+	"harmony": {
+		"name": "harmony",
+		"chainId": 1666600000,
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 1
+	}
 }
