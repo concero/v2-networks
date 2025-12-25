@@ -122,6 +122,19 @@
 	"bsc": {
 		"name": "bsc",
 		"chainId": 56,
+		"chainSelector": 56,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "bscscan",
+				"url": "https://bscscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BNB Chain Native Token",
+			"symbol": "BNB",
+			"decimals": 18
+		},
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 3
 	},
@@ -152,6 +165,19 @@
 	"sonic": {
 		"name": "sonic",
 		"chainId": 146,
+		"chainSelector": 146,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "etherscan",
+				"url": "https://sonicscan.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Sonic",
+			"symbol": "S",
+			"decimals": 18
+		},
 		"finalityConfirmations": 10,
 		"minBlockConfirmations": 5
 	},
@@ -248,12 +274,38 @@
 	"core": {
 		"name": "core",
 		"chainId": 1116,
+		"chainSelector": 1116,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Core Scan",
+				"url": "https://scan.coredao.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Core Blockchain Native Token",
+			"symbol": "CORE",
+			"decimals": 18
+		},
 		"finalityConfirmations": 27,
 		"minBlockConfirmations": 3
 	},
 	"soneium": {
 		"name": "soneium",
 		"chainId": 1868,
+		"chainSelector": 1868,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "SlamVision",
+				"url": "https://soneium.slam.vision"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		},
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
 	},
@@ -394,5 +446,227 @@
 		"chainId": 1666600000,
 		"finalityConfirmations": 50,
 		"minBlockConfirmations": 1
+	},
+	"monad": {
+		"name": "monad",
+		"chainId": 143,
+		"chainSelector": 143,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Monadscan",
+				"url": "https://monadscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Monad",
+			"symbol": "MON",
+			"decimals": 18
+		}
+	},
+	"rootstock": {
+		"name": "rootstock",
+		"chainId": 30,
+		"chainSelector": 30
+	},
+	"orderly": {
+		"name": "orderly",
+		"chainId": 291,
+		"chainSelector": 291
+	},
+	"somniaNetwork": {
+		"name": "somniaNetwork",
+		"chainId": 5031,
+		"chainSelector": 5031
+	},
+	"oasisEmerald": {
+		"name": "oasisEmerald",
+		"chainId": 42262,
+		"chainSelector": 42262
+	},
+	"0gLabs": {
+		"name": "0gLabs",
+		"chainId": 16661,
+		"chainSelector": 16661
+	},
+	"viction": {
+		"name": "viction",
+		"chainId": 88,
+		"chainSelector": 88
+	},
+	"oralChain": {
+		"name": "oralChain",
+		"chainId": 108160679,
+		"chainSelector": 1081606
+	},
+	"megaeth": {
+		"name": "megaeth",
+		"chainId": 4326,
+		"chainSelector": 4326
+	},
+	"enuls": {
+		"name": "enuls",
+		"chainId": 119,
+		"chainSelector": 119
+	},
+	"hyperliquid": {
+		"name": "hyperliquid",
+		"chainId": 999,
+		"chainSelector": 999
+	},
+	"cronos": {
+		"name": "cronos",
+		"chainId": 25,
+		"chainSelector": 25
+	},
+	"kava": {
+		"name": "kava",
+		"chainId": 2222,
+		"chainSelector": 2222
+	},
+	"unichain": {
+		"name": "unichain",
+		"chainId": 130,
+		"chainSelector": 130
+	},
+	"mantaPacific": {
+		"name": "mantaPacific",
+		"chainId": 169,
+		"chainSelector": 169
+	},
+	"moonbeam": {
+		"name": "moonbeam",
+		"chainId": 1284,
+		"chainSelector": 1284
+	},
+	"aurora": {
+		"name": "aurora",
+		"chainId": 1313161554,
+		"chainSelector": 1313161
+	},
+	"sei": {
+		"name": "sei",
+		"chainId": 1329,
+		"chainSelector": 1329
+	},
+	"plasma": {
+		"name": "plasma",
+		"chainId": 9745,
+		"chainSelector": 9745
+	},
+	"opBnb": {
+		"name": "opBnb",
+		"chainId": 204,
+		"chainSelector": 204
+	},
+	"pulseChain": {
+		"name": "pulseChain",
+		"chainId": 369,
+		"chainSelector": 369
+	},
+	"dogechain": {
+		"name": "dogechain",
+		"chainId": 2000,
+		"chainSelector": 2000
+	},
+	"bobaNetwork": {
+		"name": "bobaNetwork",
+		"chainId": 288,
+		"chainSelector": 288
+	},
+	"fuse": {
+		"name": "fuse",
+		"chainId": 122,
+		"chainSelector": 122
+	},
+	"injective": {
+		"name": "injective",
+		"chainId": 1776,
+		"chainSelector": 1776
+	},
+	"abstract": {
+		"name": "abstract",
+		"chainId": 2741,
+		"chainSelector": 2741
+	},
+	"flareNetwork": {
+		"name": "flareNetwork",
+		"chainId": 14,
+		"chainSelector": 14
+	},
+	"apeChain": {
+		"name": "apeChain",
+		"chainId": 33139,
+		"chainSelector": 33139
+	},
+	"ioTex": {
+		"name": "ioTex",
+		"chainId": 4689,
+		"chainSelector": 4689
+	},
+	"xdcNetwork": {
+		"name": "xdcNetwork",
+		"chainId": 50,
+		"chainSelector": 50
+	},
+	"filecoin": {
+		"name": "filecoin",
+		"chainId": 314,
+		"chainSelector": 314
+	},
+	"canto": {
+		"name": "canto",
+		"chainId": 7700,
+		"chainSelector": 7700
+	},
+	"evmos": {
+		"name": "evmos",
+		"chainId": 9001,
+		"chainSelector": 9001
+	},
+	"flow": {
+		"name": "flow",
+		"chainId": 747,
+		"chainSelector": 747
+	},
+	"conflux": {
+		"name": "conflux",
+		"chainId": 1030,
+		"chainSelector": 1030
+	},
+	"etherlink": {
+		"name": "etherlink",
+		"chainId": 42793,
+		"chainSelector": 42793
+	},
+	"morph": {
+		"name": "morph",
+		"chainId": 2818,
+		"chainSelector": 2818
+	},
+	"bittorrent": {
+		"name": "bittorrent",
+		"chainId": 199,
+		"chainSelector": 199
+	},
+	"ethereumPow": {
+		"name": "ethereumPow",
+		"chainId": 10001,
+		"chainSelector": 10001
+	},
+	"lisk": {
+		"name": "lisk",
+		"chainId": 1135,
+		"chainSelector": 1135
+	},
+	"story": {
+		"name": "story",
+		"chainId": 1514,
+		"chainSelector": 1514
+	},
+	"gravityChain": {
+		"name": "gravityChain",
+		"chainId": 1625,
+		"chainSelector": 1625
 	}
 }
