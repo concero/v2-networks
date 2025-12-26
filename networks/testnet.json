@@ -188,7 +188,7 @@
 			"name": "BERA Token",
 			"symbol": "BERA"
 		},
-		"finalityConfirmations": 1
+		"finalityConfirmations": 10
 	},
 	"bitlayerTestnet": {
 		"name": "bitlayerTestnet",
@@ -491,7 +491,7 @@
 			"name": "HashKey EcoPoints",
 			"symbol": "HSK"
 		},
-		"finalityConfirmations": 50,
+		"finalityTagEnabled": true,
 		"minBlockConfirmations": 3
 	},
 	"hederaTestnet": {

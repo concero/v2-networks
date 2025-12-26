@@ -1075,7 +1075,7 @@
 			"symbol": "MON",
 			"decimals": 18
 		},
-		"finalityConfirmations": 150,
+		"finalityConfirmations": 120,
 		"minBlockConfirmations": 3
 	},
 	"rootstock": {
@@ -1288,10 +1288,12 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
-	"mantaPacific": {
-		"name": "mantaPacific",
+	"mantapacific": {
+		"name": "mantapacific",
 		"chainId": 169,
 		"chainSelector": 169,
 		"rpcUrls": [],
@@ -1339,7 +1341,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true
 	},
 	"sei": {
 		"name": "sei",
@@ -1500,7 +1503,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"flareNetwork": {
 		"name": "flareNetwork",
@@ -1538,7 +1543,8 @@
 			"name": "ApeCoin",
 			"symbol": "APE",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true
 	},
 	"ioTex": {
 		"name": "ioTex",
