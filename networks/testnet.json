@@ -188,7 +188,8 @@
 			"name": "BERA Token",
 			"symbol": "BERA"
 		},
-		"finalityConfirmations": 10
+		"finalityConfirmations": 10,
+		"minBlockConfirmations": 3
 	},
 	"bitlayerTestnet": {
 		"name": "bitlayerTestnet",
@@ -1627,5 +1628,24 @@
 			"symbol": "DODO",
 			"decimals": 18
 		}
+	},
+	"moonbeamTestnet": {
+		"name": "moonbeamTestnet",
+		"chainId": 1287,
+		"chainSelector": 1287,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "moonscan",
+				"url": "https://moonbase.moonscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Dev",
+			"symbol": "DEV",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	}
 }

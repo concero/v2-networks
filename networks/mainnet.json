@@ -662,8 +662,8 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
 	},
-	"klaytn": {
-		"name": "klaytn",
+	"kaia": {
+		"name": "kaia",
 		"chainId": 8217,
 		"chainSelector": 8217,
 		"rpcUrls": [],
@@ -1199,7 +1199,8 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 4096
 	},
 	"enuls": {
 		"name": "enuls",
@@ -1324,7 +1325,9 @@
 			"name": "Glimmer",
 			"symbol": "GLMR",
 			"decimals": 18
-		}
+		},
+        "finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"aurora": {
 		"name": "aurora",
