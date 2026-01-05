@@ -431,7 +431,8 @@
 			"name": "Flow",
 			"symbol": "FLOW"
 		},
-		"finalityConfirmations": 0
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"fraxtalHolesky": {
 		"name": "fraxtalHolesky",
@@ -587,6 +588,7 @@
 			"symbol": "KAVA",
 			"decimals": 18
 		},
+		"finalityTagEnabled": true,
 		"finalityConfirmations": 0
 	},
 	"lensSepolia": {
@@ -768,7 +770,7 @@
 			"symbol": "MON",
 			"decimals": 18
 		},
-		"finalityConfirmations": 120,
+		"finalityTagEnabled": true,
 		"minBlockConfirmations": 3
 	},
 	"morphHolesky": {

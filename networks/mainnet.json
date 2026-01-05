@@ -1075,8 +1075,8 @@
 			"symbol": "MON",
 			"decimals": 18
 		},
-		"finalityConfirmations": 120,
-		"minBlockConfirmations": 3
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"rootstock": {
 		"name": "rootstock",
@@ -1234,7 +1234,9 @@
 			"name": "Wancoin",
 			"symbol": "WAN",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"cronos": {
 		"name": "cronos",
@@ -1268,7 +1270,9 @@
 			"name": "Kava",
 			"symbol": "KAVA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+        "minBlockConfirmations": 3
 	},
 	"unichain": {
 		"name": "unichain",
@@ -1622,7 +1626,9 @@
 			"name": "filecoin",
 			"symbol": "FIL",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"canto": {
 		"name": "canto",
@@ -1681,7 +1687,9 @@
 			"name": "FLOW",
 			"symbol": "FLOW",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"conflux": {
 		"name": "conflux",
