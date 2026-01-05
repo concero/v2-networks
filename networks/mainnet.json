@@ -1226,13 +1226,13 @@
 		"rpcUrls": [],
 		"blockExplorers": [
 			{
-				"name": "wanscan",
-				"url": "https://testnet.wanscan.org"
+				"name": "hyperscan",
+				"url": "https://www.hyperscan.com/"
 			}
 		],
 		"nativeCurrency": {
-			"name": "Wancoin",
-			"symbol": "WAN",
+			"name": "HYPE",
+			"symbol": "HYPE",
 			"decimals": 18
 		},
 		"finalityTagEnabled": true,
@@ -1272,7 +1272,7 @@
 			"decimals": 18
 		},
 		"finalityTagEnabled": true,
-        "minBlockConfirmations": 3
+		"minBlockConfirmations": 3
 	},
 	"unichain": {
 		"name": "unichain",
@@ -1330,7 +1330,7 @@
 			"symbol": "GLMR",
 			"decimals": 18
 		},
-        "finalityTagEnabled": true,
+		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
 	},
 	"aurora": {
@@ -1826,6 +1826,508 @@
 		"nativeCurrency": {
 			"name": "Gravity",
 			"symbol": "G",
+			"decimals": 18
+		}
+	},
+	"nibiru": {
+		"name": "nibiru",
+		"chainId": 6900,
+		"chainSelector": 6900,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "NIBI",
+			"symbol": "NIBI",
+			"decimals": 18
+		}
+	},
+	"iotaevm": {
+		"name": "iotaevm",
+		"chainId": 8822,
+		"chainSelector": 8822,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "explorer",
+				"url": "https://explorer.evm.iota.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "IOTA",
+			"symbol": "IOTA",
+			"decimals": 18
+		}
+	},
+	"bitgert": {
+		"name": "bitgert",
+		"chainId": 32520,
+		"chainSelector": 32520,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Brise Scan",
+				"url": "https://brisescan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Bitrise Token",
+			"symbol": "Brise",
+			"decimals": 18
+		}
+	},
+	"mixin": {
+		"name": "mixin",
+		"chainId": 73927,
+		"chainSelector": 73927,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "mvmscan",
+				"url": "https://scan.mvm.dev"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"real": {
+		"name": "real",
+		"chainId": 111188,
+		"chainSelector": 111188,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.re.al"
+			}
+		],
+		"nativeCurrency": {
+			"name": "re.al Ether",
+			"symbol": "reETH",
+			"decimals": 18
+		}
+	},
+	"taraxa": {
+		"name": "taraxa",
+		"chainId": 841,
+		"chainSelector": 841,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Tara.to Explorer",
+				"url": "https://tara.to"
+			},
+			{
+				"name": "Taraxa Explorer",
+				"url": "https://explorer.mainnet.taraxa.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Tara",
+			"symbol": "TARA",
+			"decimals": 18
+		}
+	},
+	"acala": {
+		"name": "acala",
+		"chainId": 787,
+		"chainSelector": 787,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://blockscout.acala.network"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Acala Token",
+			"symbol": "ACA",
+			"decimals": 18
+		}
+	},
+	"bevm": {
+		"name": "bevm",
+		"chainId": 1501,
+		"chainSelector": 1501,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "bevm canary scan",
+				"url": "https://scan-canary.bevm.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BTC",
+			"symbol": "BTC",
+			"decimals": 18
+		}
+	},
+	"degen": {
+		"name": "degen",
+		"chainId": 666666666,
+		"chainSelector": 6666666,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "DEGEN",
+			"symbol": "DEGEN",
+			"decimals": 18
+		}
+	},
+	"educhain": {
+		"name": "educhain",
+		"chainId": 41923,
+		"chainSelector": 41923,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "EDU Chain",
+				"url": "https://educhain.blockscout.com"
+			}
+		],
+		"faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+		"nativeCurrency": {
+			"name": "EDU",
+			"symbol": "EDU",
+			"decimals": 18
+		}
+	},
+	"eosevm": {
+		"name": "eosevm",
+		"chainId": 17777,
+		"chainSelector": 17777,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "EOS EVM Explorer",
+				"url": "https://explorer.evm.eosnetwork.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "EOS",
+			"symbol": "EOS",
+			"decimals": 18
+		}
+	},
+	"xrplevm": {
+		"name": "xrplevm",
+		"chainId": 1440000,
+		"chainSelector": 1440000,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.xrplevm.org"
+			}
+		],
+		"faucets": ["https://faucet.xrplevm.org"],
+		"nativeCurrency": {
+			"name": "XRP",
+			"symbol": "XRP",
+			"decimals": 18
+		}
+	},
+	"bahamut": {
+		"name": "bahamut",
+		"chainId": 5165,
+		"chainSelector": 5165,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://ftnscan.com"
+			},
+			{
+				"name": "blockscout",
+				"url": "https://ftnscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "FTN",
+			"symbol": "FTN",
+			"decimals": 18
+		}
+	},
+	"ham": {
+		"name": "ham",
+		"chainId": 5112,
+		"chainSelector": 5112,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.ham.fun"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"ailayer": {
+		"name": "ailayer",
+		"chainId": 2649,
+		"chainSelector": 2649,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://mainnet-explorer.ailayer.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BTC",
+			"symbol": "BTC",
+			"decimals": 18
+		}
+	},
+	"coti": {
+		"name": "coti",
+		"chainId": 2632500,
+		"chainSelector": 2632500,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "COTI Mainnet Explorer",
+				"url": "https://mainnet.cotiscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "COTI",
+			"symbol": "COTI",
+			"decimals": 18
+		}
+	},
+	"horizeneon": {
+		"name": "horizeneon",
+		"chainId": 7332,
+		"chainSelector": 7332,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Horizen EON Block Explorer",
+				"url": "https://eon-explorer.horizenlabs.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Zencash",
+			"symbol": "ZEN",
+			"decimals": 18
+		}
+	},
+	"inevm": {
+		"name": "inevm",
+		"chainId": 2525,
+		"chainSelector": 2525,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "Injective",
+			"symbol": "INJ",
+			"decimals": 18
+		}
+	},
+	"clv": {
+		"name": "clv",
+		"chainId": 1024,
+		"chainSelector": 1024,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "CLV",
+			"symbol": "CLV",
+			"decimals": 18
+		}
+	},
+	"mezonetwork": {
+		"name": "mezonetwork",
+		"chainId": 31612,
+		"chainSelector": 31612,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.mezo.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Bitcoin",
+			"symbol": "BTC",
+			"decimals": 18
+		}
+	},
+	"sophon": {
+		"name": "sophon",
+		"chainId": 50104,
+		"chainSelector": 50104,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Sophon Block Explorer",
+				"url": "https://explorer.sophon.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Sophon",
+			"symbol": "SOPH",
+			"decimals": 18
+		}
+	},
+	"crossfi": {
+		"name": "crossfi",
+		"chainId": 4158,
+		"chainSelector": 4158,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "CrossFi Mainnet Scan",
+				"url": "https://xfiscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "CrossFi Token",
+			"symbol": "XFI",
+			"decimals": 18
+		}
+	},
+	"bifrostnetwork": {
+		"name": "bifrostnetwork",
+		"chainId": 996,
+		"chainSelector": 996,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "Wrapped ETH",
+			"symbol": "WETH",
+			"decimals": 18
+		}
+	},
+	"carbon": {
+		"name": "carbon",
+		"chainId": 9790,
+		"chainSelector": 9790,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "swth",
+			"symbol": "SWTH",
+			"decimals": 18
+		}
+	},
+	"csc": {
+		"name": "csc",
+		"chainId": 52,
+		"chainSelector": 52,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "coinexscan",
+				"url": "https://www.coinex.net"
+			}
+		],
+		"nativeCurrency": {
+			"name": "CoinEx Chain Native Token",
+			"symbol": "cet",
+			"decimals": 18
+		}
+	},
+	"duckchain": {
+		"name": "duckchain",
+		"chainId": 5545,
+		"chainSelector": 5545,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "TON",
+			"symbol": "TON",
+			"decimals": 18
+		}
+	},
+	"findora": {
+		"name": "findora",
+		"chainId": 2152,
+		"chainSelector": 2152,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "findorascan",
+				"url": "https://evm.findorascan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "FRA",
+			"symbol": "FRA",
+			"decimals": 18
+		}
+	},
+	"formnetwork": {
+		"name": "formnetwork",
+		"chainId": 478,
+		"chainSelector": 478,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Form Explorer",
+				"url": "https://explorer.form.network"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"mint": {
+		"name": "mint",
+		"chainId": 185,
+		"chainSelector": 185,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.mintchain.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"rari": {
+		"name": "name",
+		"chainId": 1380012617,
+		"chainSelector": 1380012,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "rarichain-explorer",
+				"url": "https://mainnet.explorer.rarichain.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ethereum",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"sanko": {
+		"name": "sanko",
+		"chainId": 1996,
+		"chainSelector": 1996,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Sanko Explorer",
+				"url": "https://explorer.sanko.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "DMT",
+			"symbol": "DMT",
 			"decimals": 18
 		}
 	}

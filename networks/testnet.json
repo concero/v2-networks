@@ -1649,5 +1649,289 @@
 		},
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
+	},
+	"heliosTestnet": {
+		"name": "heliosTestnet",
+		"chainId": 42000,
+		"chainSelector": 42000,
+		"rpcUrls": [],
+		"faucets": ["https://testnet.helioschain.network"],
+		"nativeCurrency": {
+			"name": "Helios",
+			"symbol": "HLS",
+			"decimals": 18
+		},
+		"blockExplorers": [
+			{
+				"name": "Helios Chain Explorer",
+				"url": "https://explorer.helioschainlabs.org"
+			}
+		]
+	},
+	"hyperliquidTestnet": {
+		"name": "hyperliquidTestnet",
+		"chainId": 998,
+		"chainSelector": 998,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "hyperscan",
+				"url": "https://app.hyperliquid-testnet.xyz/explorer"
+			}
+		],
+		"nativeCurrency": {
+			"name": "HYPE",
+			"symbol": "HYPE",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"plasmaTestnet": {
+		"name": "plasmaTestnet",
+		"chainId": 9746,
+		"chainSelector": 9746,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Routescan",
+				"url": "https://testnet.plasmascan.to"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Testnet Plasma",
+			"symbol": "XPL",
+			"decimals": 18
+		}
+	},
+	"dogechainTestnet": {
+		"name": "dogechainTestnet",
+		"chainId": 568,
+		"chainSelector": 568,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.dogechain.dog"],
+		"blockExplorers": [
+			{
+				"name": "dogechain testnet explorer",
+				"url": "https://explorer-testnet.dogechain.dog"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Dogecoin",
+			"symbol": "DOGE",
+			"decimals": 18
+		}
+	},
+	"injectiveTestnet": {
+		"name": "injectiveTestnet",
+		"chainId": 1439,
+		"chainSelector": 1439,
+		"rpcUrls": [],
+		"faucets": ["https://testnet.faucet.injective.network"],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://testnet.blockscout.injective.network"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Injective",
+			"symbol": "INJ",
+			"decimals": 18
+		}
+	},
+	"iotexTestnet": {
+		"name": "iotexTestnet",
+		"chainId": 4690,
+		"chainSelector": 4690,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.iotex.io/"],
+		"blockExplorers": [
+			{
+				"name": "testnet iotexscan",
+				"url": "https://testnet.iotexscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "IoTeX",
+			"symbol": "IOTX",
+			"decimals": 18
+		}
+	},
+	"xdcNetworkTestnet": {
+		"name": "xdcNetworkTestnet",
+		"chainId": 51,
+		"chainSelector": 51,
+		"rpcUrls": [],
+		"faucets": [
+			"https://faucet.apothem.network",
+			"https://faucet.blocksscan.io",
+			"https://apothem.xdcscan.io/faucet"
+		],
+		"blockExplorers": [
+			{
+				"name": "xdcscan",
+				"url": "https://testnet.xdcscan.com"
+			},
+			{
+				"name": "openscan",
+				"url": "https://apothem.xdcscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "XinFin",
+			"symbol": "TXDC",
+			"decimals": 18
+		}
+	},
+	"cantoTestnet": {
+		"name": "cantoTestnet",
+		"chainId": 7701,
+		"chainSelector": 7701,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Canto Testnet EVM Explorer (Blockscout)",
+				"url": "https://testnet.tuber.build"
+			},
+			{
+				"name": "dexguru",
+				"url": "https://canto-test.dex.guru"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Testnet Canto",
+			"symbol": "CANTO",
+			"decimals": 18
+		}
+	},
+	"evmosTestnet": {
+		"name": "evmosTestnet",
+		"chainId": 9000,
+		"chainSelector": 9000,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.evmos.dev"],
+		"blockExplorers": [
+			{
+				"name": "Evmos Explorer (Escan)",
+				"url": "https://testnet.escan.live"
+			}
+		],
+		"nativeCurrency": {
+			"name": "test-Evmos",
+			"symbol": "tEVMOS",
+			"decimals": 18
+		}
+	},
+	"confluxTestnet": {
+		"name": "confluxTestnet",
+		"chainId": 71,
+		"chainSelector": 71,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.confluxnetwork.org"],
+		"blockExplorers": [
+			{
+				"name": "Conflux Scan",
+				"url": "https://evmtestnet.confluxscan.net"
+			}
+		],
+		"nativeCurrency": {
+			"name": "CFX",
+			"symbol": "CFX",
+			"decimals": 18
+		}
+	},
+	"morphTestnet": {
+		"name": "morphTestnet",
+		"chainId": 2710,
+		"chainSelector": 2710,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [
+			{
+				"name": "Morph Testnet Explorer",
+				"url": "https://explorer-testnet.morphl2.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"liskTestnet": {
+		"name": "liskTestnet",
+		"chainId": 4202,
+		"chainSelector": 4202,
+		"rpcUrls": [],
+		"faucets": ["https://app.optimism.io/faucet"],
+		"blockExplorers": [
+			{
+				"name": "liskscout",
+				"url": "https://sepolia-blockscout.lisk.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Sepolia Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"gravityTestnet": {
+		"name": "gravityTestnet",
+		"chainId": 13505,
+		"chainSelector": 13505,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [
+			{
+				"name": "Gravity Alpha Testnet Sepolia Explorer",
+				"url": "https://explorer-sepolia.gravity.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Sepolia Gravity",
+			"symbol": "G",
+			"decimals": 18
+		}
+	},
+	"nibiru": {
+		"name": "nibiru",
+		"chainId": 6900,
+		"chainSelector": 6900,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "NIBI",
+			"symbol": "NIBI",
+			"decimals": 18
+		}
+	},
+	"bouncebitTestnet": {
+		"name": "bouncebitTestnet",
+		"chainId": 6000,
+		"chainSelector": 6000,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [
+			{
+				"name": "BBScan Testnet Explorer",
+				"url": "https://bbscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BounceBit",
+			"symbol": "BB",
+			"decimals": 18
+		}
+	},
+	"name": {
+		"name": "",
+		"chainId": 0,
+		"chainSelector": 0,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [],
+		"nativeCurrency": {}
 	}
 }
