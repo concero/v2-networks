@@ -2597,5 +2597,43 @@
 			"symbol": "ETH",
 			"decimals": 18
 		}
+	},
+	"xrplevmTestnet": {
+		"name": "xrplevmTestnet",
+		"chainId": 1449000,
+		"chainSelector": 1449000,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.xrplevm.org"],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://explorer.xrplevm.org"
+			}
+		],
+		"nativeCurrency": {
+			"name": "XRP",
+			"symbol": "XRP",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"horizeneonTestnet": {
+		"name": "horizeneonTestnet",
+		"chainId": 1663,
+		"chainSelector": 1663,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.horizen.io"],
+		"blockExplorers": [
+			{
+				"name": "Gobi Testnet Block Explorer",
+				"url": "https://gobi-explorer.horizen.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Testnet Zen",
+			"symbol": "tZEN",
+			"decimals": 18
+		}
 	}
 }

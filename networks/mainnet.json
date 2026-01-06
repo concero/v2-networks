@@ -2005,7 +2005,6 @@
 				"url": "https://explorer.xrplevm.org"
 			}
 		],
-		"faucets": ["https://faucet.xrplevm.org"],
 		"nativeCurrency": {
 			"name": "XRP",
 			"symbol": "XRP",
