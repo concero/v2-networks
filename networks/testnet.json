@@ -1925,15 +1925,6 @@
 			"decimals": 18
 		}
 	},
-	"name": {
-		"name": "",
-		"chainId": 0,
-		"chainSelector": 0,
-		"rpcUrls": [],
-		"faucets": [],
-		"blockExplorers": [],
-		"nativeCurrency": {}
-	},
 	"iotaevmTestnet": {
 		"name": "iotaevmtestnet",
 		"chainId": 1075,
@@ -2207,5 +2198,276 @@
 			"symbol": "ETH",
 			"decimals": 18
 		}
+	},
+	"cscTestnet": {
+		"name": "cscTestnet",
+		"chainId": 53,
+		"chainSelector": 53,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "coinexscan",
+				"url": "https://testnet.coinex.net"
+			}
+		],
+		"nativeCurrency": {
+			"name": "CoinEx Chain Test Native Token",
+			"symbol": "cett",
+			"decimals": 18
+		}
+	},
+	"eclipseTestnet": {
+		"name": "eclipseTestnet",
+		"chainId": 555666,
+		"chainSelector": 555666,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "ECLIPSE Explorer",
+				"url": "https://subnets-test.avax.network/eclipsecha"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Eclipse",
+			"symbol": "ECLPS",
+			"decimals": 18
+		}
+	},
+	"fuseTestnet": {
+		"name": "fuseTestnet",
+		"chainId": 123,
+		"chainSelector": 123,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"faucets": ["https://get.fusespark.io"],
+		"nativeCurrency": {
+			"name": "Spark",
+			"symbol": "SPARK",
+			"decimals": 18
+		}
+	},
+	"flareNetworkTestnet": {
+		"name": "flareNetworkTestnet",
+		"chainId": 114,
+		"chainSelector": 114,
+		"rpcUrls": [],
+		"faucets": ["https://faucet.flare.network"],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://coston2-explorer.flare.network"
+			},
+			{
+				"name": "Routescan",
+				"url": "https://coston2.testnet.flarescan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Coston2 Flare",
+			"symbol": "C2FLR",
+			"decimals": 18
+		}
+	},
+	"filecoinTestnet": {
+		"name": "filecoinTestnet",
+		"chainId": 314159,
+		"chainSelector": 314159,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Filscan - Calibration",
+				"url": "https://calibration.filscan.io"
+			},
+			{
+				"name": "Filscout - Calibration",
+				"url": "https://calibration.filscout.com/en"
+			},
+			{
+				"name": "Filfox - Calibration",
+				"url": "https://calibration.filfox.info"
+			},
+			{
+				"name": "Glif Explorer - Calibration",
+				"url": "https://explorer.glif.io/?network=calibration"
+			},
+			{
+				"name": "Beryx",
+				"url": "https://beryx.zondax.ch"
+			}
+		],
+		"faucets": ["https://faucet.calibration.fildev.network/"],
+		"nativeCurrency": {
+			"name": "testnet filecoin",
+			"symbol": "tFIL",
+			"decimals": 18
+		}
+	},
+	"etherlinkTestnet": {
+		"name": "etherlinkTestnet",
+		"chainId": 128123,
+		"chainSelector": 128123,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Etherlink Ghostnet Testnet Explorer",
+				"url": "https://testnet.explorer.etherlink.com"
+			}
+		],
+		"faucets": ["https://faucet.etherlink.com"],
+		"nativeCurrency": {
+			"name": "tez",
+			"symbol": "XTZ",
+			"decimals": 18
+		}
+	},
+	"storyTestnet": {
+		"name": "storyTestnet",
+		"chainId": 1315,
+		"chainSelector": 1315,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://aeneid.storyscan.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "IP Token",
+			"symbol": "IP",
+			"decimals": 18
+		}
+	},
+	"nibiruTestnet": {
+		"name": "nibiruTestnet",
+		"chainId": 6911,
+		"chainSelector": 6911,
+		"rpcUrls": [],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "NIBI",
+			"symbol": "NIBI",
+			"decimals": 18
+		}
+	},
+	"tacTestnet": {
+		"name": "tacTestnet",
+		"chainId": 2391,
+		"chainSelector": 2391,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "TAC SPB Explorer",
+				"url": "https://spb.explorer.tac.build"
+			}
+		],
+		"faucets": ["https://spb.faucet.tac.build/"],
+		"nativeCurrency": {
+			"name": "TAC",
+			"symbol": "TAC",
+			"decimals": 18
+		}
+	},
+	"ethereumClassicTestnet": {
+		"name": "ethereumClassicTestnet",
+		"chainId": 63,
+		"chainSelector": 63,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout-mordor",
+				"url": "https://etc-mordor.blockscout.com"
+			},
+			{
+				"name": "etcnetworkinfo-expedition-mordor",
+				"url": "https://explorer-expedition.etc-network.info/?network=Ethereum+Classic+at+etc-network.info+GETH+Mordor"
+			}
+		],
+		"faucets": [
+			"https://easy.hebeswap.com/#/faucet",
+			"https://faucet.mordortest.net"
+		],
+		"nativeCurrency": {
+			"name": "Mordor Ether",
+			"symbol": "METC",
+			"decimals": 18
+		}
+	},
+	"eosevmTestnet": {
+		"name": "eosevmTestnet",
+		"chainId": 15557,
+		"chainSelector": 15557,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "EOS EVM Explorer",
+				"url": "https://explorer.testnet.evm.eosnetwork.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "EOS",
+			"symbol": "EOS",
+			"decimals": 18
+		}
+	},
+	"acalaTestnet": {
+		"name": "acalaTestnet",
+		"chainId": 595,
+		"chainSelector": 595,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://blockscout.mandala.aca-staging.network"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Acala Mandala Token",
+			"symbol": "mACA",
+			"decimals": 18
+		}
+	},
+	"bevmTestnet": {
+		"name": "bevmTestnet",
+		"chainId": 11503,
+		"chainSelector": 11503,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "bevm testnet scan",
+				"url": "https://scan-testnet.bevm.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BTC",
+			"symbol": "BTC",
+			"decimals": 18
+		}
+	},
+	"bahamutTestnet": {
+		"name": "bahamutTestnet",
+		"chainId": 4090,
+		"chainSelector": 4090,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://oasis.ftnscan.com"
+			}
+		],
+		"faucets": ["https://faucet.oasis.fastexchain.com"],
+		"nativeCurrency": {
+			"name": "FTN",
+			"symbol": "FTN",
+			"decimals": 18
+		}
+	},
+	"name": {
+		"name": "",
+		"chainId": 0,
+		"chainSelector": 0,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [],
+		"nativeCurrency": {}
 	}
 }
