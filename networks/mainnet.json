@@ -1875,23 +1875,6 @@
 			"decimals": 18
 		}
 	},
-	"mixin": {
-		"name": "mixin",
-		"chainId": 73927,
-		"chainSelector": 73927,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "mvmscan",
-				"url": "https://scan.mvm.dev"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
 	"real": {
 		"name": "real",
 		"chainId": 111188,
@@ -2328,6 +2311,23 @@
 		"nativeCurrency": {
 			"name": "DMT",
 			"symbol": "DMT",
+			"decimals": 18
+		}
+	},
+	"godwoken": {
+		"name": "godwoken",
+		"chainId": 71402,
+		"chainSelector": 71402,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "GWScan Block Explorer",
+				"url": "https://v1.gwscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "pCKB",
+			"symbol": "pCKB",
 			"decimals": 18
 		}
 	}

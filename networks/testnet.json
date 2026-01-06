@@ -2461,13 +2461,139 @@
 			"decimals": 18
 		}
 	},
-	"name": {
+	"enulsTestnet": {
 		"name": "",
-		"chainId": 0,
-		"chainSelector": 0,
+		"chainId": 120,
+		"chainSelector": 120,
 		"rpcUrls": [],
-		"faucets": [],
-		"blockExplorers": [],
-		"nativeCurrency": {}
+		"faucets": ["http://faucet.nuls.io"],
+		"blockExplorers": [
+			{
+				"name": "enulsscan",
+				"url": "https://beta.evmscan.nuls.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "NULS",
+			"symbol": "NULS",
+			"decimals": 18
+		}
+	},
+	"godwokenTestnet": {
+		"name": "godwokenTestnet",
+		"chainId": 71401,
+		"chainSelector": 71401,
+		"rpcUrls": [],
+		"faucets": ["https://testnet.bridge.godwoken.io"],
+		"blockExplorers": [
+			{
+				"name": "GWScan Block Explorer",
+				"url": "https://v1.testnet.gwscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "pCKB",
+			"symbol": "pCKB",
+			"decimals": 18
+		}
+	},
+	"sankoTestnet": {
+		"name": "sankoTestnet",
+		"chainId": 1992,
+		"chainSelector": 1992,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Sanko Explorer",
+				"url": "https://explorer.sanko.xyz"
+			}
+		],
+		"nativeCurrency": {
+			"name": "USD Coin",
+			"symbol": "USDC",
+			"decimals": 18
+		}
+	},
+	"apeChainTestnet": {
+		"name": "apeChainTestnet",
+		"chainId": 33111,
+		"chainSelector": 33111,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Curtis Explorer",
+				"url": "https://explorer.curtis.apechain.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "ApeCoin",
+			"symbol": "APE",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true
+	},
+	"oralChainTestnet": {
+		"name": "oralChainTestnet",
+		"chainId": 4143398064,
+		"chainSelector": 4143398,
+		"rpcUrls": [],
+		"nativeCurrency": {
+			"name": "Oraichain Token",
+			"symbol": "ORAI",
+			"decimals": 18
+		}
+	},
+	"bittorrentTestnet": {
+		"name": "bittorrentTestnet",
+		"chainId": 1029,
+		"chainSelector": 1029,
+		"rpcUrls": [],
+		"faucets": ["https://testfaucet.bt.io"],
+		"blockExplorers": [
+			{
+				"name": "BitTorrent Chain Donau Explorer",
+				"url": "https://testnet.bttcscan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BitTorrent",
+			"symbol": "BTT",
+			"decimals": 18
+		}
+	},
+	"realTestnet": {
+		"name": "realTestnet",
+		"chainId": 18233,
+		"chainSelector": 18233,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout",
+				"url": "https://unreal.blockscout.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "unreal Ether",
+			"symbol": "reETH",
+			"decimals": 18
+		}
+	},
+	"bobaNetworkTestnet": {
+		"name": "bobaNetworkTestnet",
+		"chainId": 28882,
+		"chainSelector": 28882,
+		"rpcUrls": [],
+		"faucets": ["https://www.l2faucet.com/boba"],
+		"blockExplorers": [
+			{
+				"name": "Routescan",
+				"url": "https://testnet.bobascan.com"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
 	}
 }
