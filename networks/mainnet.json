@@ -2010,7 +2010,9 @@
 			"name": "XRP",
 			"symbol": "XRP",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"bahamut": {
 		"name": "bahamut",

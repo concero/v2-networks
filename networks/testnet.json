@@ -2300,7 +2300,9 @@
 			"name": "testnet filecoin",
 			"symbol": "tFIL",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"etherlinkTestnet": {
 		"name": "etherlinkTestnet",
