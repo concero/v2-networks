@@ -1895,18 +1895,6 @@
 			"decimals": 18
 		}
 	},
-	"nibiru": {
-		"name": "nibiru",
-		"chainId": 6900,
-		"chainSelector": 6900,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "NIBI",
-			"symbol": "NIBI",
-			"decimals": 18
-		}
-	},
 	"bouncebitTestnet": {
 		"name": "bouncebitTestnet",
 		"chainId": 6000,
