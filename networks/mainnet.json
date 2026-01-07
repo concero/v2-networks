@@ -1114,7 +1114,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"somniaNetwork": {
 		"name": "somniaNetwork",
@@ -1131,7 +1133,9 @@
 			"name": "Somnia Mainnet",
 			"symbol": "SOMI",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"oasisEmerald": {
 		"name": "oasisEmerald",
@@ -1165,7 +1169,9 @@
 			"name": "0G",
 			"symbol": "0G",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"viction": {
 		"name": "viction",
@@ -1187,7 +1193,9 @@
 			"name": "Oraichain Token",
 			"symbol": "ORAI",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"megaeth": {
 		"name": "megaeth",
@@ -1253,7 +1261,9 @@
 			"name": "Cronos",
 			"symbol": "CRO",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"kava": {
 		"name": "kava",
@@ -1349,7 +1359,8 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"sei": {
 		"name": "sei",
@@ -1366,7 +1377,9 @@
 			"name": "Sei",
 			"symbol": "SEI",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"plasma": {
 		"name": "plasma",
@@ -1383,7 +1396,9 @@
 			"name": "Plasma",
 			"symbol": "XPL",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"opBnb": {
 		"name": "opBnb",
@@ -1400,7 +1415,9 @@
 			"name": "BNB Chain Native Token",
 			"symbol": "BNB",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"pulseChain": {
 		"name": "pulseChain",
@@ -1421,7 +1438,9 @@
 			"name": "Pulse",
 			"symbol": "PLS",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"dogechain": {
 		"name": "dogechain",
@@ -1455,7 +1474,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"fuse": {
 		"name": "fuse",
@@ -1489,7 +1510,9 @@
 			"name": "Injective",
 			"symbol": "INJ",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"abstract": {
 		"name": "abstract",
@@ -1533,7 +1556,9 @@
 			"name": "Flare",
 			"symbol": "FLR",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"apeChain": {
 		"name": "apeChain",
@@ -1551,7 +1576,8 @@
 			"symbol": "APE",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"ioTex": {
 		"name": "ioTex",
@@ -1589,7 +1615,9 @@
 			"name": "XinFin",
 			"symbol": "XDC",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"filecoin": {
 		"name": "filecoin",
@@ -1653,7 +1681,9 @@
 			"name": "Canto",
 			"symbol": "CANTO",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"evmos": {
 		"name": "evmos",
@@ -1670,7 +1700,9 @@
 			"name": "Evmos",
 			"symbol": "EVMOS",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"flow": {
 		"name": "flow",
@@ -1706,7 +1738,9 @@
 			"name": "CFX",
 			"symbol": "CFX",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"etherlink": {
 		"name": "etherlink",
@@ -1723,7 +1757,9 @@
 			"name": "tez",
 			"symbol": "XTZ",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"morph": {
 		"name": "morph",
@@ -1785,7 +1821,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"story": {
 		"name": "story",
@@ -1802,7 +1840,9 @@
 			"name": "IP Token",
 			"symbol": "IP",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"gravityChain": {
 		"name": "gravityChain",
@@ -1827,7 +1867,9 @@
 			"name": "Gravity",
 			"symbol": "G",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"nibiru": {
 		"name": "nibiru",
@@ -1839,7 +1881,9 @@
 			"name": "NIBI",
 			"symbol": "NIBI",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"iotaevm": {
 		"name": "iotaevm",
@@ -1856,7 +1900,9 @@
 			"name": "IOTA",
 			"symbol": "IOTA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"bitgert": {
 		"name": "bitgert",
@@ -1911,7 +1957,9 @@
 			"name": "Tara",
 			"symbol": "TARA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"acala": {
 		"name": "acala",
@@ -1928,7 +1976,9 @@
 			"name": "Acala Token",
 			"symbol": "ACA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"bevm": {
 		"name": "bevm",
@@ -1957,7 +2007,9 @@
 			"name": "DEGEN",
 			"symbol": "DEGEN",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"educhain": {
 		"name": "educhain",
@@ -1975,7 +2027,9 @@
 			"name": "EDU",
 			"symbol": "EDU",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"eosevm": {
 		"name": "eosevm",
@@ -2032,7 +2086,9 @@
 			"name": "FTN",
 			"symbol": "FTN",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"ham": {
 		"name": "ham",
@@ -2066,7 +2122,9 @@
 			"name": "BTC",
 			"symbol": "BTC",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"coti": {
 		"name": "coti",
@@ -2100,7 +2158,9 @@
 			"name": "Zencash",
 			"symbol": "ZEN",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"inevm": {
 		"name": "inevm",
@@ -2112,7 +2172,9 @@
 			"name": "Injective",
 			"symbol": "INJ",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"clv": {
 		"name": "clv",
@@ -2141,7 +2203,9 @@
 			"name": "Bitcoin",
 			"symbol": "BTC",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"sophon": {
 		"name": "sophon",
@@ -2158,7 +2222,9 @@
 			"name": "Sophon",
 			"symbol": "SOPH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"crossfi": {
 		"name": "crossfi",
@@ -2175,7 +2241,9 @@
 			"name": "CrossFi Token",
 			"symbol": "XFI",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"bifrostnetwork": {
 		"name": "bifrostnetwork",
@@ -2199,7 +2267,9 @@
 			"name": "swth",
 			"symbol": "SWTH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"csc": {
 		"name": "csc",
@@ -2228,7 +2298,9 @@
 			"name": "TON",
 			"symbol": "TON",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"findora": {
 		"name": "findora",
@@ -2279,7 +2351,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"rari": {
 		"name": "name",
@@ -2313,7 +2387,9 @@
 			"name": "DMT",
 			"symbol": "DMT",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"godwoken": {
 		"name": "godwoken",
