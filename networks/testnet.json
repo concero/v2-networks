@@ -316,26 +316,25 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 3
 	},
-	"celoAlfajores": {
-		"name": "celoAlfajores",
-		"chainId": 44787,
-		"chainSelector": 44787,
+	"celoSepolia": {
+		"name": "celoSepolia",
+		"chainId": 11142220,
+		"chainSelector": 11142220,
 		"rpcUrls": [],
 		"blockExplorers": [
 			{
-				"name": "Celoscan",
-				"url": "https://alfajores.celoscan.io",
-				"apiUrl": "https://api-alfajores.celoscan.io/api"
+				"name": "Celo Sepolia Explorer",
+				"url": "https://celo-sepolia.blockscout.com"
 			}
 		],
-		"faucets": ["https://faucet.celo.org/alfajores"],
+		"faucets": ["https://faucet.celo.org"],
 		"nativeCurrency": {
-			"decimals": 18,
 			"name": "CELO",
-			"symbol": "A-CELO"
+			"symbol": "CELO",
+			"decimals": 18
 		},
 		"finalityTagEnabled": true,
-		"minBlockConfirmations": 1
+		"minBlockConfirmations": 5
 	},
 	"coreTestnet": {
 		"name": "coreTestnet",
