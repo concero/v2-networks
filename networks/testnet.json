@@ -796,8 +796,7 @@
 			"name": "ETH",
 			"symbol": "ETH",
 			"decimals": 18
-		},
-		"finalityConfirmations": 0
+		}
 	},
 	"oasissapphireTestnet": {
 		"name": "oasissapphireTestnet",
@@ -1966,7 +1965,9 @@
 			"name": "IOTA",
 			"symbol": "IOTA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"taraxaTestnet": {
 		"name": "taraxaTestnet",
@@ -2144,7 +2145,9 @@
 			"name": "swth",
 			"symbol": "SWTH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"duckchainTestnet": {
 		"name": "duckchainTestnet",
@@ -2581,7 +2584,8 @@
 			"symbol": "APE",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 5
 	},
 	"oralChainTestnet": {
 		"name": "oralChainTestnet",
@@ -2686,5 +2690,20 @@
 			"symbol": "tZEN",
 			"decimals": 18
 		}
+	},
+	"hecoTestnet": {
+		"name": "hecoTestnet",
+		"chainId": 256,
+		"chainSelector": 256,
+		"rpcUrls": [],
+		"faucets": ["https://scan-testnet.hecochain.com/faucet"],
+		"blockExplorers": [],
+		"nativeCurrency": {
+			"name": "Huobi ECO Chain Test Native Token",
+			"symbol": "htt",
+			"decimals": 18
+		},
+		"finalityConfirmations": 50,
+		"minBlockConfirmations": 3
 	}
 }

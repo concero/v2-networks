@@ -1322,7 +1322,9 @@
 			"name": "Ether",
 			"symbol": "ETH",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"moonbeam": {
 		"name": "moonbeam",
@@ -1844,8 +1846,8 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
 	},
-	"gravityChain": {
-		"name": "gravityChain",
+	"gravity": {
+		"name": "gravity",
 		"chainId": 1625,
 		"chainSelector": 1625,
 		"rpcUrls": [],
@@ -2188,8 +2190,8 @@
 			"decimals": 18
 		}
 	},
-	"mezonetwork": {
-		"name": "mezonetwork",
+	"mezo": {
+		"name": "mezo",
 		"chainId": 31612,
 		"chainSelector": 31612,
 		"rpcUrls": [],
@@ -2245,8 +2247,8 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 1
 	},
-	"bifrostnetwork": {
-		"name": "bifrostnetwork",
+	"bifrost": {
+		"name": "bifrost",
 		"chainId": 996,
 		"chainSelector": 996,
 		"rpcUrls": [],
@@ -2319,8 +2321,8 @@
 			"decimals": 18
 		}
 	},
-	"formnetwork": {
-		"name": "formnetwork",
+	"form": {
+		"name": "form",
 		"chainId": 478,
 		"chainSelector": 478,
 		"rpcUrls": [],
@@ -2405,6 +2407,99 @@
 		"nativeCurrency": {
 			"name": "pCKB",
 			"symbol": "pCKB",
+			"decimals": 18
+		}
+	},
+	"bouncebit": {
+		"name": "bouncebit",
+		"chainId": 6001,
+		"chainSelector": 6001,
+		"rpcUrls": [],
+		"faucets": [],
+		"blockExplorers": [
+			{
+				"name": "BBScan Mainnet Explorer",
+				"url": "https://bbscan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "BounceBit",
+			"symbol": "BB",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"tac": {
+		"name": "tac",
+		"chainId": 239,
+		"chainSelector": 239,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "TAC Explorer",
+				"url": "https://explorer.tac.build",
+				"standard": "EIP3091"
+			},
+			{
+				"name": "Blockscout",
+				"url": "https://tac.blockscout.com",
+				"standard": "EIP3091"
+			}
+		],
+		"nativeCurrency": {
+			"name": "TAC",
+			"symbol": "TAC",
+			"decimals": 18
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
+	},
+	"ethereumClassic": {
+		"name": "ethereumClassic",
+		"chainId": 61,
+		"chainSelector": 61,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "blockscout-ethereum-classic",
+				"url": "https://etc.blockscout.com",
+				"standard": "EIP3091"
+			},
+			{
+				"name": "etcnetworkinfo-blockscout-ethereum-classic",
+				"url": "https://explorer-blockscout.etc-network.info",
+				"standard": "none"
+			},
+			{
+				"name": "etcnetworkinfo-alethio-ethereum-classic",
+				"url": "https://explorer-alethio.etc-network.info",
+				"standard": "none"
+			},
+			{
+				"name": "etcnetworkinfo-expedition-ethereum-classic",
+				"url": "https://explorer-expedition.etc-network.info",
+				"standard": "none"
+			},
+			{
+				"name": "hebeblock-ethereum-classic",
+				"url": "https://etcerscan.com",
+				"standard": "EIP3091"
+			},
+			{
+				"name": "oklink-ethereum-classic",
+				"url": "https://www.oklink.com/etc",
+				"standard": "EIP3091"
+			},
+			{
+				"name": "tokenview-ethereum-classic",
+				"url": "https://etc.tokenview.io",
+				"standard": "EIP3091"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETC",
 			"decimals": 18
 		}
 	}
