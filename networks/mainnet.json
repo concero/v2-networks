@@ -1184,8 +1184,8 @@
 			"decimals": 18
 		}
 	},
-	"oralChain": {
-		"name": "oralChain",
+	"orai": {
+		"name": "orai",
 		"chainId": 108160679,
 		"chainSelector": 1081606,
 		"rpcUrls": [],
@@ -1193,9 +1193,7 @@
 			"name": "Oraichain Token",
 			"symbol": "ORAI",
 			"decimals": 18
-		},
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 1
+		}
 	},
 	"megaeth": {
 		"name": "megaeth",

@@ -2586,8 +2586,8 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 5
 	},
-	"oralChainTestnet": {
-		"name": "oralChainTestnet",
+	"oraiTestnet": {
+		"name": "oraiTestnet",
 		"chainId": 4143398064,
 		"chainSelector": 4143398,
 		"rpcUrls": [],
