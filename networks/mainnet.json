@@ -1537,7 +1537,7 @@
 			"decimals": 18
 		},
 		"finalityTagEnabled": true,
-		"minBlockConfirmations": 1
+		"minBlockConfirmations": 5
 	},
 	"flareNetwork": {
 		"name": "flareNetwork",
