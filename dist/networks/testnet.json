@@ -1689,8 +1689,8 @@
         "finalityTagEnabled": true,
         "minBlockConfirmations": 1
     },
-    "hyperliquidTestnet": {
-        "name": "hyperliquidTestnet",
+    "hyperevmTestnet": {
+        "name": "hyperevmTestnet",
         "chainId": 998,
         "chainSelector": 998,
         "rpcUrls": [],
@@ -3349,6 +3349,99 @@
         "nativeCurrency": {
             "name": "pCKB",
             "symbol": "pCKB",
+            "decimals": 18
+        }
+    },
+    "immutablexTestnet": {
+        "chainName": "immutablexTestnet",
+        "chainId": 13473,
+        "chainSelector": 13473,
+        "rpcUrls": [],
+        "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+        "blockExplorers": [
+            {
+                "name": "Immutable Testnet explorer",
+                "url": "https://explorer.testnet.immutable.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Test IMX",
+            "symbol": "tIMX",
+            "decimals": 18
+        }
+    },
+    "superpositionTestnet": {
+        "name": "superpositionTestnet",
+        "chainId": 98985,
+        "chainSelector": 98985,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Superposition Explorer",
+                "url": "https://testnet-explorer.superposition.so"
+            }
+        ],
+        "faucets": ["https://faucet.superposition.so"],
+        "nativeCurrency": {
+            "name": "SPN",
+            "symbol": "SPN",
+            "decimals": 18
+        }
+    },
+    "swellchainTestnet": {
+        "name": "swellchainTestnet",
+        "chainId": 1924,
+        "chainSelector": 1924,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Swellchain Testnet Explorer",
+                "url": "https://swell-testnet-explorer.alt.technology"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "vanaMokshaTestnet": {
+        "name": "vanaMokshaTestnet",
+        "chainId": 14800,
+        "chainSelector": 14800,
+        "rpcUrls": [],
+        "faucets": ["https://faucet.vana.org/"],
+        "blockExplorers": [
+            {
+                "name": "Vana Moksha Testnet",
+                "url": "https://vanascan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "VANA",
+            "symbol": "VANA",
+            "decimals": 18
+        }
+    },
+    "stableTestnet": {
+        "name": "stableTestnet",
+        "chainId": 2201,
+        "chainSelector": 2201,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Blockscout Explorer",
+                "url": "https://blockscout.testnet.stable.xyz"
+            },
+            {
+                "name": "Stablescan",
+                "url": "https://testnet.stablescan.xyz"
+            }
+        ],
+        "faucets": ["https://faucet.stable.xyz"],
+        "nativeCurrency": {
+            "name": "gUSDT",
+            "symbol": "gUSDT",
             "decimals": 18
         }
     }

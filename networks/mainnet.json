@@ -1225,15 +1225,15 @@
 			"decimals": 18
 		}
 	},
-	"hyperliquid": {
-		"name": "hyperliquid",
+	"hyperevm": {
+		"name": "hyperevm",
 		"chainId": 999,
 		"chainSelector": 999,
 		"rpcUrls": [],
 		"blockExplorers": [
 			{
-				"name": "hyperscan",
-				"url": "https://www.hyperscan.com/"
+				"name": "hyperevmscan",
+				"url": "https://hyperevmscan.io/"
 			}
 		],
 		"nativeCurrency": {
@@ -3411,6 +3411,91 @@
 		"nativeCurrency": {
 			"name": "TIA",
 			"symbol": "TIA",
+			"decimals": 18
+		}
+	},
+	"immutablex": {
+		"chainName": "immutablex",
+		"chainId": 13371,
+		"chainSelector": 13371,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Immutable explorer",
+				"url": "https://explorer.immutable.com/"
+			}
+		],
+		"nativeCurrency": {
+			"name": "IMX",
+			"symbol": "IMX",
+			"decimals": 18
+		}
+	},
+	"superposition": {
+		"name": "superposition",
+		"chainId": 55244,
+		"chainSelector": 55244,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Superposition Explorer",
+				"url": "https://explorer.superposition.so"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"swellchain": {
+		"name": "swellchain",
+		"chainId": 1923,
+		"chainSelector": 1923,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Swellchain Explorer",
+				"url": "https://explorer.swellnetwork.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Ether",
+			"symbol": "ETH",
+			"decimals": 18
+		}
+	},
+	"vana": {
+		"name": "vana",
+		"chainId": 1480,
+		"chainSelector": 1480,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Vana Block Explorer",
+				"url": "https://vanascan.io"
+			}
+		],
+		"nativeCurrency": {
+			"name": "Vana",
+			"symbol": "VANA",
+			"decimals": 18
+		}
+	},
+	"stable": {
+		"name": "stable",
+		"chainId": 988,
+		"chainSelector": 988,
+		"rpcUrls": [],
+		"blockExplorers": [
+			{
+				"name": "Vana Block Explorer",
+				"url": "https://stablescan.xyz/"
+			}
+		],
+		"nativeCurrency": {
+			"name": "gasUSDT",
+			"symbol": "GUSDT",
 			"decimals": 18
 		}
 	}
