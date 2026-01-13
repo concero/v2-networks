@@ -2193,23 +2193,6 @@
 			"decimals": 18
 		}
 	},
-	"alephzero": {
-		"name": "alephzero",
-		"chainId": 41455,
-		"chainSelector": 41455,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Aleph Zero EVM Mainnet Explorer",
-				"url": "https://evm-explorer.alephzero.org"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Aleph Zero",
-			"symbol": "AZERO",
-			"decimals": 18
-		}
-	},
 	"alienx": {
 		"name": "alienx",
 		"chainId": 10241024,
