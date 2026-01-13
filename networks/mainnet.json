@@ -181,25 +181,6 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 5
 	},
-	"heco": {
-		"name": "heco",
-		"chainId": 128,
-		"chainSelector": 128,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "hecoinfo",
-				"url": "https://hecoinfo.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Huobi ECO Chain Native Token",
-			"symbol": "HT",
-			"decimals": 18
-		},
-		"finalityConfirmations": 50,
-		"minBlockConfirmations": 3
-	},
 	"sonic": {
 		"name": "sonic",
 		"chainId": 146,
@@ -758,25 +739,6 @@
 		"nativeCurrency": {
 			"name": "Ether",
 			"symbol": "ETH",
-			"decimals": 18
-		},
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 3
-	},
-	"treasure": {
-		"name": "treasure",
-		"chainId": 61166,
-		"chainSelector": 61166,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Treasure Block Explorer",
-				"url": "https://treasurescan.io"
-			}
-		],
-		"nativeCurrency": {
-			"name": "MAGIC",
-			"symbol": "MAGIC",
 			"decimals": 18
 		},
 		"finalityTagEnabled": true,
@@ -1859,9 +1821,7 @@
 				"url": "https://educhain.blockscout.com"
 			}
 		],
-		"faucets": [
-			"https://bridge.gelato.network/bridge/edu-chain"
-		],
+		"faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
 		"nativeCurrency": {
 			"name": "EDU",
 			"symbol": "EDU",
@@ -1967,18 +1927,6 @@
 		"nativeCurrency": {
 			"name": "Injective",
 			"symbol": "INJ",
-			"decimals": 18
-		}
-	},
-	"clv": {
-		"name": "clv",
-		"chainId": 1024,
-		"chainSelector": 1024,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "CLV",
-			"symbol": "CLV",
 			"decimals": 18
 		}
 	},
@@ -2105,23 +2053,6 @@
 			"decimals": 18
 		}
 	},
-	"form": {
-		"name": "form",
-		"chainId": 478,
-		"chainSelector": 478,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Form Explorer",
-				"url": "https://explorer.form.network"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
 	"mint": {
 		"name": "mint",
 		"chainId": 185,
@@ -2135,23 +2066,6 @@
 		],
 		"nativeCurrency": {
 			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
-	"rari": {
-		"name": "name",
-		"chainId": 1380012617,
-		"chainSelector": 1380012,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "rarichain-explorer",
-				"url": "https://mainnet.explorer.rarichain.org"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Ethereum",
 			"symbol": "ETH",
 			"decimals": 18
 		}
@@ -2170,23 +2084,6 @@
 		"nativeCurrency": {
 			"name": "DMT",
 			"symbol": "DMT",
-			"decimals": 18
-		}
-	},
-	"godwoken": {
-		"name": "godwoken",
-		"chainId": 71402,
-		"chainSelector": 71402,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "GWScan Block Explorer",
-				"url": "https://v1.gwscan.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "pCKB",
-			"symbol": "pCKB",
 			"decimals": 18
 		}
 	},
@@ -2279,23 +2176,6 @@
 			"decimals": 18
 		}
 	},
-	"5ire": {
-		"name": "5ire",
-		"chainId": 995,
-		"chainSelector": 995,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "5ireChain Explorer",
-				"url": "https://5irescan.io"
-			}
-		],
-		"nativeCurrency": {
-			"name": "5ire Token",
-			"symbol": "5ire",
-			"decimals": 18
-		}
-	},
 	"abChain": {
 		"name": "abChain",
 		"chainId": 36888,
@@ -2310,23 +2190,6 @@
 		"nativeCurrency": {
 			"name": "AB",
 			"symbol": "AB",
-			"decimals": 18
-		}
-	},
-	"airdao": {
-		"name": "airdao",
-		"chainId": 16718,
-		"chainSelector": 16718,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "AirDAO Network Explorer",
-				"url": "https://airdao.io/explorer"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Amber",
-			"symbol": "AMB",
 			"decimals": 18
 		}
 	},
@@ -2400,9 +2263,15 @@
 	},
 	"areon": {
 		"name": "areon",
-		"chainId": 462,
-		"chainSelector": 462,
-		"rpcUrls": [],
+		"chainId": 463,
+		"chainSelector": 463,
+		"rpcUrls": [
+			"https://mainnet-rpc.areon.network",
+			"https://mainnet-rpc2.areon.network",
+			"https://mainnet-rpc3.areon.network",
+			"https://mainnet-rpc4.areon.network",
+			"https://mainnet-rpc5.areon.network"
+		],
 		"blockExplorers": [
 			{
 				"name": "AreonScan",
@@ -2466,40 +2335,6 @@
 			"decimals": 18
 		}
 	},
-	"bitrock": {
-		"name": "bitrock",
-		"chainId": 7171,
-		"chainSelector": 7171,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Bitrock Explorer",
-				"url": "https://brockscan.io"
-			}
-		],
-		"nativeCurrency": {
-			"name": "BITROCK",
-			"symbol": "BROCK",
-			"decimals": 18
-		}
-	},
-	"bobaAvax": {
-		"name": "bobaAvax",
-		"chainId": 43288,
-		"chainSelector": 43288,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Boba Avax Explorer",
-				"url": "https://blockexplorer.avax.boba.network"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Boba Token",
-			"symbol": "BOBA",
-			"decimals": 18
-		}
-	},
 	"bobaBnb": {
 		"name": "bobaBnb",
 		"chainId": 56288,
@@ -2528,24 +2363,10 @@
 				"url": "https://explorer.callistodao.org"
 			}
 		],
-		"faucets": [
-			"https://faucet.callistodao.org"
-		],
+		"faucets": ["https://faucet.callistodao.org"],
 		"nativeCurrency": {
 			"name": "Callisto",
 			"symbol": "CLO",
-			"decimals": 18
-		}
-	},
-	"cheeseChain": {
-		"name": "cheeseChain",
-		"chainId": 383353,
-		"chainSelector": 383353,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "CHEESE",
-			"symbol": "CHEESE",
 			"decimals": 18
 		}
 	},
@@ -2574,23 +2395,6 @@
 			"decimals": 18
 		}
 	},
-	"cmp": {
-		"name": "cmp",
-		"chainId": 256256,
-		"chainSelector": 256256,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Mainnet Scan",
-				"url": "https://mainnet.scan.caduceus.foundation"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Caduceus Token",
-			"symbol": "CMP",
-			"decimals": 18
-		}
-	},
 	"crab": {
 		"name": "crab",
 		"chainId": 44,
@@ -2605,23 +2409,6 @@
 		"nativeCurrency": {
 			"name": "Crab Network Native Token",
 			"symbol": "CRAB",
-			"decimals": 18
-		}
-	},
-	"cube": {
-		"name": "cube",
-		"chainId": 1818,
-		"chainSelector": 1818,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "cube-scan",
-				"url": "https://cubescan.network"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Cube Chain Native Token",
-			"symbol": "CUBE",
 			"decimals": 18
 		}
 	},
@@ -2688,26 +2475,6 @@
 			"decimals": 18
 		}
 	},
-	"dexit": {
-		"name": "dexit",
-		"chainId": 877,
-		"chainSelector": 877,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "dxtscan",
-				"url": "https://dxtscan.com"
-			}
-		],
-		"faucets": [
-			"https://faucet.dexit.network"
-		],
-		"nativeCurrency": {
-			"name": "Dexit network",
-			"symbol": "DXT",
-			"decimals": 18
-		}
-	},
 	"dfk": {
 		"name": "dfk",
 		"chainId": 53935,
@@ -2722,18 +2489,6 @@
 		"nativeCurrency": {
 			"name": "Jewel",
 			"symbol": "JEWEL",
-			"decimals": 18
-		}
-	},
-	"duckChain": {
-		"name": "duckChain",
-		"chainId": 5545,
-		"chainSelector": 5545,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "TON",
-			"symbol": "TON",
 			"decimals": 18
 		}
 	},
@@ -2768,23 +2523,6 @@
 		"nativeCurrency": {
 			"name": "Electroneum",
 			"symbol": "ETN",
-			"decimals": 18
-		}
-	},
-	"empire": {
-		"name": "empire",
-		"chainId": 3693,
-		"chainSelector": 3693,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Empire Explorer",
-				"url": "https://explorer.empirenetwork.io"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Empire",
-			"symbol": "EMPIRE",
 			"decimals": 18
 		}
 	},
@@ -2902,23 +2640,6 @@
 			"decimals": 18
 		}
 	},
-	"fusion": {
-		"name": "fusion",
-		"chainId": 32659,
-		"chainSelector": 32659,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "fsnscan",
-				"url": "https://fsnscan.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Fusion",
-			"symbol": "FSN",
-			"decimals": 18
-		}
-	},
 	"genesys": {
 		"name": "genesys",
 		"chainId": 16507,
@@ -2998,9 +2719,7 @@
 				"url": "https://hscan.org"
 			}
 		],
-		"faucets": [
-			"https://myhpbwallet.com/"
-		],
+		"faucets": ["https://myhpbwallet.com/"],
 		"nativeCurrency": {
 			"name": "High Performance Blockchain Ether",
 			"symbol": "HPB",
@@ -3096,40 +2815,6 @@
 			"decimals": 18
 		}
 	},
-	"g7": {
-		"name": "g7",
-		"chainId": 2187,
-		"chainSelector": 2187,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Blockscout",
-				"url": "https://mainnet.game7.io"
-			}
-		],
-		"nativeCurrency": {
-			"name": "G7",
-			"symbol": "G7",
-			"decimals": 18
-		}
-	},
-	"hychain": {
-		"name": "hychain",
-		"chainId": 2911,
-		"chainSelector": 2911,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "blockscout",
-				"url": "https://explorer.hychain.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "TOPIA",
-			"symbol": "TOPIA",
-			"decimals": 18
-		}
-	},
 	"sketchpad": {
 		"name": "sketchpad",
 		"chainId": 984123,
@@ -3152,7 +2837,9 @@
 		"chainId": 13371,
 		"chainSelector": 13371,
 		"rpcUrls": [
-			"https://rpc.immutable.com"
+			"https://rpc.immutable.com",
+			"https://immutable-zkevm.drpc.org",
+			"https://immutable.gateway.tenderly.co"
 		],
 		"blockExplorers": [
 			{
