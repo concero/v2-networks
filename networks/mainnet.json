@@ -1197,19 +1197,6 @@
 			"decimals": 18
 		}
 	},
-	"megaeth": {
-		"name": "megaeth",
-		"chainId": 4326,
-		"chainSelector": 4326,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		},
-		"finalityConfirmations": 4096
-	},
 	"enuls": {
 		"name": "enuls",
 		"chainId": 119,
@@ -1925,23 +1912,6 @@
 			"decimals": 18
 		}
 	},
-	"real": {
-		"name": "real",
-		"chainId": 111188,
-		"chainSelector": 111188,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "blockscout",
-				"url": "https://explorer.re.al"
-			}
-		],
-		"nativeCurrency": {
-			"name": "re.al Ether",
-			"symbol": "reETH",
-			"decimals": 18
-		}
-	},
 	"taraxa": {
 		"name": "taraxa",
 		"chainId": 841,
@@ -2035,23 +2005,6 @@
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 5
 	},
-	"eosevm": {
-		"name": "eosevm",
-		"chainId": 17777,
-		"chainSelector": 17777,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "EOS EVM Explorer",
-				"url": "https://explorer.evm.eosnetwork.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "EOS",
-			"symbol": "EOS",
-			"decimals": 18
-		}
-	},
 	"xrplevm": {
 		"name": "xrplevm",
 		"chainId": 1440000,
@@ -2093,23 +2046,6 @@
 		},
 		"finalityTagEnabled": true,
 		"minBlockConfirmations": 3
-	},
-	"ham": {
-		"name": "ham",
-		"chainId": 5112,
-		"chainSelector": 5112,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "blockscout",
-				"url": "https://explorer.ham.fun"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
 	},
 	"ailayer": {
 		"name": "ailayer",
@@ -2815,23 +2751,6 @@
 			"decimals": 18
 		}
 	},
-	"conwai": {
-		"name": "conwai",
-		"chainId": 668668,
-		"chainSelector": 668668,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "conwaiscan",
-				"url": "https://conwai.calderaexplorer.xyz"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Conwai",
-			"symbol": "CNW",
-			"decimals": 18
-		}
-	},
 	"crab": {
 		"name": "crab",
 		"chainId": 44,
@@ -3124,23 +3043,6 @@
 			"decimals": 18
 		}
 	},
-	"formnetwork": {
-		"name": "formnetwork",
-		"chainId": 478,
-		"chainSelector": 478,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Form Explorer",
-				"url": "https://explorer.form.network"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
 	"forma": {
 		"name": "forma",
 		"chainId": 984122,
@@ -3240,23 +3142,6 @@
 		"nativeCurrency": {
 			"name": "Hela HLUSD",
 			"symbol": "HLUSD",
-			"decimals": 18
-		}
-	},
-	"hoo": {
-		"name": "hoo",
-		"chainId": 70,
-		"chainSelector": 70,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "hooscan",
-				"url": "https://www.hooscan.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "Hoo Smart Chain Native Token",
-			"symbol": "HOO",
 			"decimals": 18
 		}
 	},

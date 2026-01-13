@@ -551,9 +551,7 @@
 			"name": "mIRYS",
 			"symbol": "mIRYS",
 			"decimals": 18
-		},
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 3
+		}
 	},
 	"kaiaKairos": {
 		"name": "kaiaKairos",
@@ -713,9 +711,7 @@
 			"name": "ETH",
 			"symbol": "ETH",
 			"decimals": 18
-		},
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 5
+		}
 	},
 	"metisSepolia": {
 		"name": "metisSepolia",
@@ -1237,9 +1233,7 @@
 			"name": "PHRS",
 			"symbol": "PHRS",
 			"decimals": 18
-		},
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 1
+		}
 	},
 	"zenchainTestnet": {
 		"name": "zenchainTestnet",
@@ -1632,24 +1626,6 @@
 			"decimals": 18
 		}
 	},
-	"dodochainTestnet": {
-		"name": "dodochainTestnet",
-		"chainId": 53457,
-		"chainSelector": 53457,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "DODOchain Testnet (Sepolia) Explorer",
-				"url": "https://testnet-scan.dodochain.com"
-			}
-		],
-		"faucets": [],
-		"nativeCurrency": {
-			"name": "DODO",
-			"symbol": "DODO",
-			"decimals": 18
-		}
-	},
 	"moonbeamTestnet": {
 		"name": "moonbeamTestnet",
 		"chainId": 1287,
@@ -1685,9 +1661,7 @@
 				"name": "Helios Chain Explorer",
 				"url": "https://explorer.helioschainlabs.org"
 			}
-		],
-		"finalityTagEnabled": true,
-		"minBlockConfirmations": 1
+		]
 	},
 	"hyperevmTestnet": {
 		"name": "hyperevmTestnet",
@@ -2186,24 +2160,6 @@
 			"decimals": 18
 		}
 	},
-	"formTestnet": {
-		"name": "formTestnet",
-		"chainId": 132902,
-		"chainSelector": 132902,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "Form Testnet explorer",
-				"url": "https://sepolia-explorer.form.network"
-			}
-		],
-		"faucets": ["https://info.form.network/faucet"],
-		"nativeCurrency": {
-			"name": "Ether",
-			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
 	"mintSepolia": {
 		"name": "mintSepolia",
 		"chainId": 1687,
@@ -2447,23 +2403,6 @@
 			"decimals": 18
 		}
 	},
-	"eosevmTestnet": {
-		"name": "eosevmTestnet",
-		"chainId": 15557,
-		"chainSelector": 15557,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "EOS EVM Explorer",
-				"url": "https://explorer.testnet.evm.eosnetwork.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "EOS",
-			"symbol": "EOS",
-			"decimals": 18
-		}
-	},
 	"acalaTestnet": {
 		"name": "acalaTestnet",
 		"chainId": 595,
@@ -2614,23 +2553,6 @@
 		"nativeCurrency": {
 			"name": "BitTorrent",
 			"symbol": "BTT",
-			"decimals": 18
-		}
-	},
-	"realTestnet": {
-		"name": "realTestnet",
-		"chainId": 18233,
-		"chainSelector": 18233,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "blockscout",
-				"url": "https://unreal.blockscout.com"
-			}
-		],
-		"nativeCurrency": {
-			"name": "unreal Ether",
-			"symbol": "reETH",
 			"decimals": 18
 		}
 	},
@@ -3197,19 +3119,6 @@
 		"nativeCurrency": {
 			"name": "Islamic Coin",
 			"symbol": "ISLMT",
-			"decimals": 18
-		}
-	},
-	"hooTestnet": {
-		"name": "hooTestnet",
-		"chainId": 170,
-		"chainSelector": 170,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"faucets": ["https://faucet-testnet.hscscan.com/"],
-		"nativeCurrency": {
-			"name": "HOO",
-			"symbol": "HOO",
 			"decimals": 18
 		}
 	},
