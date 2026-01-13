@@ -422,7 +422,7 @@
 			"symbol": "METIS",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityConfirmations": 10
 	},
 	"polygonZkevm": {
 		"name": "polygonZkevm",
@@ -829,7 +829,7 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityConfirmations": 50
 	},
 	"bitlayer": {
 		"name": "bitlayer",
@@ -866,7 +866,7 @@
 			"symbol": "ETH",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true
+		"finalityConfirmations": 10
 	},
 	"katana": {
 		"name": "katana",
@@ -906,7 +906,7 @@
 			"symbol": "BTCN",
 			"decimals": 18
 		},
-		"finalityTagEnabled": true,
+		"finalityConfirmations": 50,
 		"minBlockConfirmations": 3
 	},
 	"harmony": {
@@ -2806,7 +2806,7 @@
 			"symbol": "IMX",
 			"decimals": 18
 		},
-		"finalityConfirmation": 500,
+		"finalityConfirmations": 500,
 		"minBlockConfirmations": 3
 	},
 	"superposition": {
