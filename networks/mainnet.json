@@ -2024,18 +2024,6 @@
 			"decimals": 18
 		}
 	},
-	"duckchain": {
-		"name": "duckchain",
-		"chainId": 5545,
-		"chainSelector": 5545,
-		"rpcUrls": [],
-		"blockExplorers": [],
-		"nativeCurrency": {
-			"name": "TON",
-			"symbol": "TON",
-			"decimals": 18
-		}
-	},
 	"findora": {
 		"name": "findora",
 		"chainId": 2152,
@@ -2795,23 +2783,6 @@
 		"nativeCurrency": {
 			"name": "Ether",
 			"symbol": "ETH",
-			"decimals": 18
-		}
-	},
-	"sketchpad": {
-		"name": "sketchpad",
-		"chainId": 984123,
-		"chainSelector": 984123,
-		"rpcUrls": [],
-		"blockExplorers": [
-			{
-				"name": "blockscout",
-				"url": "https://explorer.sketchpad-1.forma.art"
-			}
-		],
-		"nativeCurrency": {
-			"name": "TIA",
-			"symbol": "TIA",
 			"decimals": 18
 		}
 	},
