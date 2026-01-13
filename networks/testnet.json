@@ -816,8 +816,8 @@
 		},
 		"finalityConfirmations": 0
 	},
-	"opbnbTestnet": {
-		"name": "opbnbTestnet",
+	"opBnbTestnet": {
+		"name": "opBnbTestnet",
 		"chainId": 5611,
 		"chainSelector": 5611,
 		"rpcUrls": [],
@@ -2285,7 +2285,9 @@
 			"name": "Spark",
 			"symbol": "SPARK",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 200,
+		"minBlockConfirmations": 1
 	},
 	"flareNetworkTestnet": {
 		"name": "flareNetworkTestnet",
@@ -3352,11 +3354,11 @@
 			"decimals": 18
 		}
 	},
-	"immutablexTestnet": {
-		"chainName": "immutablexTestnet",
+	"immutableTestnet": {
+		"chainName": "immutableTestnet",
 		"chainId": 13473,
 		"chainSelector": 13473,
-		"rpcUrls": [],
+		"rpcUrls": ["https://rpc.testnet.immutable.com"],
 		"faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
 		"blockExplorers": [
 			{
@@ -3368,7 +3370,9 @@
 			"name": "Test IMX",
 			"symbol": "tIMX",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmation": 500,
+		"minBlockConfirmations": 3
 	},
 	"superpositionTestnet": {
 		"name": "superpositionTestnet",
@@ -3386,7 +3390,9 @@
 			"name": "SPN",
 			"symbol": "SPN",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	},
 	"swellchainTestnet": {
 		"name": "swellchainTestnet",
@@ -3421,7 +3427,9 @@
 			"name": "VANA",
 			"symbol": "VANA",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 3
 	},
 	"stableTestnet": {
 		"name": "stableTestnet",
@@ -3443,6 +3451,8 @@
 			"name": "gUSDT",
 			"symbol": "gUSDT",
 			"decimals": 18
-		}
+		},
+		"finalityTagEnabled": true,
+		"minBlockConfirmations": 1
 	}
 }

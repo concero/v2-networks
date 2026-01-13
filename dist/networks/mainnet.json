@@ -1495,7 +1495,9 @@
             "name": "Fuse",
             "symbol": "FUSE",
             "decimals": 18
-        }
+        },
+        "finalityConfirmations": 200,
+        "minBlockConfirmations": 1
     },
     "injective": {
         "name": "injective",
@@ -3416,11 +3418,11 @@
             "decimals": 18
         }
     },
-    "immutablex": {
-        "chainName": "immutablex",
+    "immutable": {
+        "chainName": "immutable",
         "chainId": 13371,
         "chainSelector": 13371,
-        "rpcUrls": [],
+        "rpcUrls": ["https://rpc.immutable.com"],
         "blockExplorers": [
             {
                 "name": "Immutable explorer",
@@ -3431,7 +3433,9 @@
             "name": "IMX",
             "symbol": "IMX",
             "decimals": 18
-        }
+        },
+        "finalityConfirmation": 500,
+        "minBlockConfirmations": 3
     },
     "superposition": {
         "name": "superposition",
@@ -3448,7 +3452,9 @@
             "name": "Ether",
             "symbol": "ETH",
             "decimals": 18
-        }
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
     },
     "swellchain": {
         "name": "swellchain",
@@ -3482,7 +3488,9 @@
             "name": "Vana",
             "symbol": "VANA",
             "decimals": 18
-        }
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
     },
     "stable": {
         "name": "stable",
@@ -3499,6 +3507,8 @@
             "name": "gasUSDT",
             "symbol": "GUSDT",
             "decimals": 18
-        }
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 1
     }
 }
