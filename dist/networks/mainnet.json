@@ -1372,8 +1372,8 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
-        "minBlockConfirmations": 5
+        "finalityConfirmations": 1200,
+        "minBlockConfirmations": 3
     },
     "flareNetwork": {
         "name": "flareNetwork",
@@ -1650,8 +1650,8 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
-        "minBlockConfirmations": 5
+        "finalityConfirmations": 510,
+        "minBlockConfirmations": 3
     },
     "story": {
         "name": "story",
@@ -1694,7 +1694,7 @@
             "symbol": "G",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
+        "finalityConfirmations": 1700,
         "minBlockConfirmations": 3
     },
     "nibiru": {
@@ -1963,8 +1963,8 @@
             "symbol": "SOPH",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
-        "minBlockConfirmations": 5
+        "finalityConfirmations": 80,
+        "minBlockConfirmations": 3
     },
     "crossfi": {
         "name": "crossfi",

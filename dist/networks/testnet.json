@@ -16,7 +16,7 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true
+        "finalityConfirmations": 1200
     },
     "apechainCurtis": {
         "name": "apechainCurtis",
@@ -712,7 +712,7 @@
             "symbol": "tMETIS",
             "decimals": 18
         },
-        "finalityTagEnabled": true
+        "finalityConfirmations": 10
     },
     "modeTestnet": {
         "name": "modeTestnet",
@@ -910,7 +910,7 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true
+        "finalityConfirmations": 10
     },
     "seiTestnet": {
         "name": "seiTestnet",
@@ -1025,7 +1025,7 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true
+        "finalityConfirmations": 50
     },
     "unichainSepolia": {
         "name": "unichainSepolia",
@@ -1402,7 +1402,7 @@
             "symbol": "BTCN",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
+        "finalityConfirmations": 50,
         "minBlockConfirmations": 3
     },
     "harmonyTestnet": {
@@ -1732,8 +1732,8 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
-        "minBlockConfirmations": 5
+        "finalityConfirmations": 510,
+        "minBlockConfirmations": 3
     },
     "iotaevmTestnet": {
         "name": "iotaevmtestnet",
@@ -1821,8 +1821,8 @@
             "symbol": "SOPH",
             "decimals": 18
         },
-        "finalityTagEnabled": true,
-        "minBlockConfirmations": 5
+        "finalityConfirmations": 80,
+        "minBlockConfirmations": 3
     },
     "crossfiTestnet": {
         "name": "crossfiTestnet",
@@ -2443,7 +2443,7 @@
             "symbol": "tIMX",
             "decimals": 18
         },
-        "finalityConfirmation": 500,
+        "finalityConfirmations": 500,
         "minBlockConfirmations": 3
     },
     "superpositionTestnet": {
