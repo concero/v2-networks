@@ -2787,7 +2787,7 @@
         }
     },
     "immutable": {
-        "chainName": "immutable",
+        "name": "immutable",
         "chainId": 13371,
         "chainSelector": 13371,
         "rpcUrls": [

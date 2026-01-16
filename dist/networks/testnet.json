@@ -2424,7 +2424,7 @@
         }
     },
     "immutableTestnet": {
-        "chainName": "immutableTestnet",
+        "name": "immutableTestnet",
         "chainId": 13473,
         "chainSelector": 13473,
         "rpcUrls": [
