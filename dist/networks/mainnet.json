@@ -16,7 +16,8 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityConfirmations": 4080
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
     },
     "ethereum": {
         "name": "ethereum",
@@ -35,7 +36,8 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityConfirmations": 75
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
     },
     "polygon": {
         "name": "polygon",
@@ -54,7 +56,8 @@
             "symbol": "POL",
             "decimals": 18
         },
-        "finalityConfirmations": 128
+        "finalityConfirmations": 500,
+        "minBlockConfirmations": 5
     },
     "optimism": {
         "name": "optimism",
@@ -73,7 +76,7 @@
             "symbol": "ETH",
             "decimals": 18
         },
-        "finalityConfirmations": 50
+        "finalityTagEnabled": true
     },
     "avalanche": {
         "name": "avalanche",
@@ -92,7 +95,7 @@
             "symbol": "AVAX",
             "decimals": 18
         },
-        "finalityConfirmations": 1
+        "finalityTagEnabled": true
     },
     "base": {
         "name": "base",
@@ -111,6 +114,2772 @@
             "symbol": "ETH",
             "decimals": 18
         },
+        "finalityTagEnabled": true
+    },
+    "bsc": {
+        "name": "bsc",
+        "chainId": 56,
+        "chainSelector": 56,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "bscscan",
+                "url": "https://bscscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BNB Chain Native Token",
+            "symbol": "BNB",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "gnosis": {
+        "name": "gnosis",
+        "chainId": 100,
+        "chainSelector": 100,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "gnosisscan",
+                "url": "https://gnosisscan.io"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://gnosis.blockscout.com"
+            },
+            {
+                "name": "dexguru",
+                "url": "https://gnosis.dex.guru"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "xDAI",
+            "symbol": "XDAI",
+            "decimals": 18
+        },
+        "finalityConfirmations": 50,
+        "minBlockConfirmations": 3
+    },
+    "shibarium": {
+        "name": "shibarium",
+        "chainId": 109,
+        "chainSelector": 109,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "shibariumscan",
+                "url": "https://www.shibariumscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BONE Shibarium",
+            "symbol": "BONE",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
+    },
+    "sonic": {
+        "name": "sonic",
+        "chainId": 146,
+        "chainSelector": 146,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "etherscan",
+                "url": "https://sonicscan.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Sonic",
+            "symbol": "S",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10,
+        "minBlockConfirmations": 5
+    },
+    "hashkey": {
+        "name": "hashkey",
+        "chainId": 177,
+        "chainSelector": 177,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://hashkey.blockscout.com"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://explorer.hsk.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "HashKey EcoPoints",
+            "symbol": "HSK",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "xlayer": {
+        "name": "xlayer",
+        "chainId": 196,
+        "chainSelector": 196,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "OKLink",
+                "url": "https://www.oklink.com/xlayer"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "X Layer Global Utility Token",
+            "symbol": "OKB",
+            "decimals": 18
+        },
+        "finalityConfirmations": 500
+    },
+    "bsquared": {
+        "name": "bsquared",
+        "chainId": 223,
+        "chainSelector": 223,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.bsquared.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "lens": {
+        "name": "lens",
+        "chainId": 232,
+        "chainSelector": 232,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Lens Block Explorer",
+                "url": "https://explorer.lens.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "GHO",
+            "symbol": "GHO",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "fraxtal": {
+        "name": "fraxtal",
+        "chainId": 252,
+        "chainSelector": 252,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "fraxscan",
+                "url": "https://fraxscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "kroma": {
+        "name": "kroma",
+        "chainId": 255,
+        "chainSelector": 255,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.kroma.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "hedera": {
+        "name": "hedera",
+        "chainId": 295,
+        "chainSelector": 295,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Arkhia Explorer",
+                "url": "https://explorer.arkhia.io"
+            },
+            {
+                "name": "DragonGlass",
+                "url": "https://app.dragonglass.me"
+            },
+            {
+                "name": "Hedera Explorer",
+                "url": "https://hederaexplorer.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "hbar",
+            "symbol": "HBAR",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10
+    },
+    "zksync": {
+        "name": "zksync",
+        "chainId": 324,
+        "chainSelector": 324,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "zkSync Era Block Explorer",
+                "url": "https://explorer.zksync.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10
+    },
+    "worldchain": {
+        "name": "worldchain",
+        "chainId": 480,
+        "chainSelector": 480,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "etherscan",
+                "url": "https://worldscan.org"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://worldchain-mainnet.explorer.alchemy.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "astar": {
+        "name": "astar",
+        "chainId": 592,
+        "chainSelector": 592,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "subscan",
+                "url": "https://astar.subscan.io"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.com/astar"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Astar",
+            "symbol": "ASTR",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "metis": {
+        "name": "metis",
+        "chainId": 1088,
+        "chainSelector": 1088,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://andromeda-explorer.metis.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Metis",
+            "symbol": "METIS",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10
+    },
+    "polygonZkevm": {
+        "name": "polygonZkevm",
+        "chainId": 1101,
+        "chainSelector": 1101,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://zkevm.polygonscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 500
+    },
+    "wemix": {
+        "name": "wemix",
+        "chainId": 1111,
+        "chainSelector": 1111,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "WEMIX Block Explorer",
+                "url": "https://explorer.wemix.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "WEMIX",
+            "symbol": "WEMIX",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "core": {
+        "name": "core",
+        "chainId": 1116,
+        "chainSelector": 1116,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Core Scan",
+                "url": "https://scan.coredao.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Core Blockchain Native Token",
+            "symbol": "CORE",
+            "decimals": 18
+        },
+        "finalityConfirmations": 27,
+        "minBlockConfirmations": 3
+    },
+    "soneium": {
+        "name": "soneium",
+        "chainId": 1868,
+        "chainSelector": 1868,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "SlamVision",
+                "url": "https://soneium.slam.vision"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "ronin": {
+        "name": "ronin",
+        "chainId": 2020,
+        "chainSelector": 2020,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Ronin Block Explorer",
+                "url": "https://app.roninchain.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "RON",
+            "symbol": "RON",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "botanix": {
+        "name": "botanix",
+        "chainId": 3637,
+        "chainSelector": 3637,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Botanix Explorer",
+                "url": "https://botanixscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Botanix",
+            "symbol": "BTC",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "merlin": {
+        "name": "merlin",
+        "chainId": 4200,
+        "chainSelector": 4200,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "L2scan",
+                "url": "https://scan.merlinchain.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BTC",
+            "symbol": "BTC",
+            "decimals": 18
+        },
+        "finalityConfirmations": 1000
+    },
+    "mantle": {
+        "name": "mantle",
+        "chainId": 5000,
+        "chainSelector": 5000,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "mantlescan",
+                "url": "https://mantlescan.xyz"
+            },
+            {
+                "name": "Mantle Explorer",
+                "url": "https://explorer.mantle.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Mantle",
+            "symbol": "MNT",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "kaia": {
+        "name": "kaia",
+        "chainId": 8217,
+        "chainSelector": 8217,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Kaiascope",
+                "url": "https://kaiascope.com"
+            },
+            {
+                "name": "Kaiascan",
+                "url": "https://kaiascan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "KAIA",
+            "symbol": "KAIA",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10
+    },
+    "mode": {
+        "name": "mode",
+        "chainId": 34443,
+        "chainSelector": 34443,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "modescout",
+                "url": "https://explorer.mode.network"
+            },
+            {
+                "name": "Routescan",
+                "url": "https://modescan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "celo": {
+        "name": "celo",
+        "chainId": 42220,
+        "chainSelector": 42220,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Celoscan",
+                "url": "https://celoscan.io"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://celo.blockscout.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "CELO",
+            "symbol": "CELO",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "hemi": {
+        "name": "hemi",
+        "chainId": 43111,
+        "chainSelector": 43111,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.hemi.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "zircuit": {
+        "name": "zircuit",
+        "chainId": 48900,
+        "chainSelector": 48900,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Zircuit",
+                "url": "https://explorer.zircuit.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "ink": {
+        "name": "ink",
+        "chainId": 57073,
+        "chainSelector": 57073,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Ink Explorer",
+                "url": "https://explorer.inkonchain.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "linea": {
+        "name": "linea",
+        "chainId": 59144,
+        "chainSelector": 59144,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Etherscan",
+                "url": "https://lineascan.build"
+            },
+            {
+                "name": "Blockscout",
+                "url": "https://explorer.linea.build"
+            },
+            {
+                "name": "L2scan",
+                "url": "https://linea.l2scan.co"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Linea Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 300,
+        "minBlockConfirmations": 3
+    },
+    "bob": {
+        "name": "bob",
+        "chainId": 60808,
+        "chainSelector": 60808,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "bobscout",
+                "url": "https://explorer.gobob.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "berachain": {
+        "name": "berachain",
+        "chainId": 80094,
+        "chainSelector": 80094,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Berascan",
+                "url": "https://berascan.com"
+            },
+            {
+                "name": "Beratrail",
+                "url": "https://beratrail.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BERA Token",
+            "symbol": "BERA",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10,
+        "minBlockConfirmations": 3
+    },
+    "blast": {
+        "name": "blast",
+        "chainId": 81457,
+        "chainSelector": 81457,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Blastscan",
+                "url": "https://blastscan.io"
+            },
+            {
+                "name": "Blast Explorer",
+                "url": "https://blastexplorer.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "plume": {
+        "name": "plume",
+        "chainId": 98866,
+        "chainSelector": 98866,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Blockscout",
+                "url": "https://explorer.plume.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Plume",
+            "symbol": "PLUME",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "taiko": {
+        "name": "taiko",
+        "chainId": 167000,
+        "chainSelector": 167000,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "etherscan",
+                "url": "https://taikoscan.io"
+            },
+            {
+                "name": "Routescan",
+                "url": "https://taikoexplorer.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
         "finalityConfirmations": 50
+    },
+    "bitlayer": {
+        "name": "bitlayer",
+        "chainId": 200901,
+        "chainSelector": 200901,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "bitlayer mainnet scan",
+                "url": "https://www.btrscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BTC",
+            "symbol": "BTC",
+            "decimals": 18
+        },
+        "finalityConfirmations": 21,
+        "minBlockConfirmations": 3
+    },
+    "scroll": {
+        "name": "scroll",
+        "chainId": 534352,
+        "chainSelector": 534352,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Scrollscan",
+                "url": "https://scrollscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 10
+    },
+    "katana": {
+        "name": "katana",
+        "chainId": 747474,
+        "chainSelector": 747474,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "katana explorer",
+                "url": "https://explorer.katanarpc.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "corn": {
+        "name": "corn",
+        "chainId": 21000000,
+        "chainSelector": 2100000,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Corn Explorer",
+                "url": "https://cornscan.io"
+            },
+            {
+                "name": "Corn Blockscout",
+                "url": "https://maizenet-explorer.usecorn.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitcorn",
+            "symbol": "BTCN",
+            "decimals": 18
+        },
+        "finalityConfirmations": 50,
+        "minBlockConfirmations": 3
+    },
+    "harmony": {
+        "name": "harmony",
+        "chainId": 1666600000,
+        "chainSelector": 1666600,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Harmony Block Explorer",
+                "url": "https://explorer.harmony.one"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ONE",
+            "symbol": "ONE",
+            "decimals": 18
+        },
+        "finalityConfirmations": 50
+    },
+    "monad": {
+        "name": "monad",
+        "chainId": 143,
+        "chainSelector": 143,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Monadscan",
+                "url": "https://monadscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Monad",
+            "symbol": "MON",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "rootstock": {
+        "name": "rootstock",
+        "chainId": 30,
+        "chainSelector": 30,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Rootstock Explorer",
+                "url": "https://explorer.rsk.co"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://rootstock.blockscout.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Smart Bitcoin",
+            "symbol": "RBTC",
+            "decimals": 18
+        },
+        "finalityConfirmations": 120,
+        "minBlockConfirmations": 5
+    },
+    "orderly": {
+        "name": "orderly",
+        "chainId": 291,
+        "chainSelector": 291,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "orderlyscout",
+                "url": "https://explorer.orderly.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "somniaNetwork": {
+        "name": "somniaNetwork",
+        "chainId": 5031,
+        "chainSelector": 5031,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Somnia Mainnet",
+                "url": "https://mainnet.somnia.w3us.site"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Somnia Mainnet",
+            "symbol": "SOMI",
+            "decimals": 18
+        }
+    },
+    "oasisEmerald": {
+        "name": "oasisEmerald",
+        "chainId": 42262,
+        "chainSelector": 42262,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Oasis Emerald Explorer",
+                "url": "https://explorer.oasis.io/mainnet/emerald"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Emerald Rose",
+            "symbol": "ROSE",
+            "decimals": 18
+        }
+    },
+    "0gLabs": {
+        "name": "0gLabs",
+        "chainId": 16661,
+        "chainSelector": 16661,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "0G BlockChain Explorer",
+                "url": "https://chainscan.0g.ai"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "0G",
+            "symbol": "0G",
+            "decimals": 18
+        }
+    },
+    "viction": {
+        "name": "viction",
+        "chainId": 88,
+        "chainSelector": 88,
+        "rpcUrls": [],
+        "nativeCurrency": {
+            "name": "Viction",
+            "symbol": "VIC",
+            "decimals": 18
+        }
+    },
+    "orai": {
+        "name": "orai",
+        "chainId": 108160679,
+        "chainSelector": 1081606,
+        "rpcUrls": [],
+        "nativeCurrency": {
+            "name": "Oraichain Token",
+            "symbol": "ORAI",
+            "decimals": 18
+        }
+    },
+    "enuls": {
+        "name": "enuls",
+        "chainId": 119,
+        "chainSelector": 119,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "enulsscan",
+                "url": "https://evmscan.nuls.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "NULS",
+            "symbol": "NULS",
+            "decimals": 18
+        }
+    },
+    "hyperevm": {
+        "name": "hyperevm",
+        "chainId": 999,
+        "chainSelector": 999,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "hyperevmscan",
+                "url": "https://hyperevmscan.io/"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "HYPE",
+            "symbol": "HYPE",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "cronos": {
+        "name": "cronos",
+        "chainId": 25,
+        "chainSelector": 25,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Cronos Explorer",
+                "url": "https://explorer.cronos.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Cronos",
+            "symbol": "CRO",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "kava": {
+        "name": "kava",
+        "chainId": 2222,
+        "chainSelector": 2222,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Kava EVM Explorer",
+                "url": "https://kavascan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Kava",
+            "symbol": "KAVA",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "unichain": {
+        "name": "unichain",
+        "chainId": 130,
+        "chainSelector": 130,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Unichain Mainnet Explorer",
+                "url": "https://uniscan.xyz"
+            },
+            {
+                "name": "Unichain Mainnet Explorer",
+                "url": "https://unichain.blockscout.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "mantapacific": {
+        "name": "mantapacific",
+        "chainId": 169,
+        "chainSelector": 169,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "manta-pacific Explorer",
+                "url": "https://pacific-explorer.manta.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "moonbeam": {
+        "name": "moonbeam",
+        "chainId": 1284,
+        "chainSelector": 1284,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "moonscan",
+                "url": "https://moonbeam.moonscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Glimmer",
+            "symbol": "GLMR",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "aurora": {
+        "name": "aurora",
+        "chainId": 1313161554,
+        "chainSelector": 1313161,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Aurora Explorer",
+                "url": "https://explorer.aurora.dev"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "sei": {
+        "name": "sei",
+        "chainId": 1329,
+        "chainSelector": 1329,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Seitrace",
+                "url": "https://seitrace.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Sei",
+            "symbol": "SEI",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "plasma": {
+        "name": "plasma",
+        "chainId": 9745,
+        "chainSelector": 9745,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Routescan",
+                "url": "https://plasmascan.to"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Plasma",
+            "symbol": "XPL",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "opBnb": {
+        "name": "opBnb",
+        "chainId": 204,
+        "chainSelector": 204,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "opbnbscan",
+                "url": "https://mainnet.opbnbscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BNB Chain Native Token",
+            "symbol": "BNB",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
+    },
+    "pulseChain": {
+        "name": "pulseChain",
+        "chainId": 369,
+        "chainSelector": 369,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "pulsechain",
+                "url": "https://ipfs.scan.pulsechain.com"
+            },
+            {
+                "name": "otterscan",
+                "url": "https://otter.pulsechain.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Pulse",
+            "symbol": "PLS",
+            "decimals": 18
+        }
+    },
+    "dogechain": {
+        "name": "dogechain",
+        "chainId": 2000,
+        "chainSelector": 2000,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "dogechain explorer",
+                "url": "https://explorer.dogechain.dog"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Dogecoin",
+            "symbol": "DOGE",
+            "decimals": 18
+        }
+    },
+    "bobaNetwork": {
+        "name": "bobaNetwork",
+        "chainId": 288,
+        "chainSelector": 288,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Bobascan",
+                "url": "https://bobascan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
+    },
+    "fuse": {
+        "name": "fuse",
+        "chainId": 122,
+        "chainSelector": 122,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.fuse.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Fuse",
+            "symbol": "FUSE",
+            "decimals": 18
+        },
+        "finalityConfirmations": 200
+    },
+    "injective": {
+        "name": "injective",
+        "chainId": 1776,
+        "chainSelector": 1776,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.injective.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Injective",
+            "symbol": "INJ",
+            "decimals": 18
+        }
+    },
+    "abstract": {
+        "name": "abstract",
+        "chainId": 2741,
+        "chainSelector": 2741,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Etherscan",
+                "url": "https://abscan.org"
+            },
+            {
+                "name": "Abstract Explorer",
+                "url": "https://explorer.mainnet.abs.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 1200,
+        "minBlockConfirmations": 3
+    },
+    "flareNetwork": {
+        "name": "flareNetwork",
+        "chainId": 14,
+        "chainSelector": 14,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://flare-explorer.flare.network"
+            },
+            {
+                "name": "Routescan",
+                "url": "https://mainnet.flarescan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Flare",
+            "symbol": "FLR",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "apeChain": {
+        "name": "apeChain",
+        "chainId": 33139,
+        "chainSelector": 33139,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "ApeChain Explorer",
+                "url": "https://apescan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ApeCoin",
+            "symbol": "APE",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
+    },
+    "ioTex": {
+        "name": "ioTex",
+        "chainId": 4689,
+        "chainSelector": 4689,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "iotexscan",
+                "url": "https://iotexscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "IoTeX",
+            "symbol": "IOTX",
+            "decimals": 18
+        }
+    },
+    "xdcNetwork": {
+        "name": "xdcNetwork",
+        "chainId": 50,
+        "chainSelector": 50,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "xdcscan",
+                "url": "https://xdcscan.com"
+            },
+            {
+                "name": "openscan",
+                "url": "https://xdcscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "XinFin",
+            "symbol": "XDC",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "filecoin": {
+        "name": "filecoin",
+        "chainId": 314,
+        "chainSelector": 314,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Filfox",
+                "url": "https://filfox.info/en"
+            },
+            {
+                "name": "Beryx",
+                "url": "https://beryx.zondax.ch"
+            },
+            {
+                "name": "Glif Explorer",
+                "url": "https://explorer.glif.io"
+            },
+            {
+                "name": "Dev.storage",
+                "url": "https://dev.storage"
+            },
+            {
+                "name": "Filscan",
+                "url": "https://filscan.io"
+            },
+            {
+                "name": "Filscout",
+                "url": "https://filscout.io/en"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "filecoin",
+            "symbol": "FIL",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "canto": {
+        "name": "canto",
+        "chainId": 7700,
+        "chainSelector": 7700,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Canto Explorer (OKLink)",
+                "url": "https://www.oklink.com/canto"
+            },
+            {
+                "name": "Canto EVM Explorer (Blockscout)",
+                "url": "https://tuber.build"
+            },
+            {
+                "name": "dexguru",
+                "url": "https://canto.dex.guru"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Canto",
+            "symbol": "CANTO",
+            "decimals": 18
+        }
+    },
+    "evmos": {
+        "name": "evmos",
+        "chainId": 9001,
+        "chainSelector": 9001,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Evmos Explorer (Escan)",
+                "url": "https://escan.live"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Evmos",
+            "symbol": "EVMOS",
+            "decimals": 18
+        }
+    },
+    "flow": {
+        "name": "flow",
+        "chainId": 747,
+        "chainSelector": 747,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "FlowScan",
+                "url": "https://evm.flowscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "FLOW",
+            "symbol": "FLOW",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "conflux": {
+        "name": "conflux",
+        "chainId": 1030,
+        "chainSelector": 1030,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Conflux Scan",
+                "url": "https://evm.confluxscan.net"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "CFX",
+            "symbol": "CFX",
+            "decimals": 18
+        }
+    },
+    "etherlink": {
+        "name": "etherlink",
+        "chainId": 42793,
+        "chainSelector": 42793,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Etherlink Explorer",
+                "url": "https://explorer.etherlink.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "tez",
+            "symbol": "XTZ",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "morph": {
+        "name": "morph",
+        "chainId": 2818,
+        "chainSelector": 2818,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Morph Mainnet Explorer",
+                "url": "https://explorer.morphl2.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "bittorrent": {
+        "name": "bittorrent",
+        "chainId": 199,
+        "chainSelector": 199,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "BitTorrent Chain Explorer",
+                "url": "https://bttcscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BitTorrent",
+            "symbol": "BTT",
+            "decimals": 18
+        }
+    },
+    "ethereumPow": {
+        "name": "ethereumPow",
+        "chainId": 10001,
+        "chainSelector": 10001,
+        "rpcUrls": [],
+        "nativeCurrency": {
+            "name": "Bitcoin Cash Test Token",
+            "symbol": "BCHT",
+            "decimals": 18
+        }
+    },
+    "lisk": {
+        "name": "lisk",
+        "chainId": 1135,
+        "chainSelector": 1135,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.lisk.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 510,
+        "minBlockConfirmations": 3
+    },
+    "story": {
+        "name": "story",
+        "chainId": 1514,
+        "chainSelector": 1514,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://mainnet.storyscan.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "IP Token",
+            "symbol": "IP",
+            "decimals": 18
+        }
+    },
+    "gravity": {
+        "name": "gravity",
+        "chainId": 1625,
+        "chainSelector": 1625,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Gravity Alpha Mainnet Explorer",
+                "url": "https://explorer.gravity.xyz"
+            },
+            {
+                "name": "gscan",
+                "url": "https://gscan.xyz"
+            },
+            {
+                "name": "OKLink",
+                "url": "https://www.oklink.com/gravity-alpha"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Gravity",
+            "symbol": "G",
+            "decimals": 18
+        },
+        "finalityConfirmations": 1700,
+        "minBlockConfirmations": 3
+    },
+    "nibiru": {
+        "name": "nibiru",
+        "chainId": 6900,
+        "chainSelector": 6900,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "NIBI",
+            "symbol": "NIBI",
+            "decimals": 18
+        }
+    },
+    "iotaevm": {
+        "name": "iotaevm",
+        "chainId": 8822,
+        "chainSelector": 8822,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "explorer",
+                "url": "https://explorer.evm.iota.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "IOTA",
+            "symbol": "IOTA",
+            "decimals": 18
+        }
+    },
+    "bitgert": {
+        "name": "bitgert",
+        "chainId": 32520,
+        "chainSelector": 32520,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Brise Scan",
+                "url": "https://brisescan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitrise Token",
+            "symbol": "Brise",
+            "decimals": 18
+        }
+    },
+    "taraxa": {
+        "name": "taraxa",
+        "chainId": 841,
+        "chainSelector": 841,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Tara.to Explorer",
+                "url": "https://tara.to"
+            },
+            {
+                "name": "Taraxa Explorer",
+                "url": "https://explorer.mainnet.taraxa.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Tara",
+            "symbol": "TARA",
+            "decimals": 18
+        }
+    },
+    "acala": {
+        "name": "acala",
+        "chainId": 787,
+        "chainSelector": 787,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.acala.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Acala Token",
+            "symbol": "ACA",
+            "decimals": 18
+        }
+    },
+    "bevm": {
+        "name": "bevm",
+        "chainId": 1501,
+        "chainSelector": 1501,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "bevm canary scan",
+                "url": "https://scan-canary.bevm.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BTC",
+            "symbol": "BTC",
+            "decimals": 18
+        }
+    },
+    "degenChain": {
+        "name": "degenChain",
+        "chainId": 666666666,
+        "chainSelector": 6666666,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "DEGEN",
+            "symbol": "DEGEN",
+            "decimals": 18
+        }
+    },
+    "educhain": {
+        "name": "educhain",
+        "chainId": 41923,
+        "chainSelector": 41923,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "EDU Chain",
+                "url": "https://educhain.blockscout.com"
+            }
+        ],
+        "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+        "nativeCurrency": {
+            "name": "EDU",
+            "symbol": "EDU",
+            "decimals": 18
+        }
+    },
+    "xrplevm": {
+        "name": "xrplevm",
+        "chainId": 1440000,
+        "chainSelector": 1440000,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.xrplevm.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "XRP",
+            "symbol": "XRP",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
+    },
+    "bahamut": {
+        "name": "bahamut",
+        "chainId": 5165,
+        "chainSelector": 5165,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://ftnscan.com"
+            },
+            {
+                "name": "blockscout",
+                "url": "https://ftnscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "FTN",
+            "symbol": "FTN",
+            "decimals": 18
+        }
+    },
+    "ailayer": {
+        "name": "ailayer",
+        "chainId": 2649,
+        "chainSelector": 2649,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://mainnet-explorer.ailayer.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BTC",
+            "symbol": "BTC",
+            "decimals": 18
+        }
+    },
+    "coti": {
+        "name": "coti",
+        "chainId": 2632500,
+        "chainSelector": 2632500,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "COTI Mainnet Explorer",
+                "url": "https://mainnet.cotiscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "COTI",
+            "symbol": "COTI",
+            "decimals": 18
+        }
+    },
+    "horizeneon": {
+        "name": "horizeneon",
+        "chainId": 7332,
+        "chainSelector": 7332,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Horizen EON Block Explorer",
+                "url": "https://eon-explorer.horizenlabs.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Zencash",
+            "symbol": "ZEN",
+            "decimals": 18
+        }
+    },
+    "inevm": {
+        "name": "inevm",
+        "chainId": 2525,
+        "chainSelector": 2525,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "Injective",
+            "symbol": "INJ",
+            "decimals": 18
+        }
+    },
+    "mezo": {
+        "name": "mezo",
+        "chainId": 31612,
+        "chainSelector": 31612,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.mezo.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 18
+        }
+    },
+    "sophon": {
+        "name": "sophon",
+        "chainId": 50104,
+        "chainSelector": 50104,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Sophon Block Explorer",
+                "url": "https://explorer.sophon.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Sophon",
+            "symbol": "SOPH",
+            "decimals": 18
+        },
+        "finalityConfirmations": 80,
+        "minBlockConfirmations": 3
+    },
+    "crossfi": {
+        "name": "crossfi",
+        "chainId": 4158,
+        "chainSelector": 4158,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "CrossFi Mainnet Scan",
+                "url": "https://xfiscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "CrossFi Token",
+            "symbol": "XFI",
+            "decimals": 18
+        }
+    },
+    "bifrost": {
+        "name": "bifrost",
+        "chainId": 996,
+        "chainSelector": 996,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "Wrapped ETH",
+            "symbol": "WETH",
+            "decimals": 18
+        }
+    },
+    "carbon": {
+        "name": "carbon",
+        "chainId": 9790,
+        "chainSelector": 9790,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "swth",
+            "symbol": "SWTH",
+            "decimals": 18
+        }
+    },
+    "csc": {
+        "name": "csc",
+        "chainId": 52,
+        "chainSelector": 52,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "coinexscan",
+                "url": "https://www.coinex.net"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "CoinEx Chain Native Token",
+            "symbol": "cet",
+            "decimals": 18
+        }
+    },
+    "findora": {
+        "name": "findora",
+        "chainId": 2152,
+        "chainSelector": 2152,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "findorascan",
+                "url": "https://evm.findorascan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "FRA",
+            "symbol": "FRA",
+            "decimals": 18
+        }
+    },
+    "mint": {
+        "name": "mint",
+        "chainId": 185,
+        "chainSelector": 185,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.mintchain.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "sanko": {
+        "name": "sanko",
+        "chainId": 1996,
+        "chainSelector": 1996,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Sanko Explorer",
+                "url": "https://explorer.sanko.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "DMT",
+            "symbol": "DMT",
+            "decimals": 18
+        }
+    },
+    "bouncebit": {
+        "name": "bouncebit",
+        "chainId": 6001,
+        "chainSelector": 6001,
+        "rpcUrls": [],
+        "faucets": [],
+        "blockExplorers": [
+            {
+                "name": "BBScan Mainnet Explorer",
+                "url": "https://bbscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "BounceBit",
+            "symbol": "BB",
+            "decimals": 18
+        }
+    },
+    "tac": {
+        "name": "tac",
+        "chainId": 239,
+        "chainSelector": 239,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "TAC Explorer",
+                "url": "https://explorer.tac.build",
+                "standard": "EIP3091"
+            },
+            {
+                "name": "Blockscout",
+                "url": "https://tac.blockscout.com",
+                "standard": "EIP3091"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "TAC",
+            "symbol": "TAC",
+            "decimals": 18
+        }
+    },
+    "ethereumClassic": {
+        "name": "ethereumClassic",
+        "chainId": 61,
+        "chainSelector": 61,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout-ethereum-classic",
+                "url": "https://etc.blockscout.com",
+                "standard": "EIP3091"
+            },
+            {
+                "name": "etcnetworkinfo-blockscout-ethereum-classic",
+                "url": "https://explorer-blockscout.etc-network.info",
+                "standard": "none"
+            },
+            {
+                "name": "etcnetworkinfo-alethio-ethereum-classic",
+                "url": "https://explorer-alethio.etc-network.info",
+                "standard": "none"
+            },
+            {
+                "name": "etcnetworkinfo-expedition-ethereum-classic",
+                "url": "https://explorer-expedition.etc-network.info",
+                "standard": "none"
+            },
+            {
+                "name": "hebeblock-ethereum-classic",
+                "url": "https://etcerscan.com",
+                "standard": "EIP3091"
+            },
+            {
+                "name": "oklink-ethereum-classic",
+                "url": "https://www.oklink.com/etc",
+                "standard": "EIP3091"
+            },
+            {
+                "name": "tokenview-ethereum-classic",
+                "url": "https://etc.tokenview.io",
+                "standard": "EIP3091"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETC",
+            "decimals": 18
+        }
+    },
+    "abChain": {
+        "name": "abChain",
+        "chainId": 36888,
+        "chainSelector": 36888,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "AB Core Explorer",
+                "url": "https://explorer.core.ab.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "AB",
+            "symbol": "AB",
+            "decimals": 18
+        }
+    },
+    "alienx": {
+        "name": "alienx",
+        "chainId": 10241024,
+        "chainSelector": 10241024,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "AlienXChain Explorer",
+                "url": "https://explorer.alienxchain.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "alvey": {
+        "name": "alvey",
+        "chainId": 3797,
+        "chainSelector": 3797,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "AlveyScan",
+                "url": "https://alveyscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "AlveyCoin",
+            "symbol": "ALV",
+            "decimals": 18
+        }
+    },
+    "ancient8": {
+        "name": "ancient8",
+        "chainId": 888888888,
+        "chainSelector": 8888888,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Ancient8 Explorer",
+                "url": "https://scan.ancient8.gg"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "areon": {
+        "name": "areon",
+        "chainId": 463,
+        "chainSelector": 463,
+        "rpcUrls": [
+            "https://mainnet-rpc.areon.network",
+            "https://mainnet-rpc2.areon.network",
+            "https://mainnet-rpc3.areon.network",
+            "https://mainnet-rpc4.areon.network",
+            "https://mainnet-rpc5.areon.network"
+        ],
+        "blockExplorers": [
+            {
+                "name": "AreonScan",
+                "url": "https://areonscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Areon",
+            "symbol": "TAREA",
+            "decimals": 18
+        }
+    },
+    "b3": {
+        "name": "b3",
+        "chainId": 8333,
+        "chainSelector": 8333,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Blockscout",
+                "url": "https://explorer.b3.fun"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "bitkub": {
+        "name": "bitkub",
+        "chainId": 96,
+        "chainSelector": 96,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "KUB Mainnet Explorer",
+                "url": "https://kubscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "KUB Coin",
+            "symbol": "KUB",
+            "decimals": 18
+        }
+    },
+    "bitnet": {
+        "name": "bitnet",
+        "chainId": 210,
+        "chainSelector": 210,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Bitnet Explorer",
+                "url": "https://btnscan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitnet",
+            "symbol": "BTN",
+            "decimals": 18
+        }
+    },
+    "bobaBnb": {
+        "name": "bobaBnb",
+        "chainId": 56288,
+        "chainSelector": 56288,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Boba BNB block explorer",
+                "url": "https://bobascan.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Boba Token",
+            "symbol": "BOBA",
+            "decimals": 18
+        }
+    },
+    "callisto": {
+        "name": "callisto",
+        "chainId": 820,
+        "chainSelector": 820,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout-callisto-network",
+                "url": "https://explorer.callistodao.org"
+            }
+        ],
+        "faucets": ["https://faucet.callistodao.org"],
+        "nativeCurrency": {
+            "name": "Callisto",
+            "symbol": "CLO",
+            "decimals": 18
+        }
+    },
+    "chiliz": {
+        "name": "chiliz",
+        "chainId": 88888,
+        "chainSelector": 88888,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "chiliscan",
+                "url": "https://chiliscan.com"
+            },
+            {
+                "name": "chilizscan",
+                "url": "https://scan.chiliz.com"
+            }
+        ],
+        "faucets": [
+            "https://spicy-faucet.chiliz.com",
+            "https://tatum.io/faucets/chiliz"
+        ],
+        "nativeCurrency": {
+            "name": "Chiliz",
+            "symbol": "CHZ",
+            "decimals": 18
+        }
+    },
+    "crab": {
+        "name": "crab",
+        "chainId": 44,
+        "chainSelector": 44,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://crab-scan.darwinia.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Crab Network Native Token",
+            "symbol": "CRAB",
+            "decimals": 18
+        }
+    },
+    "cyber": {
+        "name": "cyber",
+        "chainId": 7560,
+        "chainSelector": 7560,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Cyber Mainnet Explorer",
+                "url": "https://cyberscan.co"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "darwinia": {
+        "name": "darwinia",
+        "chainId": 46,
+        "chainSelector": 46,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.darwinia.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Darwinia Network Native Token",
+            "symbol": "RING",
+            "decimals": 18
+        }
+    },
+    "defiChainEvm": {
+        "name": "defiChainEvm",
+        "chainId": 1130,
+        "chainSelector": 1130,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "DeFiChain",
+            "symbol": "DFI",
+            "decimals": 18
+        }
+    },
+    "dexalot": {
+        "name": "dexalot",
+        "chainId": 432204,
+        "chainSelector": 432204,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Avalanche Subnet Explorer",
+                "url": "https://subnets.avax.network/dexalot"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Dexalot",
+            "symbol": "ALOT",
+            "decimals": 18
+        }
+    },
+    "dfk": {
+        "name": "dfk",
+        "chainId": 53935,
+        "chainSelector": 53935,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "ethernal",
+                "url": "https://explorer.dfkchain.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Jewel",
+            "symbol": "JEWEL",
+            "decimals": 18
+        }
+    },
+    "elastos": {
+        "name": "elastos",
+        "chainId": 20,
+        "chainSelector": 20,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "elastos esc explorer",
+                "url": "https://esc.elastos.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Elastos",
+            "symbol": "ELA",
+            "decimals": 18
+        }
+    },
+    "electroneum": {
+        "name": "electroneum",
+        "chainId": 52014,
+        "chainSelector": 52014,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockexplorer.electroneum.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Electroneum",
+            "symbol": "ETN",
+            "decimals": 18
+        }
+    },
+    "endurance": {
+        "name": "endurance",
+        "chainId": 648,
+        "chainSelector": 648,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Endurance Scan",
+                "url": "https://explorer.endurance.fusionist.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Endurance Chain Native Token",
+            "symbol": "ACE",
+            "decimals": 18
+        }
+    },
+    "energi": {
+        "name": "energi",
+        "chainId": 39797,
+        "chainSelector": 39797,
+        "rpcUrls": [],
+        "blockExplorers": [],
+        "nativeCurrency": {
+            "name": "Energi",
+            "symbol": "NRG",
+            "decimals": 18
+        }
+    },
+    "energyweb": {
+        "name": "energyweb",
+        "chainId": 246,
+        "chainSelector": 246,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.energyweb.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Energy Web Token",
+            "symbol": "EWT",
+            "decimals": 18
+        }
+    },
+    "everclear": {
+        "name": "everclear",
+        "chainId": 25327,
+        "chainSelector": 25327,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Everclear",
+                "url": "https://scan.everclear.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "exsat": {
+        "name": "exsat",
+        "chainId": 7200,
+        "chainSelector": 7200,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "exSat Explorer",
+                "url": "https://scan.exsat.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 18
+        }
+    },
+    "fluence": {
+        "name": "fluence",
+        "chainId": 9999999,
+        "chainSelector": 9999999,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.mainnet.fluence.dev"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "FLT",
+            "symbol": "FLT",
+            "decimals": 18
+        }
+    },
+    "forma": {
+        "name": "forma",
+        "chainId": 984122,
+        "chainSelector": 984122,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.forma.art"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "TIA",
+            "symbol": "TIA",
+            "decimals": 18
+        }
+    },
+    "genesys": {
+        "name": "genesys",
+        "chainId": 16507,
+        "chainSelector": 16507,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "GchainExplorer",
+                "url": "https://gchainexplorer.genesys.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Genesys",
+            "symbol": "GSYS",
+            "decimals": 18
+        }
+    },
+    "goChain": {
+        "name": "goChain",
+        "chainId": 60,
+        "chainSelector": 60,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "GoChain Explorer",
+                "url": "https://explorer.gochain.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "GoChain Ether",
+            "symbol": "GO",
+            "decimals": 18
+        }
+    },
+    "haqq": {
+        "name": "haqq",
+        "chainId": 11235,
+        "chainSelector": 11235,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Mainnet HAQQ Explorer",
+                "url": "https://explorer.haqq.network"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Islamic Coin",
+            "symbol": "ISLM",
+            "decimals": 18
+        }
+    },
+    "hela": {
+        "name": "hela",
+        "chainId": 8668,
+        "chainSelector": 8668,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Hela Official Runtime Mainnet Explorer",
+                "url": "https://mainnet-blockexplorer.helachain.com"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Hela HLUSD",
+            "symbol": "HLUSD",
+            "decimals": 18
+        }
+    },
+    "hpb": {
+        "name": "hpb",
+        "chainId": 269,
+        "chainSelector": 269,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "hscan",
+                "url": "https://hscan.org"
+            }
+        ],
+        "faucets": ["https://myhpbwallet.com/"],
+        "nativeCurrency": {
+            "name": "High Performance Blockchain Ether",
+            "symbol": "HPB",
+            "decimals": 18
+        }
+    },
+    "huddle01": {
+        "name": "huddle01",
+        "chainId": 12323,
+        "chainSelector": 12323,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Huddle01 Caldera Explorer",
+                "url": "https://huddle01.calderaexplorer.xyz"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "hydra": {
+        "name": "hydra",
+        "chainId": 4488,
+        "chainSelector": 4488,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Hydra Chain Mainnet explorer",
+                "url": "https://skynet.hydrachain.org"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Hydra",
+            "symbol": "HYDRA",
+            "decimals": 18
+        }
+    },
+    "hydration": {
+        "name": "hydration",
+        "chainId": 222222,
+        "chainSelector": 222222,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.evm.hydration.cloud"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Wrapped ETH",
+            "symbol": "WETH",
+            "decimals": 18
+        }
+    },
+    "functionx": {
+        "name": "functionx",
+        "chainId": 530,
+        "chainSelector": 530,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "PundiScan Explorer",
+                "url": "https://pundiscan.io/evm"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Pundi AIFX",
+            "symbol": "PUNDAI",
+            "decimals": 18
+        }
+    },
+    "funki": {
+        "name": "funki",
+        "chainId": 33979,
+        "chainSelector": 33979,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Funki Mainnet Explorer",
+                "url": "https://explorer.funkichain.com"
+            },
+            {
+                "name": "FunkiScan",
+                "url": "https://funkiscan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "immutable": {
+        "chainName": "immutable",
+        "chainId": 13371,
+        "chainSelector": 13371,
+        "rpcUrls": [
+            "https://rpc.immutable.com",
+            "https://immutable-zkevm.drpc.org",
+            "https://immutable.gateway.tenderly.co"
+        ],
+        "blockExplorers": [
+            {
+                "name": "Immutable explorer",
+                "url": "https://explorer.immutable.com/"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "IMX",
+            "symbol": "IMX",
+            "decimals": 18
+        },
+        "finalityConfirmations": 500,
+        "minBlockConfirmations": 3
+    },
+    "superposition": {
+        "name": "superposition",
+        "chainId": 55244,
+        "chainSelector": 55244,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Superposition Explorer",
+                "url": "https://explorer.superposition.so"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 5
+    },
+    "swellchain": {
+        "name": "swellchain",
+        "chainId": 1923,
+        "chainSelector": 1923,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Swellchain Explorer",
+                "url": "https://explorer.swellnetwork.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "vana": {
+        "name": "vana",
+        "chainId": 1480,
+        "chainSelector": 1480,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Vana Block Explorer",
+                "url": "https://vanascan.io"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "Vana",
+            "symbol": "VANA",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true,
+        "minBlockConfirmations": 3
+    },
+    "stable": {
+        "name": "stable",
+        "chainId": 988,
+        "chainSelector": 988,
+        "rpcUrls": [],
+        "blockExplorers": [
+            {
+                "name": "Vana Block Explorer",
+                "url": "https://stablescan.xyz/"
+            }
+        ],
+        "nativeCurrency": {
+            "name": "gasUSDT",
+            "symbol": "GUSDT",
+            "decimals": 18
+        },
+        "finalityTagEnabled": true
     }
 }
