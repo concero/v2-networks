@@ -779,6 +779,7 @@
 		"chainId": 23295,
 		"chainSelector": 23295,
 		"rpcUrls": [],
+		"finalityConfirmations": 1,
 		"blockExplorers": [
 			{
 				"name": "Oasis Sapphire Testnet Explorer",
@@ -869,7 +870,8 @@
 			"name": "V4 Pulse",
 			"symbol": "v4PLS",
 			"decimals": 18
-		}
+		},
+		"finalityConfirmations": 1
 	},
 	"roninSaigon": {
 		"name": "roninSaigon",
