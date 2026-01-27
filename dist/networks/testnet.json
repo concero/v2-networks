@@ -696,7 +696,7 @@
             "symbol": "TEST",
             "decimals": 18
         },
-        "finalityConfirmations": 0
+        "finalityConfirmations": 1
     },
     "opbnbTestnet": {
         "name": "opbnbTestnet",
