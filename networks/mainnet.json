@@ -2884,8 +2884,8 @@
 	},
 	"arbitrumNova": {
 		"name": "arbitrumNova",
-		"chainId": 142170,
-		"chainSelector": 142170,
+		"chainId": 42170,
+		"chainSelector": 42170,
 		"nativeCurrency": {
 			"name": "ETH",
 			"symbol": "ETH",
