@@ -1821,9 +1821,7 @@
                 "url": "https://educhain.blockscout.com"
             }
         ],
-        "faucets": [
-            "https://bridge.gelato.network/bridge/edu-chain"
-        ],
+        "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
         "nativeCurrency": {
             "name": "EDU",
             "symbol": "EDU",
@@ -2336,9 +2334,7 @@
                 "url": "https://explorer.callistodao.org"
             }
         ],
-        "faucets": [
-            "https://faucet.callistodao.org"
-        ],
+        "faucets": ["https://faucet.callistodao.org"],
         "nativeCurrency": {
             "name": "Callisto",
             "symbol": "CLO",
@@ -2694,9 +2690,7 @@
                 "url": "https://hscan.org"
             }
         ],
-        "faucets": [
-            "https://myhpbwallet.com/"
-        ],
+        "faucets": ["https://myhpbwallet.com/"],
         "nativeCurrency": {
             "name": "High Performance Blockchain Ether",
             "symbol": "HPB",
@@ -2895,32 +2889,6 @@
         "nativeCurrency": {
             "name": "ETH",
             "symbol": "ETH",
-            "decimals": 18
-        }
-    },
-    "fantom": {
-        "name": "fantom",
-        "chainId": 250,
-        "chainSelector": 250,
-        "rpcs": [],
-        "blockExplorers": [
-            {
-                "name": "ftmscan",
-                "url": "https://ftmscan.com",
-                "icon": "ftmscan",
-                "standard": "EIP3091"
-            },
-            {
-                "name": "dexguru",
-                "url": "https://fantom.dex.guru",
-                "icon": "dexguru",
-                "standard": "EIP3091"
-            }
-        ],
-        "faucets": [],
-        "nativeCurrency": {
-            "name": "Fantom",
-            "symbol": "FTM",
             "decimals": 18
         }
     },

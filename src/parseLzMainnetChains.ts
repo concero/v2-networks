@@ -88,7 +88,7 @@ interface IChainListChain {
 
 const mainnetChainsFilePath = __dirname + '/../networks/mainnet.json';
 
-const blackList = ['solana', 'tron'];
+const blackList = ['solana', 'tron', 'fantom'];
 
 export async function parseLzMainnetChains() {
 	const [lzChainsResponse, chainlistChainsResponse] = await Promise.all([

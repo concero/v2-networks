@@ -37,7 +37,7 @@ exports.parseLzMainnetChains = parseLzMainnetChains;
 const fs = __importStar(require("node:fs"));
 const trimToUint24Digits_1 = require("./utils/trimToUint24Digits");
 const mainnetChainsFilePath = __dirname + '/../networks/mainnet.json';
-const blackList = ['solana', 'tron'];
+const blackList = ['solana', 'tron', 'fantom'];
 async function parseLzMainnetChains() {
     const [lzChainsResponse, chainlistChainsResponse] = await Promise.all([
         fetch('https://docs.layerzero.network/data/deploymentsV2.json'),
