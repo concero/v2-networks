@@ -86,7 +86,7 @@ interface IChainListChain {
 	isTestnet: boolean;
 }
 
-const mainnetChainsFilePath = __dirname + '/../dist/networks/mainnet.json';
+const mainnetChainsFilePath = __dirname + '/../networks/mainnet.json';
 
 const blackList = ['solana', 'tron'];
 
