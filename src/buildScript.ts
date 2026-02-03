@@ -8,12 +8,12 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-interface NetworkInfo {
+export interface NetworkInfo {
 	chainId: number;
 	chainSelector: number;
 }
 
-interface Networks {
+export interface Networks {
 	[key: string]: NetworkInfo;
 }
 
