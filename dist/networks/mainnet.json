@@ -1821,7 +1821,9 @@
                 "url": "https://educhain.blockscout.com"
             }
         ],
-        "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+        "faucets": [
+            "https://bridge.gelato.network/bridge/edu-chain"
+        ],
         "nativeCurrency": {
             "name": "EDU",
             "symbol": "EDU",
@@ -2334,7 +2336,9 @@
                 "url": "https://explorer.callistodao.org"
             }
         ],
-        "faucets": ["https://faucet.callistodao.org"],
+        "faucets": [
+            "https://faucet.callistodao.org"
+        ],
         "nativeCurrency": {
             "name": "Callisto",
             "symbol": "CLO",
@@ -2690,7 +2694,9 @@
                 "url": "https://hscan.org"
             }
         ],
-        "faucets": ["https://myhpbwallet.com/"],
+        "faucets": [
+            "https://myhpbwallet.com/"
+        ],
         "nativeCurrency": {
             "name": "High Performance Blockchain Ether",
             "symbol": "HPB",
@@ -3815,6 +3821,396 @@
         "nativeCurrency": {
             "name": "PharosCoin",
             "symbol": "PROS",
+            "decimals": 18
+        }
+    },
+    "ethereal": {
+        "name": "ethereal",
+        "chainId": 5064014,
+        "chainSelector": 5064014,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.ethereal.trade",
+                "icon": "blockscout",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "USDe",
+            "symbol": "USDe",
+            "decimals": 18
+        }
+    },
+    "sapphire": {
+        "name": "sapphire",
+        "chainId": 23294,
+        "chainSelector": 23294,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Oasis Sapphire Explorer",
+                "url": "https://explorer.oasis.io/mainnet/sapphire",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Sapphire Rose",
+            "symbol": "ROSE",
+            "decimals": 18
+        }
+    },
+    "dymension": {
+        "name": "dymension",
+        "chainId": 1100,
+        "chainSelector": 1100,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "dym.fyi",
+                "url": "https://dym.fyi",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "DYM",
+            "symbol": "DYM",
+            "decimals": 18
+        }
+    },
+    "thetaMainnet": {
+        "name": "thetaMainnet",
+        "chainId": 361,
+        "chainSelector": 361,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Theta Mainnet Explorer",
+                "url": "https://explorer.thetatoken.org",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Theta Fuel",
+            "symbol": "TFUEL",
+            "decimals": 18
+        }
+    },
+    "shape": {
+        "name": "shape",
+        "chainId": 360,
+        "chainSelector": 360,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "shapescan",
+                "url": "https://shapescan.xyz",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "redstone": {
+        "name": "redstone",
+        "chainId": 690,
+        "chainSelector": 690,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.redstone.xyz",
+                "icon": "blockscout",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "near": {
+        "name": "near",
+        "chainId": 397,
+        "chainSelector": 397,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "NEAR Explorer",
+                "url": "https://eth-explorer.near.org",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "NEAR",
+            "symbol": "NEAR",
+            "decimals": 18
+        }
+    },
+    "ely": {
+        "name": "ely",
+        "chainId": 1339,
+        "chainSelector": 1339,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Elysium mainnet explorer",
+                "url": "https://explorer.elysiumchain.tech",
+                "standard": "EIP3091"
+            },
+            {
+                "name": "Elysium blockscout explorer",
+                "url": "https://blockscout.elysiumchain.tech",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "ELY",
+            "symbol": "ELY",
+            "decimals": 18
+        }
+    },
+    "bfc": {
+        "name": "bfc",
+        "chainId": 3068,
+        "chainSelector": 3068,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "explorer-thebifrost",
+                "url": "https://explorer.mainnet.bifrostnetwork.com",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Bifrost",
+            "symbol": "BFC",
+            "decimals": 18
+        }
+    },
+    "sxr": {
+        "name": "sxr",
+        "chainId": 4162,
+        "chainSelector": 4162,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "SX L2 Explorer",
+                "url": "https://explorerl2.sx.technology",
+                "standard": "EIP3091",
+                "icon": "SX"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "SX Network",
+            "symbol": "SX",
+            "decimals": 18
+        }
+    },
+    "duckChainMainnet": {
+        "name": "duckChainMainnet",
+        "chainId": 5545,
+        "chainSelector": 5545,
+        "rpcs": [],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "TON",
+            "symbol": "TON",
+            "decimals": 18
+        }
+    },
+    "mantrachain": {
+        "name": "mantrachain",
+        "chainId": 5888,
+        "chainSelector": 5888,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "MANTRACHAIN Explorer",
+                "url": "http://mantrascan.io",
+                "standard": "none",
+                "icon": "om"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "OM",
+            "symbol": "OM",
+            "decimals": 18
+        }
+    },
+    "aura": {
+        "name": "aura",
+        "chainId": 6322,
+        "chainSelector": 6322,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Aurascan Explorer",
+                "url": "https://aurascan.io",
+                "standard": "none",
+                "icon": "aura"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Aura",
+            "symbol": "AURA",
+            "decimals": 18
+        }
+    },
+    "arenaZ": {
+        "name": "arenaZ",
+        "chainId": 7897,
+        "chainSelector": 7897,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "blockscout",
+                "url": "https://explorer.arena-z.gg",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "shardeum": {
+        "name": "shardeum",
+        "chainId": 8118,
+        "chainSelector": 8118,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Shardeum Explorer",
+                "url": "https://explorer.shardeum.org",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Shardeum",
+            "symbol": "SHM",
+            "decimals": 18
+        }
+    },
+    "geb": {
+        "name": "geb",
+        "chainId": 11501,
+        "chainSelector": 11501,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "geb mainnet scan",
+                "url": "https://scan.geb.network",
+                "standard": "none"
+            },
+            {
+                "name": "bevm mainnet oklink",
+                "url": "https://www.oklink.com/bevm",
+                "standard": "none"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "BTC",
+            "symbol": "BTC",
+            "decimals": 18
+        }
+    },
+    "q": {
+        "name": "q",
+        "chainId": 35441,
+        "chainSelector": 35441,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Q explorer",
+                "url": "https://explorer.q.org",
+                "icon": "q",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "QGOV",
+            "symbol": "QGOV",
+            "decimals": 18
+        }
+    },
+    "nebulaMainnet": {
+        "name": "nebulaMainnet",
+        "chainId": 1482601649,
+        "chainSelector": 14826016,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Blockscout",
+                "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "sFUEL",
+            "symbol": "sFUEL",
+            "decimals": 18
+        }
+    },
+    "calypsoMainnet": {
+        "name": "calypsoMainnet",
+        "chainId": 1564830818,
+        "chainSelector": 15648308,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "Blockscout",
+                "url": "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "sFUEL",
+            "symbol": "sFUEL",
+            "decimals": 18
+        }
+    },
+    "datachain": {
+        "name": "datachain",
+        "chainId": 271828,
+        "chainSelector": 271828,
+        "rpcs": [],
+        "blockExplorers": [
+            {
+                "name": "DC Scan",
+                "url": "https://dcscan.io",
+                "icon": "blockscout",
+                "standard": "EIP3091"
+            }
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "DC FAT",
+            "symbol": "FAT",
             "decimals": 18
         }
     }

@@ -1,53 +1,22 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || (function () {
-    var ownKeys = function(o) {
-        ownKeys = Object.getOwnPropertyNames || function (o) {
-            var ar = [];
-            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
-            return ar;
-        };
-        return ownKeys(o);
-    };
-    return function (mod) {
-        if (mod && mod.__esModule) return mod;
-        var result = {};
-        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
-        __setModuleDefault(result, mod);
-        return result;
-    };
-})();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parseLzMainnetChains = parseLzMainnetChains;
-const fs = __importStar(require("node:fs"));
 const trimToUint24Digits_1 = require("./utils/trimToUint24Digits");
+const fetchChainListChains_1 = require("./resources/fetchChainListChains");
+const readConceroChains_1 = require("./resources/readConceroChains");
+const normalizeName_1 = require("./utils/normalizeName");
+const writeConceroChains_1 = require("./resources/writeConceroChains");
 const mainnetChainsFilePath = __dirname + '/../networks/mainnet.json';
 const blackList = ['solana', 'tron', 'fantom'];
 async function parseLzMainnetChains() {
-    const [lzChainsResponse, chainlistChainsResponse] = await Promise.all([
+    const [lzChainsResponse, chainlistChains] = await Promise.all([
         fetch('https://docs.layerzero.network/data/deploymentsV2.json'),
-        fetch('https://chainlist.org/rpcs.json'),
+        (0, fetchChainListChains_1.fetchChainListChains)(),
     ]);
-    const [lzChains, chainlistChains] = await Promise.all([
+    const [lzChains] = await Promise.all([
         lzChainsResponse.json(),
-        chainlistChainsResponse.json(),
     ]);
-    const conceroChains = JSON.parse(fs.readFileSync(mainnetChainsFilePath, 'utf-8'));
+    const conceroChains = (0, readConceroChains_1.readConceroChains)('mainnet');
     const chainsToPast = {};
     for (const lzChain of lzChains) {
         if (lzChain.stage !== 'mainnet')
@@ -58,11 +27,7 @@ async function parseLzMainnetChains() {
         const chainlistInfo = chainlistChains.find((c) => c.chainId === lzChain.nativeChainId);
         if (!chainlistInfo || chainlistInfo?.isTestnet)
             continue;
-        const chainName = lzChain.chainKey
-            .split('-')
-            .filter(Boolean)
-            .map((part, i) => i === 0 ? part : part[0].toUpperCase() + part.slice(1))
-            .join('');
+        const chainName = (0, normalizeName_1.normalizeName)(lzChain.chainKey);
         if (blackList.includes(chainName) || conceroChains[chainName])
             continue;
         chainsToPast[chainName] = {
@@ -75,9 +40,9 @@ async function parseLzMainnetChains() {
             nativeCurrency: chainlistInfo?.nativeCurrency,
         };
     }
-    fs.writeFileSync(mainnetChainsFilePath, JSON.stringify({
+    (0, writeConceroChains_1.writeConceroChains)({
         ...conceroChains,
         ...chainsToPast,
-    }, null, 2));
+    }, 'mainnet');
 }
 parseLzMainnetChains();

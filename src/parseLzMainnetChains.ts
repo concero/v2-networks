@@ -1,7 +1,9 @@
 import { Address } from 'viem';
-import * as fs from 'node:fs';
-import { Networks } from './buildScript';
 import { trimToUint24Digits } from './utils/trimToUint24Digits';
+import { fetchChainListChains } from './resources/fetchChainListChains';
+import { readConceroChains } from './resources/readConceroChains';
+import { normalizeName } from './utils/normalizeName';
+import { writeConceroChains } from './resources/writeConceroChains';
 
 export interface ILzChain {
 	eid: string;
@@ -39,72 +41,21 @@ export interface ILzChain {
 	chainDisplayName: string;
 }
 
-interface IChainListChain {
-	name: string;
-	chain: string;
-	icon: string;
-	rpc: string[];
-	nativeCurrency: {
-		name: string;
-		symbol: string;
-		decimals: number;
-	};
-	infoURL: string;
-	shortName: string;
-	chainId: number;
-	networkId: number;
-	slip44: number;
-	ens: {
-		registry: string;
-	};
-	explorers: [
-		{
-			name: string;
-			url: string;
-			standard: string;
-		},
-		{
-			name: string;
-			url: string;
-			icon: string;
-			standard: string;
-		},
-		{
-			name: string;
-			url: string;
-			icon: string;
-			standard: string;
-		},
-		{
-			name: string;
-			url: string;
-			standard: string;
-		},
-	];
-	tvl: number;
-	chainSlug: string;
-	isTestnet: boolean;
-}
-
 const mainnetChainsFilePath = __dirname + '/../networks/mainnet.json';
 
 const blackList = ['solana', 'tron', 'fantom'];
 
 export async function parseLzMainnetChains() {
-	const [lzChainsResponse, chainlistChainsResponse] = await Promise.all([
+	const [lzChainsResponse, chainlistChains] = await Promise.all([
 		fetch('https://docs.layerzero.network/data/deploymentsV2.json'),
-		fetch('https://chainlist.org/rpcs.json'),
+		fetchChainListChains(),
 	]);
 
-	const [lzChains, chainlistChains]: [ILzChain[], IChainListChain[]] =
-		await Promise.all([
-			lzChainsResponse.json(),
-			chainlistChainsResponse.json(),
-		]);
+	const [lzChains]: [ILzChain[]] = await Promise.all([
+		lzChainsResponse.json(),
+	]);
 
-	const conceroChains = JSON.parse(
-		fs.readFileSync(mainnetChainsFilePath, 'utf-8')
-	) as Networks;
+	const conceroChains = readConceroChains('mainnet');
 
 	const chainsToPast: Record<string, any> = {};
 
@@ -123,13 +74,7 @@ export async function parseLzMainnetChains() {
 
 		if (!chainlistInfo || chainlistInfo?.isTestnet) continue;
 
-		const chainName = lzChain.chainKey
-			.split('-')
-			.filter(Boolean)
-			.map((part, i) =>
-				i === 0 ? part : part[0].toUpperCase() + part.slice(1)
-			)
-			.join('');
+		const chainName = normalizeName(lzChain.chainKey);
 
 		if (blackList.includes(chainName) || conceroChains[chainName]) continue;
 
@@ -144,16 +89,12 @@ export async function parseLzMainnetChains() {
 		};
 	}
 
-	fs.writeFileSync(
-		mainnetChainsFilePath,
-		JSON.stringify(
-			{
-				...conceroChains,
-				...chainsToPast,
-			},
-			null,
-			2
-		)
+	writeConceroChains(
+		{
+			...conceroChains,
+			...chainsToPast,
+		},
+		'mainnet'
 	);
 }
 
