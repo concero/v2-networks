@@ -1,9 +1,9 @@
 import { Address } from 'viem';
-import { trimToUint24Digits } from './utils/trimToUint24Digits';
-import { fetchChainListChains } from './resources/fetchChainListChains';
-import { readConceroChains } from './resources/readConceroChains';
-import { normalizeName } from './utils/normalizeName';
-import { writeConceroChains } from './resources/writeConceroChains';
+import { trimToUint24Digits } from '../utils/trimToUint24Digits';
+import { fetchChainListChains } from '../resources/fetchChainListChains';
+import { readConceroChains } from '../resources/readConceroChains';
+import { normalizeName } from '../utils/normalizeName';
+import { writeConceroChains } from '../resources/writeConceroChains';
 
 export interface ILzChain {
 	eid: string;

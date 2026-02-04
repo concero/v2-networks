@@ -24,6 +24,7 @@ export interface IChainListChain {
 	tvl: number;
 	chainSlug: string;
 	isTestnet: boolean;
+	status?: string;
 }
 
 export async function fetchChainListChains(): Promise<IChainListChain[]> {

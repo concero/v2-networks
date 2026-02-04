@@ -4213,5 +4213,24 @@
       "symbol": "FAT",
       "decimals": 18
     }
+  },
+  "oas": {
+    "name": "oas",
+    "chainId": 248,
+    "chainSelector": 248,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.oasys.games",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OAS",
+      "symbol": "OAS",
+      "decimals": 18
+    }
   }
 }

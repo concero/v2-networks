@@ -1,13 +1,13 @@
-import { fetchChainListChains } from './resources/fetchChainListChains';
-import { readConceroChains } from './resources/readConceroChains';
+import { fetchChainListChains } from '../resources/fetchChainListChains';
+import { readConceroChains } from '../resources/readConceroChains';
 import { createPublicClient, fallback, http } from 'viem';
-import { trimToUint24Digits } from './utils/trimToUint24Digits';
-import { normalizeName } from './utils/normalizeName';
-import { writeConceroChains } from './resources/writeConceroChains';
+import { trimToUint24Digits } from '../utils/trimToUint24Digits';
+import { normalizeName } from '../utils/normalizeName';
+import { writeConceroChains } from '../resources/writeConceroChains';
 
-const DEPLOYER_ADDRESS = '0x1D218D445b69c7eFa20be0DC120B8d001440f15C';
+export const DEPLOYER_ADDRESS = '0x1D218D445b69c7eFa20be0DC120B8d001440f15C';
 
-function isHttpEndpoint(url: string): boolean {
+export function isHttpEndpoint(url: string): boolean {
 	return url.startsWith('http://') || url.startsWith('https://');
 }
 
@@ -104,5 +104,3 @@ async function parseChainsWithBalance() {
 
 	console.log(`Added ${Object.values(chainsToMerge).length} chains`);
 }
-
-parseChainsWithBalance();
