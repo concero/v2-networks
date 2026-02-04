@@ -4251,5 +4251,179 @@
       "symbol": "sFUEL",
       "decimals": 18
     }
+  },
+  "polynomial": {
+    "name": "polynomial",
+    "chainId": 8008,
+    "chainSelector": 8008,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Polynomial Explorer",
+        "url": "https://polynomialscan.io",
+        "standard": "none",
+        "icon": "polynomial"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "lukso": {
+    "name": "lukso",
+    "chainId": 42,
+    "chainSelector": 42,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "LUKSO Execution Explorer",
+        "url": "https://explorer.lukso.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "LUKSO",
+      "symbol": "LYX",
+      "decimals": 18
+    }
+  },
+  "tt": {
+    "name": "tt",
+    "chainId": 108,
+    "chainSelector": 108,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "thundercore-viewblock",
+        "url": "https://viewblock.io/thundercore",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ThunderCore Token",
+      "symbol": "TT",
+      "decimals": 18
+    }
+  },
+  "sseed": {
+    "name": "sseed",
+    "chainId": 5330,
+    "chainSelector": 5330,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "seedscout",
+        "url": "https://explorer.superseed.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "matchain": {
+    "name": "matchain",
+    "chainId": 698,
+    "chainSelector": 698,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Matchscan",
+        "url": "https://matchscan.io",
+        "icon": "matchain",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    }
+  },
+  "saakuru": {
+    "name": "saakuru",
+    "chainId": 7225878,
+    "chainSelector": 7225878,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "saakuru-explorer",
+        "url": "https://explorer.saakuru.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OAS",
+      "symbol": "OAS",
+      "decimals": 18
+    }
+  },
+  "step": {
+    "name": "step",
+    "chainId": 1234,
+    "chainSelector": 1234,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "StepScan",
+        "url": "https://stepscan.io",
+        "icon": "step",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FITFI",
+      "symbol": "FITFI",
+      "decimals": 18
+    }
+  },
+  "swan": {
+    "name": "swan",
+    "chainId": 254,
+    "chainSelector": 254,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Swanchain Explorer",
+        "url": "https://swanscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "ontologymainnet": {
+    "name": "ontologymainnet",
+    "chainId": 58,
+    "chainSelector": 58,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.ont.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ONG",
+      "symbol": "ONG",
+      "decimals": 18
+    }
   }
 }
