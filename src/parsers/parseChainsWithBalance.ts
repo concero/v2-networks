@@ -4,12 +4,8 @@ import { createPublicClient, fallback, http } from 'viem';
 import { trimToUint24Digits } from '../utils/trimToUint24Digits';
 import { normalizeName } from '../utils/normalizeName';
 import { writeConceroChains } from '../resources/writeConceroChains';
-
-export const DEPLOYER_ADDRESS = '0x1D218D445b69c7eFa20be0DC120B8d001440f15C';
-
-export function isHttpEndpoint(url: string): boolean {
-	return url.startsWith('http://') || url.startsWith('https://');
-}
+import { isHttpEndpoint } from '../utils/isHttpEndpoint';
+import { DEPLOYER_ADDRESS } from '../constants';
 
 async function parseChainsWithBalance() {
 	const chainListChains = await fetchChainListChains();
@@ -104,3 +100,5 @@ async function parseChainsWithBalance() {
 
 	console.log(`Added ${Object.values(chainsToMerge).length} chains`);
 }
+
+parseChainsWithBalance();

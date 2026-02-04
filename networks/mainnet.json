@@ -4232,5 +4232,24 @@
       "symbol": "OAS",
       "decimals": 18
     }
+  },
+  "titanMainnet": {
+    "name": "titanMainnet",
+    "chainId": 1350216234,
+    "chainSelector": 13502162,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://parallel-stormy-spica.explorer.mainnet.skalenodes.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "sFUEL",
+      "symbol": "sFUEL",
+      "decimals": 18
+    }
   }
 }

@@ -3,8 +3,10 @@ import { readConceroChains } from '../resources/readConceroChains';
 import { createPublicClient, fallback, http } from 'viem';
 import { trimToUint24Digits } from '../utils/trimToUint24Digits';
 import { normalizeName } from '../utils/normalizeName';
-import { DEPLOYER_ADDRESS, isHttpEndpoint } from './parseChainsWithBalance';
+
 import fs from 'node:fs';
+import { isHttpEndpoint } from '../utils/isHttpEndpoint';
+import { DEPLOYER_ADDRESS } from '../constants';
 
 async function parseChainlistChainsWithoutBalance() {
 	const chainListChains = await fetchChainListChains();
