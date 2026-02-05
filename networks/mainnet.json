@@ -4425,5 +4425,245 @@
       "symbol": "ONG",
       "decimals": 18
     }
+  },
+  "eni": {
+    "name": "eni",
+    "chainId": 173,
+    "chainSelector": 173,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "ENI Explorer",
+        "url": "https://scan.eniac.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EGAS",
+      "symbol": "EGAS",
+      "decimals": 18
+    }
+  },
+  "wan": {
+    "name": "wan",
+    "chainId": 888,
+    "chainSelector": 888,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "wanscan",
+        "icon": "wanchain",
+        "url": "https://wanscan.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Wancoin",
+      "symbol": "WAN",
+      "decimals": 18
+    }
+  },
+  "xertra": {
+    "name": "xertra",
+    "chainId": 105105,
+    "chainSelector": 105105,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Xertra Explorer",
+        "url": "https://explorer.xertra.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "STRAX",
+      "symbol": "STRAX",
+      "decimals": 18
+    }
+  },
+  "zetachainMainnet": {
+    "name": "zetachainMainnet",
+    "chainId": 7000,
+    "chainSelector": 7000,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "ZetaScan",
+        "url": "https://zetascan.com",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Zeta",
+      "symbol": "ZETA",
+      "decimals": 18
+    }
+  },
+  "kcs": {
+    "name": "kcs",
+    "chainId": 321,
+    "chainSelector": 321,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "KCC Explorer",
+        "url": "https://explorer.kcc.io/en",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KuCoin Token",
+      "symbol": "KCS",
+      "decimals": 18
+    }
+  },
+  "sgb": {
+    "name": "sgb",
+    "chainId": 19,
+    "chainSelector": 19,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://songbird-explorer.flare.network",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Routescan",
+        "url": "https://songbird.flarescan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Songbird",
+      "symbol": "SGB",
+      "decimals": 18
+    }
+  },
+  "odyssey": {
+    "name": "odyssey",
+    "chainId": 153153,
+    "chainSelector": 153153,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Odyssey Scan",
+        "url": "https://odysseyscan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DIONE",
+      "symbol": "DIONE",
+      "decimals": 18
+    }
+  },
+  "neonevmMainnet": {
+    "name": "neonevmMainnet",
+    "chainId": 245022934,
+    "chainSelector": 2450229,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "neonscan",
+        "url": "https://neonscan.org",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "native",
+        "url": "https://neon.blockscout.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Neon",
+      "symbol": "NEON",
+      "decimals": 18
+    }
+  },
+  "pepu": {
+    "name": "pepu",
+    "chainId": 97741,
+    "chainSelector": 97741,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "PEPUScan",
+        "url": "https://pepuscan.com/"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pepe Unchained",
+      "symbol": "PEPU",
+      "decimals": 18
+    }
+  },
+  "parex": {
+    "name": "parex",
+    "chainId": 322202,
+    "chainSelector": 322202,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Parex Mainnet Explorer",
+        "url": "https://scan.parex.network",
+        "icon": "parexmain",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PAREX",
+      "symbol": "PRX",
+      "decimals": 18
+    }
+  },
+  "u2u": {
+    "name": "u2u",
+    "chainId": 39,
+    "chainSelector": 39,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "icon": "u2u",
+        "name": "U2U Explorer",
+        "url": "https://u2uscan.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "U2U Network",
+      "symbol": "U2U",
+      "decimals": 18
+    }
+  },
+  "gt": {
+    "name": "gt",
+    "chainId": 86,
+    "chainSelector": 86,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "GateScan",
+        "url": "https://www.gatescan.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GateToken",
+      "symbol": "GT",
+      "decimals": 18
+    }
   }
 }
