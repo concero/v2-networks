@@ -3297,7 +3297,7 @@
       "decimals": 18
     }
   },
-  "lyra": {
+  "lyralyra": {
     "name": "lyra",
     "chainId": 957,
     "chainSelector": 957,
@@ -4663,6 +4663,913 @@
     "nativeCurrency": {
       "name": "GateToken",
       "symbol": "GT",
+      "decimals": 18
+    }
+  },
+  "aioz": {
+    "name": "aioz",
+    "chainId": 168,
+    "chainSelector": 168,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "AIOZ Network Explorer",
+        "url": "https://explorer.aioz.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AIOZ",
+      "symbol": "AIOZ",
+      "decimals": 18
+    }
+  },
+  "abey": {
+    "name": "abey",
+    "chainId": 179,
+    "chainSelector": 179,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "abeyscan",
+        "url": "https://abeyscan.com",
+        "icon": "abey",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ABEY",
+      "symbol": "ABEY",
+      "decimals": 18
+    }
+  },
+  "irysMainnetBeta": {
+    "name": "irysMainnetBeta",
+    "chainId": 3282,
+    "chainSelector": 3282,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Irys Mainnet Beta Explorer",
+        "url": "https://evm-explorer.irys.xyz",
+        "icon": "irys",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Irys",
+      "symbol": "IRYS",
+      "decimals": 18
+    }
+  },
+  "ame": {
+    "name": "ame",
+    "chainId": 180,
+    "chainSelector": 180,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "AME Scan",
+        "url": "https://amescan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AME",
+      "symbol": "AME",
+      "decimals": 18
+    }
+  },
+  "water": {
+    "name": "water",
+    "chainId": 181,
+    "chainSelector": 181,
+    "rpcs": [],
+    "blockExplorers": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WATER",
+      "symbol": "WATER",
+      "decimals": 18
+    }
+  },
+  "prom": {
+    "name": "prom",
+    "chainId": 227,
+    "chainSelector": 227,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://prom-blockscout.eu-north-2.gateway.fm",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Prom",
+      "symbol": "PROM",
+      "decimals": 18
+    }
+  },
+  "fhe": {
+    "name": "fhe",
+    "chainId": 228,
+    "chainSelector": 228,
+    "rpcs": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "zkcandy": {
+    "name": "zkcandy",
+    "chainId": 320,
+    "chainSelector": 320,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "ZKcandy Block Explorer",
+        "url": "https://explorer.zkcandy.io",
+        "icon": "zkcandymainnet",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "appchain": {
+    "name": "appchain",
+    "chainId": 466,
+    "chainSelector": 466,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "AppChain Explorer",
+        "url": "https://explorer.appchain.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "bxn": {
+    "name": "bxn",
+    "chainId": 488,
+    "chainSelector": 488,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blackfortscan.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BlackFort Token",
+      "symbol": "BXN",
+      "decimals": 18
+    }
+  },
+  "camino": {
+    "name": "camino",
+    "chainId": 500,
+    "chainSelector": 500,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockexplorer",
+        "url": "https://suite.camino.network/explorer",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Camino",
+      "symbol": "CAM",
+      "decimals": 18
+    }
+  },
+  "xt": {
+    "name": "xt",
+    "chainId": 520,
+    "chainSelector": 520,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "xscscan",
+        "url": "https://xscscan.pub",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "XT Smart Chain Native Token",
+      "symbol": "XT",
+      "decimals": 18
+    }
+  },
+  "glq": {
+    "name": "glq",
+    "chainId": 614,
+    "chainSelector": 614,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "GLQ Explorer",
+        "url": "https://explorer.graphlinq.io",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GLQ",
+      "symbol": "GLQ",
+      "decimals": 18
+    }
+  },
+  "meer": {
+    "name": "meer",
+    "chainId": 813,
+    "chainSelector": 813,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "meerscan",
+        "icon": "meer",
+        "url": "https://qng.qitmeer.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "meerscan",
+        "icon": "meer",
+        "url": "https://qng.meerscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Qitmeer",
+      "symbol": "MEER",
+      "decimals": 18
+    }
+  },
+  "ogpu": {
+    "name": "ogpu",
+    "chainId": 1071,
+    "chainSelector": 1071,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "OpenGPU Explorer",
+        "url": "https://ogpuscan.io",
+        "icon": "ogpu",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OGPU",
+      "symbol": "OGPU",
+      "decimals": 18
+    }
+  },
+  "perennial": {
+    "name": "perennial",
+    "chainId": 1424,
+    "chainSelector": 1424,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Perennial Explorer",
+        "url": "https://explorer.perennial.foundation",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "onino": {
+    "name": "onino",
+    "chainId": 1425,
+    "chainSelector": 1425,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "onino",
+        "url": "https://explorer.onino.io",
+        "icon": "onino",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ONI",
+      "symbol": "ONI",
+      "decimals": 18
+    }
+  },
+  "react": {
+    "name": "react",
+    "chainId": 1597,
+    "chainSelector": 1597,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Reactscan",
+        "url": "https://reactscan.net",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "React",
+      "symbol": "REACT",
+      "decimals": 18
+    }
+  },
+  "nero": {
+    "name": "nero",
+    "chainId": 1689,
+    "chainSelector": 1689,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "nero mainnet scan",
+        "url": "https://www.neroscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "NERO",
+      "symbol": "NERO",
+      "decimals": 18
+    }
+  },
+  "metall2": {
+    "name": "metall2",
+    "chainId": 1750,
+    "chainSelector": 1750,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.metall2.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "vanar": {
+    "name": "vanar",
+    "chainId": 2040,
+    "chainSelector": 2040,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Vanar Explorer",
+        "url": "https://explorer.vanarchain.com",
+        "icon": "vanar",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VANRY",
+      "symbol": "VANRY",
+      "decimals": 18
+    }
+  },
+  "stosMainnet": {
+    "name": "stosMainnet",
+    "chainId": 2048,
+    "chainSelector": 2048,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Stratos EVM Explorer (Blockscout)",
+        "url": "https://web3-explorer.thestratos.org",
+        "standard": "none"
+      },
+      {
+        "name": "Stratos Cosmos Explorer (BigDipper)",
+        "url": "https://explorer.thestratos.org",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "STOS",
+      "symbol": "STOS",
+      "decimals": 18
+    }
+  },
+  "cratd2c": {
+    "name": "cratd2c",
+    "chainId": 2310,
+    "chainSelector": 2310,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer.cratd2csmartchain.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CRATD2C",
+      "symbol": "CRAT",
+      "decimals": 18
+    }
+  },
+  "rufus": {
+    "name": "rufus",
+    "chainId": 2420,
+    "chainSelector": 2420,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Rufus Caldera Explorer",
+        "url": "https://rufus.calderaexplorer.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dogelon",
+      "symbol": "ELON",
+      "decimals": 18
+    }
+  },
+  "atla": {
+    "name": "atla",
+    "chainId": 2440,
+    "chainSelector": 2440,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Atleta Explorer",
+        "icon": "atleta",
+        "url": "https://blockscout.atleta.network",
+        "standard": "none"
+      },
+      {
+        "name": "Atleta Polka Explorer",
+        "icon": "atleta",
+        "url": "https://polkadot-explorer.atleta.network/#/explorer",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Atla",
+      "symbol": "ATLA",
+      "decimals": 18
+    }
+  },
+  "aptm": {
+    "name": "aptm",
+    "chainId": 2786,
+    "chainSelector": 2786,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Apertum Explorer",
+        "url": "https://explorer.apertum.io",
+        "icon": "apertum",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Apertum",
+      "symbol": "APTM",
+      "decimals": 18
+    }
+  },
+  "bty": {
+    "name": "bty",
+    "chainId": 2999,
+    "chainSelector": 2999,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "BitYuan Block Chain Explorer",
+        "url": "https://mainnet.bityuan.com",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTY",
+      "symbol": "BTY",
+      "decimals": 18
+    }
+  },
+  "skate": {
+    "name": "skate",
+    "chainId": 5050,
+    "chainSelector": 5050,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Skate Explorer",
+        "url": "https://scan.skatechain.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "cau": {
+    "name": "cau",
+    "chainId": 3003,
+    "chainSelector": 3003,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "canxium explorer",
+        "url": "https://explorer.canxium.org",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Canxium",
+      "symbol": "CAU",
+      "decimals": 18
+    }
+  },
+  "3ull": {
+    "name": "3ull",
+    "chainId": 3011,
+    "chainSelector": 3011,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "PLAYA3ULL GAMES Explorer",
+        "url": "https://3011.routescan.io",
+        "icon": "playa3ull",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "3ULL",
+      "symbol": "3ULL",
+      "decimals": 18
+    }
+  },
+  "m": {
+    "name": "m",
+    "chainId": 4352,
+    "chainSelector": 4352,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "OKX-MemeCore",
+        "url": "https://www.okx.com/web3/explorer/memecore",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "MemeCoreScan",
+        "url": "https://memecorescan.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "MemeCore explorer",
+        "url": "https://blockscout.memecore.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "M",
+      "symbol": "M",
+      "decimals": 18
+    }
+  },
+  "emoney": {
+    "name": "emoney",
+    "chainId": 4545,
+    "chainSelector": 4545,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "EMoney Explorer",
+        "url": "https://explore.emoney.network",
+        "icon": "emoney",
+        "standard": "none"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Emoney Coin",
+      "symbol": "EMYC",
+      "decimals": 18
+    }
+  },
+  "hmnd": {
+    "name": "hmnd",
+    "chainId": 5234,
+    "chainSelector": 5234,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Subscan",
+        "url": "https://humanode.subscan.io",
+        "standard": "EIP3091",
+        "icon": "subscan"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "eHMND",
+      "symbol": "eHMND",
+      "decimals": 18
+    }
+  },
+  "setl": {
+    "name": "setl",
+    "chainId": 5371,
+    "chainSelector": 5371,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Settlus Mainnet Explorer",
+        "url": "https://mainnet.settlus.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "rails": {
+    "name": "rails",
+    "chainId": 6278,
+    "chainSelector": 6278,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explore.steamexchange.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SteamX",
+      "symbol": "STEAMX",
+      "decimals": 18
+    }
+  },
+  "lumiaMainnet": {
+    "name": "lumiaMainnet",
+    "chainId": 994873017,
+    "chainSelector": 9948730,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Lumia Mainnet Explorer",
+        "url": "https://explorer.lumia.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lumia",
+      "symbol": "LUMIA",
+      "decimals": 18
+    }
+  },
+  "mitosis": {
+    "name": "mitosis",
+    "chainId": 124816,
+    "chainSelector": 124816,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Mitoscan",
+        "url": "https://mitoscan.io/",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Mitosis",
+      "symbol": "MITO",
+      "decimals": 18
+    }
+  },
+  "lit": {
+    "name": "lit",
+    "chainId": 175200,
+    "chainSelector": 175200,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Lit Chain Explorer",
+        "url": "https://lit-chain-explorer.litprotocol.com",
+        "icon": "lit",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18
+    }
+  },
+  "lazai": {
+    "name": "lazai",
+    "chainId": 52924,
+    "chainSelector": 52924,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "LazAI Mainnet Explorer",
+        "url": "https://explorer.mainnet.lazai.network",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "METIS Token",
+      "symbol": "METIS",
+      "decimals": 18
+    }
+  },
+  "carrchain": {
+    "name": "carrchain",
+    "chainId": 7667,
+    "chainSelector": 7667,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "CarrScan",
+        "url": "https://carrscan.io",
+        "standard": "EIP3091",
+        "icon": "carrchain"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CARR",
+      "symbol": "CARR",
+      "decimals": 18
+    }
+  },
+  "ethernityMainnet": {
+    "name": "ethernityMainnet",
+    "chainId": 183,
+    "chainSelector": 183,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "Ethernity Explorer",
+        "url": "https://ernscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "r5": {
+    "name": "r5",
+    "chainId": 337,
+    "chainSelector": 337,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "R5 Explorer",
+        "url": "https://explorer.r5.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "R5",
+      "symbol": "R5",
+      "decimals": 18
+    }
+  },
+  "river": {
+    "name": "river",
+    "chainId": 550,
+    "chainSelector": 550,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "River Explorer",
+        "url": "https://explorer.river.build",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "River Caldera Explorer",
+        "url": "https://towns-mainnet.calderaexplorer.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "phala": {
+    "name": "phala",
+    "chainId": 2035,
+    "chainSelector": 2035,
+    "rpcs": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "dbkchain": {
+    "name": "dbkchain",
+    "chainId": 20240603,
+    "chainSelector": 2024060,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "DBK Chain Explorer",
+        "url": "https://scan.dbkchain.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "onyx": {
+    "name": "onyx",
+    "chainId": 80888,
+    "chainSelector": 80888,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.onyx.org",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Onyxcoin",
+      "symbol": "XCN",
       "decimals": 18
     }
   }
