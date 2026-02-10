@@ -1384,7 +1384,7 @@
     "cornTestnet": {
         "name": "cornTestnet",
         "chainId": 21000001,
-        "chainSelector": 2100000,
+        "chainSelector": 2100001,
         "rpcUrls": [],
         "blockExplorers": [
             {
