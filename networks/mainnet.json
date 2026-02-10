@@ -5572,5 +5572,24 @@
       "symbol": "XCN",
       "decimals": 18
     }
+  },
+  "zeroNetwork": {
+    "name": "zeroNetwork",
+    "chainId": 543210,
+    "chainSelector": 543210,
+    "rpcs": [],
+    "blockExplorers": [
+      {
+        "name": "ZERO Network Explorer",
+        "url": "https://explorer.zero.network",
+        "standard": "EIP3091"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
   }
 }
