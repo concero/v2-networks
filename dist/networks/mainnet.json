@@ -1821,9 +1821,7 @@
                 "url": "https://educhain.blockscout.com"
             }
         ],
-        "faucets": [
-            "https://bridge.gelato.network/bridge/edu-chain"
-        ],
+        "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
         "nativeCurrency": {
             "name": "EDU",
             "symbol": "EDU",
@@ -2336,9 +2334,7 @@
                 "url": "https://explorer.callistodao.org"
             }
         ],
-        "faucets": [
-            "https://faucet.callistodao.org"
-        ],
+        "faucets": ["https://faucet.callistodao.org"],
         "nativeCurrency": {
             "name": "Callisto",
             "symbol": "CLO",
@@ -2694,9 +2690,7 @@
                 "url": "https://hscan.org"
             }
         ],
-        "faucets": [
-            "https://myhpbwallet.com/"
-        ],
+        "faucets": ["https://myhpbwallet.com/"],
         "nativeCurrency": {
             "name": "High Performance Blockchain Ether",
             "symbol": "HPB",
@@ -5585,6 +5579,19 @@
                 "standard": "EIP3091"
             }
         ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        }
+    },
+    "mythos": {
+        "name": "mythos",
+        "chainId": 42018,
+        "chainSelector": 42018,
+        "rpcs": ["https://mythos-mainnet.g.alchemy.com/public/"],
+        "blockExplorers": [],
         "faucets": [],
         "nativeCurrency": {
             "name": "Ether",
